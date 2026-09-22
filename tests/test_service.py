@@ -9,7 +9,7 @@ from unittest.mock import Mock
 import requests
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'service'))
-from app import create_app
+from app import CATEGORIES, create_app
 
 
 class ServiceTests(unittest.TestCase):
@@ -67,6 +67,30 @@ class ServiceTests(unittest.TestCase):
             self.assertEqual(entry['status'], response.status_code)
             self.assertGreaterEqual(entry['duration_ms'], 0)
         self.assertNotIn('PRIVATE SENTINEL', self.log.read_text())
+
+    def test_all_categories_and_malformed_backend_responses(self):
+        for category in CATEGORIES:
+            with self.subTest(category=category):
+                self.backend.return_value.json.return_value = {
+                    'done': True, 'message': {'content': json.dumps({'category': category})}}
+                self.assertEqual(self.client.post('/tickets', json={'narrative': 'Example'}).json['category'], category)
+        for result in (None, [], {'done': False}, {'done': True},
+                       {'done': True, 'message': {'content': 'not JSON'}},
+                       {'done': True, 'message': {'content': '[]'}},
+                       {'done': True, 'message': {'content': '{"category":"Mortgage","extra":true}'}}):
+            with self.subTest(result=result):
+                self.backend.return_value.json.return_value = result
+                self.assertEqual(self.client.post('/tickets', json={'narrative': 'Example'}).status_code, 502)
+        self.assertEqual(self.client.get('/stats').json['total'], 7)
+
+    def test_http_validation_and_backend_connection_error(self):
+        self.assertEqual(self.client.post('/tickets', data='plain text').status_code, 415)
+        self.assertEqual(self.client.post('/tickets', data='{', content_type='application/json').status_code, 400)
+        self.assertEqual(self.client.get('/search').status_code, 400)
+        self.backend.assert_not_called()
+        self.backend.side_effect = requests.ConnectionError('fake offline backend')
+        self.assertEqual(self.client.post('/tickets', json={'narrative': 'Example'}).status_code, 502)
+        self.assertEqual(self.client.get('/stats').json['total'], 0)
 
 
 if __name__ == '__main__':
