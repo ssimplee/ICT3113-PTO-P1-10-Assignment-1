@@ -1,0 +1,11 @@
+test_http_boundary_sequential_processing_and_restart (test_http_integration.HttpIntegrationTests.test_http_boundary_sequential_processing_and_restart) ... ok
+test_all_categories_and_malformed_backend_responses (test_service.ServiceTests.test_all_categories_and_malformed_backend_responses) ... ok
+test_empty_create_search_stats_and_persistence (test_service.ServiceTests.test_empty_create_search_stats_and_persistence) ... ok
+test_every_request_logged_without_narrative (test_service.ServiceTests.test_every_request_logged_without_narrative) ... ok
+test_http_validation_and_backend_connection_error (test_service.ServiceTests.test_http_validation_and_backend_connection_error) ... ok
+test_invalid_input_and_failures_never_persist (test_service.ServiceTests.test_invalid_input_and_failures_never_persist) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 3.539s
+
+OK

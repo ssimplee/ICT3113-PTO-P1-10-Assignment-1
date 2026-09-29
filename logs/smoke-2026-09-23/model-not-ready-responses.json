@@ -1,0 +1,31 @@
+[
+  {
+    "path": "/stats",
+    "status": 200,
+    "request_id": "3eb8d3ce-d5d2-4b41-9313-d94d311b2155",
+    "body": {
+      "categories": {
+        "Bank account or service": 0,
+        "Consumer loan": 0,
+        "Credit card": 0,
+        "Credit reporting": 0,
+        "Debt collection": 0,
+        "Money transfer or service": 0,
+        "Mortgage": 0
+      },
+      "total": 0
+    }
+  },
+  {
+    "path": "/tickets",
+    "status": 502,
+    "request_id": "5b3c6e2b-f912-4212-ba21-ddb9fbbc3322",
+    "body": {
+      "error": {
+        "code": "ollama_unavailable",
+        "message": "Ollama could not complete classification."
+      },
+      "request_id": "5b3c6e2b-f912-4212-ba21-ddb9fbbc3322"
+    }
+  }
+]

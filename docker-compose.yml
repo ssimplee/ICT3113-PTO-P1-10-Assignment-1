@@ -1,0 +1,34 @@
+name: ict3113-group10
+
+services:
+  service:
+    build:
+      context: .
+      dockerfile: service/Dockerfile
+    environment:
+      OLLAMA_BASE_URL: http://ollama:11434
+      OLLAMA_MODEL: ${OLLAMA_MODEL:-qwen3:0.6b}
+      OLLAMA_TIMEOUT_SECONDS: ${OLLAMA_TIMEOUT_SECONDS:-120}
+      PORT: "8000"
+      DATABASE_PATH: /data/tickets.sqlite3
+      LOG_PATH: /logs/requests.jsonl
+    ports:
+      - "${SERVICE_BIND_ADDRESS:-127.0.0.1}:${SERVICE_PORT:-18000}:8000"
+    volumes:
+      - tickets-data:/data
+      - ${LOG_DIR:-./logs}:/logs
+    depends_on:
+      - ollama
+    restart: unless-stopped
+
+  ollama:
+    image: ollama/ollama:0.11.11
+    environment:
+      OLLAMA_NUM_PARALLEL: "1"
+    volumes:
+      - ollama-models:/root/.ollama
+    restart: unless-stopped
+
+volumes:
+  ollama-models:
+  tickets-data:

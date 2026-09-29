@@ -1,0 +1,16 @@
+{
+  "status": 200,
+  "request_id": "e8840ed9-2222-49b4-a009-01fb97a0037e",
+  "body": {
+    "categories": {
+      "Bank account or service": 1,
+      "Consumer loan": 0,
+      "Credit card": 0,
+      "Credit reporting": 0,
+      "Debt collection": 0,
+      "Money transfer or service": 0,
+      "Mortgage": 0
+    },
+    "total": 1
+  }
+}
