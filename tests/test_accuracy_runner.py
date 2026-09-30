@@ -1,12 +1,14 @@
 import csv
 import json
+import subprocess
 import sys
 import tempfile
 import unittest
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "accuracy"))
-from run_accuracy import CATEGORIES, load_golden, percentile, summarise, write_outputs
+from run_accuracy import (CATEGORIES, load_golden, percentile, summarise,
+                          verify_frozen_inputs, write_outputs)
 
 
 class AccuracyRunnerTests(unittest.TestCase):
@@ -64,6 +66,30 @@ class AccuracyRunnerTests(unittest.TestCase):
             self.assertTrue((output / "confusion_matrix.csv").exists())
             summary = json.loads((output / "summary.json").read_text(encoding="utf-8"))
             self.assertEqual(summary["correct"], 1)
+
+    def test_frozen_input_check_accepts_only_line_ending_conversion(self):
+        with tempfile.TemporaryDirectory() as folder:
+            repo = Path(folder)
+            subprocess.run(["git", "init", "-q"], cwd=repo, check=True)
+            subprocess.run(["git", "config", "user.name", "Test"], cwd=repo, check=True)
+            subprocess.run(["git", "config", "user.email", "test@example.invalid"], cwd=repo, check=True)
+            (repo / "golden-set").mkdir()
+            (repo / "predictions").mkdir()
+            golden = repo / "golden-set" / "golden.csv"
+            prediction = repo / "predictions" / "prediction.md"
+            golden.write_bytes(b"row,narrative,label\n10001,Example,Mortgage\n")
+            prediction.write_bytes(b"# Prediction\n\n**Status:** FROZEN\n")
+            subprocess.run(["git", "add", "."], cwd=repo, check=True)
+            subprocess.run(["git", "commit", "-qm", "freeze"], cwd=repo, check=True)
+            commit = subprocess.check_output(["git", "rev-parse", "HEAD"], cwd=repo, text=True).strip()
+
+            golden.write_bytes(b"row,narrative,label\r\n10001,Example,Mortgage\r\n")
+            prediction.write_bytes(b"# Prediction\r\n\r\n**Status:** FROZEN\r\n")
+            self.assertEqual(verify_frozen_inputs(repo, prediction, golden, commit), commit)
+
+            golden.write_bytes(b"row,narrative,label\r\n10001,Changed,Mortgage\r\n")
+            with self.assertRaisesRegex(ValueError, "differs from the frozen copy"):
+                verify_frozen_inputs(repo, prediction, golden, commit)
 
 
 if __name__ == "__main__":

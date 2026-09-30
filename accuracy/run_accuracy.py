@@ -104,11 +104,13 @@ def verify_frozen_inputs(repo: Path, prediction_path: Path, golden_path: Path,
     for path in (prediction_path, golden_path):
         relative = repo_relative(path, repo)
         try:
-            committed = bytes(git("show", f"{resolved}:{relative}", cwd=repo, binary=True))
+            committed_blob = str(git("rev-parse", f"{resolved}:{relative}", cwd=repo)).strip()
         except subprocess.CalledProcessError as error:
             raise ValueError(f"{relative} is not present in prediction commit {resolved}") from error
-        current = path.read_bytes()
-        if current != committed:
+        if not path.is_file():
+            raise ValueError(f"{relative} does not exist in the working tree")
+        current_blob = str(git("hash-object", "--path", relative, str(path), cwd=repo)).strip()
+        if current_blob != committed_blob:
             raise ValueError(f"{relative} differs from the frozen copy in {resolved}")
 
     frozen_text = prediction_path.read_text(encoding="utf-8")
