@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "captured_at_utc": "2026-09-30T16:57:44.5986006Z",
+  "purpose": "Pre-label model pinning and synthetic service compatibility only; not a formal benchmark.",
+  "git_revision": "cd5bdf1d9ef3f81acb25dfb3615c66f052e6278b",
+  "environment": {
+    "docker_client_version": "29.4.3",
+    "docker_server_version": "29.4.3",
+    "docker_operating_system": "Docker Desktop",
+    "docker_architecture": "x86_64",
+    "docker_allocated_cpus": 8,
+    "docker_allocated_memory_bytes": 4003487744,
+    "ollama_version": "0.11.11",
+    "ollama_image": "ollama/ollama:0.11.11",
+    "ollama_image_digest": "sha256:24d41d792306fc3221de215bb6f225faf981712d1f38083d8c61301dfa2b69b3",
+    "inference_mode": "CPU-only",
+    "context_tokens": 4096,
+    "ollama_num_parallel": 1
+  },
+  "synthetic_narrative": "Synthetic compatibility check only: my mortgage servicer charged the same monthly payment twice.",
+  "accepted_candidates": [
+    {
+      "tag": "qwen3:0.6b-q4_K_M",
+      "digest": "sha256:7df6b6e09427a769808717c0a93cadc4ae99ed4eb8bf5ca557c90846becea435",
+      "download_size_bytes": 522653767,
+      "reported_parameter_size": "751.63M",
+      "quantization": "Q4_K_M",
+      "compatibility_http_status": 201,
+      "compatibility_elapsed_seconds": 42.117,
+      "compatibility_request_id": "26080718-3509-4725-a82b-eee156e0d4dc",
+      "returned_model": "qwen3:0.6b-q4_K_M",
+      "returned_category": "Debt collection",
+      "processor_observation": "100% CPU",
+      "loaded_size": "926 MB"
+    },
+    {
+      "tag": "llama3.2:1b-instruct-q4_K_M",
+      "digest": "sha256:22bc6b92eb0160c4629782fca05a9032c59d306ab2058b7dacc8a4644fbafa02",
+      "download_size_bytes": 807709787,
+      "reported_parameter_size": "1.2B",
+      "quantization": "Q4_K_M",
+      "compatibility_http_status": 201,
+      "compatibility_elapsed_seconds": 25.995,
+      "compatibility_request_id": "a843bb7d-490f-4697-8d9c-02e5ec1eb81d",
+      "returned_model": "llama3.2:1b-instruct-q4_K_M",
+      "returned_category": "Mortgage",
+      "processor_observation": "100% CPU",
+      "loaded_size": "981 MB"
+    },
+    {
+      "tag": "qwen3:1.7b-q4_K_M",
+      "digest": "sha256:8f68893c685c3ddff2aa3fffce2aa60a30bb2da65ca488b61fff134a4d1730e7",
+      "download_size_bytes": 1359293444,
+      "reported_parameter_size": "2.0B",
+      "quantization": "Q4_K_M",
+      "compatibility_http_status": 201,
+      "compatibility_elapsed_seconds": 51.826,
+      "compatibility_request_id": "e5fe4c79-c471-4570-82d8-cb4ab28dea05",
+      "returned_model": "qwen3:1.7b-q4_K_M",
+      "returned_category": "Mortgage",
+      "processor_observation": "100% CPU",
+      "loaded_size": "1.7 GB"
+    },
+    {
+      "tag": "llama3.2:3b-instruct-q4_K_M",
+      "digest": "sha256:a80c4f17acd55265feec403c7aef86be0c25983ab279d83f3bcd3abbcb5b8b72",
+      "download_size_bytes": 2019393189,
+      "reported_parameter_size": "3.2B",
+      "quantization": "Q4_K_M",
+      "compatibility_http_status": 201,
+      "compatibility_elapsed_seconds": 81.564,
+      "compatibility_request_id": "15bf76ce-0a0a-48b2-9a35-5da51d19758d",
+      "returned_model": "llama3.2:3b-instruct-q4_K_M",
+      "returned_category": "Mortgage",
+      "processor_observation": "100% CPU",
+      "loaded_size": "2.6 GB"
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "tag": "qwen3:4b-instruct-2507-q4_K_M",
+      "digest": "sha256:0edcdef34593eac1aa2be9c7d06c432dcf81945adca5eca2f27662c18f168ba0",
+      "download_size_bytes": 2497293803,
+      "reported_parameter_size": "4.0B",
+      "quantization": "Q4_K_M",
+      "reason": "Loaded successfully at 3.2 GB and 100% CPU, but both cold and warm synthetic service requests exceeded the configured 120-second Ollama timeout.",
+      "cold_attempt": {
+        "http_status": 504,
+        "elapsed_seconds": 121.309,
+        "request_id": "bcf9f8b8-b790-49b9-b33b-87f5a04d8899"
+      },
+      "warm_attempt": {
+        "http_status": 504,
+        "elapsed_seconds": 120.931,
+        "request_id": "6d78cd55-6ac7-43ff-b3e1-26a8060a82db"
+      }
+    }
+  ],
+  "notes": [
+    "Elapsed values are one-off diagnostic observations and are not benchmark results.",
+    "Returned categories were checked only for schema validity, not correctness.",
+    "No golden-set narrative was submitted during compatibility testing.",
+    "The working tree was not clean at capture time; the manifest pins the pre-work Git HEAD and the exact runtime artifacts."
+  ]
+}

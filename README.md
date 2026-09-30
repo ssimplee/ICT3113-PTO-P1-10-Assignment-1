@@ -12,7 +12,7 @@ The Assignment 1 baseline uses one synchronous Flask/Werkzeug request handler, C
 - Model correctness is not established: `qwen3:0.6b` returned `Bank account or service` for our synthetic mortgage complaint.
 - Browser access has exposed a hanging-request issue. Closing browser tabs and restarting cleared it, but the underlying cause has not been fixed. Use PowerShell for the walkthrough below.
 
-These checks cover the implemented Member 1 baseline. They do not complete the whole assignment. Golden-set creation, workload requirements, candidate selection, frozen predictions, accuracy testing, JMeter load/stress testing, and the final recommendation remain team work.
+These checks cover the implemented Member 1 baseline. The 175-ticket golden set now has complete independent labels, adjudication evidence, a reproducible agreement report, and a validator. Member 4 preparation includes four locally pinned, synthetically compatible candidate models, a full model/environment manifest, a draft prediction record, and a guarded accuracy runner. Freezing the prediction record, formal accuracy testing, JMeter load/stress testing, and the final recommendation remain. See [Member 4 handoff](docs/member4-handoff.md).
 
 ## Prerequisites
 
@@ -269,7 +269,7 @@ docker compose logs --tail 50 ollama
 
 The seven categories are Credit reporting, Debt collection, Mortgage, Credit card, Bank account or service, Consumer loan, and Money transfer or service. The service starts empty with a new database and accepts tickets only through POST. Group 10 uses dataset rows 10000–10999 for assignment labelling and test traffic; synthetic checks here are development diagnostics, not submission benchmark evidence.
 
-Before formal benchmarks, commit the independently human-labelled golden set and prediction record. Select 3–5 candidates across at least two parameter-size classes, recording their exact tags and digests. Formal JMeter tests require a separate load-generator machine, open-loop arrivals, three runs per configuration, retained raw `.jtl` files, and matching service logs. The current repository does not provide the final JMeter or golden-set accuracy playbooks.
+Before formal benchmarks, commit the independently human-labelled golden set and prediction record. Select 3–5 candidates across at least two parameter-size classes, recording their exact tags and digests. Formal JMeter tests require a separate load-generator machine, open-loop arrivals, three runs per configuration, retained raw `.jtl` files, and matching service logs. The guarded golden-set accuracy runner and Member 4 handoff are now present, but the human-label and prediction-freeze gates must pass before using them formally. The repository does not yet provide the final JMeter playbook.
 
 For access from that separate machine, configure `SERVICE_BIND_ADDRESS=0.0.0.0`, recreate the service, and use the service host's LAN address and configured port. Permit the port through the host firewall on the intended test network. Record both machines' CPU, memory, OS, network, Docker resource allocation, model/runtime settings, and Git revision.
 
