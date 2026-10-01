@@ -2,17 +2,21 @@
 
 ## Current status
 
-Member 4 preparation is implemented, but no formal golden-set accuracy run has
-been performed. This is intentional: the human-label audit and prediction freeze
-must be complete first.
+Member 4's candidate selection and formal golden-set accuracy work are complete.
+All four frozen candidates were tested against all 175 tickets through the real
+service API. The full comparison and classification-error analysis are in
+`accuracy/results/README.md`; machine-readable results and per-model evidence are
+retained below `accuracy/results/`.
 
 Prepared artifacts:
 
 - `docs/member4-candidate-models.md`: proposed four-model shortlist and rationale.
 - `docs/member4-model-manifest.json`: exact runtime, full digests and synthetic compatibility evidence.
-- `predictions/prediction_record.md`: specific, falsifiable draft predictions.
+- `predictions/prediction_record.md`: frozen, pre-benchmark falsifiable predictions.
 - `accuracy/run_accuracy.py`: guarded, resumable formal accuracy runner.
 - `tests/test_accuracy_runner.py`: validation and report-generation tests.
+- `accuracy/results/model-comparison.csv`: cross-model measured results.
+- `accuracy/results/README.md`: accuracy, latency, confusion and error analysis.
 
 ## Accuracy runner outputs
 
@@ -39,13 +43,21 @@ python accuracy/run_accuracy.py `
   --output-dir 'accuracy/results/validation-only'
 ```
 
-## Blocking items before formal testing
+## Formal result and recommendation
 
-1. The team must approve the currently tested service/Ollama benchmark machine,
-   or repeat compatibility and pinning on the final machine. This run used 8
-   Docker CPUs and 4,003,487,744 bytes of Docker memory; older smoke evidence
-   reports 16 CPUs and about 8 GB, so those results are not directly comparable.
-2. Review, mark and commit the prediction record as frozen before any formal run.
+| Exact tag | Overall accuracy | Errors | Median | p95 |
+|---|---:|---:|---:|---:|
+| `qwen3:0.6b-q4_K_M` | 20.00% | 0 | 3.80 s | 9.90 s |
+| `llama3.2:1b-instruct-q4_K_M` | 37.71% | 0 | 8.11 s | 18.92 s |
+| `qwen3:1.7b-q4_K_M` | 35.43% | 0 | 9.10 s | 22.11 s |
+| `llama3.2:3b-instruct-q4_K_M` | 52.57% | 10 | 72.48 s | 114.42 s |
+
+Llama 3.2 3B is the accuracy winner but not an operational recommendation: ten
+of its 175 requests exceeded the service's 120-second Ollama timeout. Llama 3.2
+1B is the provisional balanced candidate because it ranked second in accuracy,
+had no request errors, and was roughly nine times faster at the median. Member 5
+must use controlled JMeter load and stress evidence before the team makes its
+final selection.
 
 ## Completed pre-label runtime work
 

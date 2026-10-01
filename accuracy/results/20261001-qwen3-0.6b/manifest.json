@@ -1,0 +1,15 @@
+{
+  "run_started_at": "2026-09-30T17:09:38.280345Z",
+  "git_head": "e5cd01769a6dea923d53fcfc081be7da63ea86c2",
+  "prediction_commit": "7af35aecf95ba9f8b737c48e4512ff2b9bedeb81",
+  "golden_path": "golden-set/golden_tickets_175_baseline.csv",
+  "golden_sha256": "2faa7a5f22414ad1bf62872c2bb1c5adb1a9badaa41c02c9d50ef81c6119fc13",
+  "prediction_record_path": "predictions/prediction_record.md",
+  "model_tag": "qwen3:0.6b-q4_K_M",
+  "model_digest": "sha256:7df6b6e09427a769808717c0a93cadc4ae99ed4eb8bf5ca557c90846becea435",
+  "service_url": "http://127.0.0.1:18000",
+  "timeout_seconds": 300.0,
+  "database_total_at_start": 0,
+  "run_finished_at": "2026-09-30T17:23:17.902848Z",
+  "records_written": 175
+}
