@@ -1,0 +1,8 @@
+actual\predicted,Credit reporting,Debt collection,Mortgage,Credit card,Bank account or service,Consumer loan,Money transfer or service,__ERROR__
+Credit reporting,36,1,0,0,2,0,0,0
+Debt collection,14,4,0,0,0,0,0,0
+Mortgage,8,0,11,0,0,4,0,0
+Credit card,22,0,0,0,0,0,0,0
+Bank account or service,22,0,0,0,6,1,0,0
+Consumer loan,15,0,0,0,0,6,0,0
+Money transfer or service,17,0,0,0,1,2,3,0

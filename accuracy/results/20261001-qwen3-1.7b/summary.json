@@ -1,0 +1,59 @@
+{
+  "expected_tickets": 175,
+  "records": 175,
+  "successful_classifications": 175,
+  "errors": 0,
+  "correct": 62,
+  "overall_accuracy": 0.35428571428571426,
+  "valid_classification_accuracy": 0.35428571428571426,
+  "client_latency_ms": {
+    "min": 3149.272,
+    "median": 9097.873,
+    "p95": 22106.048,
+    "max": 63120.379
+  },
+  "per_category": {
+    "Credit reporting": {
+      "total": 39,
+      "correct": 38,
+      "errors": 0,
+      "accuracy": 0.9743589743589743
+    },
+    "Debt collection": {
+      "total": 18,
+      "correct": 6,
+      "errors": 0,
+      "accuracy": 0.3333333333333333
+    },
+    "Mortgage": {
+      "total": 23,
+      "correct": 6,
+      "errors": 0,
+      "accuracy": 0.2608695652173913
+    },
+    "Credit card": {
+      "total": 22,
+      "correct": 2,
+      "errors": 0,
+      "accuracy": 0.09090909090909091
+    },
+    "Bank account or service": {
+      "total": 29,
+      "correct": 5,
+      "errors": 0,
+      "accuracy": 0.1724137931034483
+    },
+    "Consumer loan": {
+      "total": 21,
+      "correct": 3,
+      "errors": 0,
+      "accuracy": 0.14285714285714285
+    },
+    "Money transfer or service": {
+      "total": 23,
+      "correct": 2,
+      "errors": 0,
+      "accuracy": 0.08695652173913043
+    }
+  }
+}

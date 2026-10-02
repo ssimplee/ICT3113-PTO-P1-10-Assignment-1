@@ -1,0 +1,5 @@
+services:
+  service:
+    volumes:
+      - ${ACCURACY_DATA_DIR:?Set ACCURACY_DATA_DIR to an empty run-specific directory}:/data
+      - ${ACCURACY_LOG_DIR:?Set ACCURACY_LOG_DIR to a run-specific directory}:/logs

@@ -1,0 +1,5 @@
+model_tag,parameters,correct,total,errors,overall_accuracy,valid_classification_accuracy,macro_category_accuracy,median_latency_ms,p95_latency_ms,max_latency_ms,predicted_accuracy,predicted_median_latency_ms
+qwen3:0.6b-q4_K_M,0.6B,35,175,0,0.200000,0.200000,0.181792,3796.396,9897.106,18993.463,0.450000,2500
+llama3.2:1b-instruct-q4_K_M,1B,66,175,0,0.377143,0.377143,0.320944,8110.396,18923.542,42447.430,0.500000,3500
+qwen3:1.7b-q4_K_M,1.7B,62,175,0,0.354286,0.354286,0.294528,9097.873,22106.048,63120.379,0.580000,5000
+llama3.2:3b-instruct-q4_K_M,3B,92,175,10,0.525714,0.557576,0.480630,72479.462,114417.998,120458.810,0.640000,8000
