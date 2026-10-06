@@ -1,0 +1,14 @@
+{
+  "services": {
+    "service": {
+      "environment": {
+        "OLLAMA_MODEL": "qwen3:1.7b-q4_K_M",
+        "OLLAMA_TIMEOUT_SECONDS": "120"
+      },
+      "volumes": [
+        "./jmeter/runs/read-heavy-qwen17-r1/service-data:/data",
+        "./jmeter/runs/read-heavy-qwen17-r1/service-logs:/logs"
+      ]
+    }
+  }
+}

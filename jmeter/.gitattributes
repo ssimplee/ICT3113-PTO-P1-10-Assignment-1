@@ -1,0 +1,9 @@
+# Prepared input hashes must survive Windows-to-Windows Git transfer unchanged.
+*.jmx text eol=lf
+*.csv text eol=lf
+*.properties text eol=lf
+*.json text eol=lf
+*.py text eol=lf
+*.ps1 text eol=lf
+*.md text eol=lf
+*.sqlite3 binary

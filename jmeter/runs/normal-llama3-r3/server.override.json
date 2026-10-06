@@ -1,0 +1,14 @@
+{
+  "services": {
+    "service": {
+      "environment": {
+        "OLLAMA_MODEL": "llama3.2:3b-instruct-q4_K_M",
+        "OLLAMA_TIMEOUT_SECONDS": "120"
+      },
+      "volumes": [
+        "./jmeter/runs/normal-llama3-r3/service-data:/data",
+        "./jmeter/runs/normal-llama3-r3/service-logs:/logs"
+      ]
+    }
+  }
+}
