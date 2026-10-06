@@ -1,0 +1,50 @@
+﻿{
+    "run_id":  "peak-llama1-r2",
+    "launch_utc":  "2026-10-06T19:11:47.6525731Z",
+    "computer":  "KAIWEN",
+    "cpu":  [
+                {
+                    "Name":  "13th Gen Intel(R) Core(TM) i7-13700H",
+                    "NumberOfCores":  14,
+                    "NumberOfLogicalProcessors":  20
+                }
+            ],
+    "memory_bytes":  16895500288,
+    "os":  {
+               "Caption":  "Microsoft Windows 11 Pro",
+               "Version":  "10.0.26200"
+           },
+    "git_revision":  "cc5d119db4113818e87c7f09b4fd528604072d78",
+    "git_status":  [
+                       " M ../jmeter.log",
+                       " M load-test.jmx",
+                       "?? runs/normal-llama1-r1/server-ready.json",
+                       "?? runs/normal-llama1-r2/server-ready.json",
+                       "?? runs/peak-llama1-r1/server-ready.json",
+                       "?? runs/peak-llama1-r2/server-ready.json",
+                       "?? runs/validation-llama1-r1/client-finish.json",
+                       "?? runs/validation-llama1-r1/client-start.json",
+                       "?? runs/validation-llama1-r1/jmeter.log",
+                       "?? runs/validation-llama1-r1/results.jtl",
+                       "?? runs/validation-llama1-r1/server-ready.json"
+                   ],
+    "java":  [
+                 "java version \"21.0.5\" 2024-10-15 LTS",
+                 "Java(TM) SE Runtime Environment (build 21.0.5+9-LTS-239)",
+                 "Java HotSpot(TM) 64-Bit Server VM (build 21.0.5+9-LTS-239, mixed mode, sharing)"
+             ],
+    "jmeter":  [
+                   "WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release",
+                   "WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release",
+                   "WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release",
+                   "WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release",
+                   "    _    ____   _    ____ _   _ _____       _ __  __ _____ _____ _____ ____",
+                   "   / \\  |  _ \\ / \\  / ___| | | | ____|     | |  \\/  | ____|_   _| ____|  _ \\",
+                   "  / _ \\ | |_) / _ \\| |   | |_| |  _|    _  | | |\\/| |  _|   | | |  _| | |_) |",
+                   " / ___ \\|  __/ ___ \\ |___|  _  | |___  | |_| | |  | | |___  | | | |___|  _ \u003c",
+                   "/_/   \\_\\_| /_/   \\_\\____|_| |_|_____|  \\___/|_|  |_|_____| |_| |_____|_| \\_\\ 5.6.3",
+                   "",
+                   "Copyright (c) 1999-2024 The Apache Software Foundation",
+                   ""
+               ]
+}
