@@ -1,0 +1,1746 @@
+2026-10-07 12:48:10,322 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2026-10-07 12:48:10,338 INFO o.a.j.JMeter: Loading user properties from: C:\Users\tayka\Tools\apache-jmeter-5.6.3\bin\user.properties
+2026-10-07 12:48:10,338 INFO o.a.j.JMeter: Loading system properties from: C:\Users\tayka\Tools\apache-jmeter-5.6.3\bin\system.properties
+2026-10-07 12:48:10,338 INFO o.a.j.JMeter: Loading additional properties from: results.properties
+2026-10-07 12:48:10,354 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2026-10-07 12:48:10,354 INFO o.a.j.JMeter: Version 5.6.3
+2026-10-07 12:48:10,354 INFO o.a.j.JMeter: java.version=21.0.5
+2026-10-07 12:48:10,354 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2026-10-07 12:48:10,354 INFO o.a.j.JMeter: os.name=Windows 11
+2026-10-07 12:48:10,354 INFO o.a.j.JMeter: os.arch=amd64
+2026-10-07 12:48:10,354 INFO o.a.j.JMeter: os.version=10.0
+2026-10-07 12:48:10,354 INFO o.a.j.JMeter: file.encoding=UTF-8
+2026-10-07 12:48:10,354 INFO o.a.j.JMeter: java.awt.headless=true
+2026-10-07 12:48:10,354 INFO o.a.j.JMeter: Max memory     =1073741824
+2026-10-07 12:48:10,354 INFO o.a.j.JMeter: Available Processors =20
+2026-10-07 12:48:10,365 INFO o.a.j.JMeter: Default Locale=English (EN)
+2026-10-07 12:48:10,365 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2026-10-07 12:48:10,365 INFO o.a.j.JMeter: JMeterHome=C:\Users\tayka\Tools\apache-jmeter-5.6.3
+2026-10-07 12:48:10,365 INFO o.a.j.JMeter: user.dir  =C:\Users\tayka\ICT3113-PTO-P1-10-Assignment-1\jmeter\runs\peak-qwen06-r3
+2026-10-07 12:48:10,365 INFO o.a.j.JMeter: PWD       =C:\Users\tayka\ICT3113-PTO-P1-10-Assignment-1\jmeter\runs\peak-qwen06-r3
+2026-10-07 12:48:10,366 INFO o.a.j.JMeter: IP: 192.168.1.3 Name: KaiWen FullName: host.docker.internal
+2026-10-07 12:48:10,370 INFO o.a.j.s.FileServer: Default base='C:\Users\tayka\ICT3113-PTO-P1-10-Assignment-1\jmeter\runs\peak-qwen06-r3'
+2026-10-07 12:48:10,370 INFO o.a.j.s.FileServer: Set new base='C:\Users\tayka\ICT3113-PTO-P1-10-Assignment-1\jmeter\runs\peak-qwen06-r3'
+2026-10-07 12:48:10,513 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2026-10-07 12:48:10,528 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2026-10-07 12:48:10,528 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2026-10-07 12:48:10,528 INFO o.a.j.s.SaveService: Loading file: plan.jmx
+2026-10-07 12:48:10,576 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-10-07 12:48:10,576 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-10-07 12:48:10,576 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-10-07 12:48:10,576 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-10-07 12:48:10,576 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2026-10-07 12:48:10,576 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2026-10-07 12:48:10,607 INFO o.a.j.JMeter: Creating summariser <summary>
+2026-10-07 12:48:10,607 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2026-10-07 12:48:10,623 INFO o.a.j.s.SampleEvent: List of sample_variables: [request_id, row]
+2026-10-07 12:48:10,623 INFO o.a.j.s.SampleEvent: List of sample_variables: [request_id, row]
+2026-10-07 12:48:10,628 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2026-10-07 12:48:10,628 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2026-10-07 12:48:10,818 INFO o.a.j.JMeter: Running test (1791348490818)
+2026-10-07 12:48:10,834 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : POST arrivals
+2026-10-07 12:48:10,834 INFO o.a.j.e.StandardJMeterEngine: Starting 0 threads for group POST arrivals.
+2026-10-07 12:48:10,834 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-10-07 12:48:10,834 INFO o.a.j.t.o.OpenModelThreadGroup: Starting OpenModelThreadGroup#1 with schedule rate(36/min) random_arrivals(720 sec) rate(36/min) pause(360 sec)
+2026-10-07 12:48:10,865 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Search arrivals
+2026-10-07 12:48:10,865 INFO o.a.j.e.StandardJMeterEngine: Starting 0 threads for group Search arrivals.
+2026-10-07 12:48:10,865 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-10-07 12:48:10,865 INFO o.a.j.t.o.OpenModelThreadGroup: Thread starting init
+2026-10-07 12:48:10,865 INFO o.a.j.t.o.OpenModelThreadGroup: Starting OpenModelThreadGroup#2 with schedule rate(7.2/min) random_arrivals(720 sec) rate(7.2/min) pause(360 sec)
+2026-10-07 12:48:10,865 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : Stats arrivals
+2026-10-07 12:48:10,865 INFO o.a.j.e.StandardJMeterEngine: Starting 0 threads for group Stats arrivals.
+2026-10-07 12:48:10,865 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-10-07 12:48:10,865 INFO o.a.j.t.o.OpenModelThreadGroup: Starting OpenModelThreadGroup#3 with schedule rate(1.8/min) random_arrivals(720 sec) rate(1.8/min) pause(360 sec)
+2026-10-07 12:48:10,865 INFO o.a.j.t.o.OpenModelThreadGroup: Thread starting init
+2026-10-07 12:48:10,868 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2026-10-07 12:48:10,868 INFO o.a.j.t.o.OpenModelThreadGroup: Thread starting init
+2026-10-07 12:48:10,872 INFO o.a.j.t.o.PoissonArrivalsRamp: Generating 86 events, beginRate = 0.12000000000000001 / sec, endRate = 0.12000000000000001 / sec, duration = 720.0 sec
+2026-10-07 12:48:10,872 INFO o.a.j.t.o.PoissonArrivalsRamp: Generating 21 events, beginRate = 0.030000000000000002 / sec, endRate = 0.030000000000000002 / sec, duration = 720.0 sec
+2026-10-07 12:48:10,872 INFO o.a.j.t.o.PoissonArrivalsRamp: Generating 432 events, beginRate = 0.6 / sec, endRate = 0.6 / sec, duration = 720.0 sec
+2026-10-07 12:48:10,964 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-1
+2026-10-07 12:48:10,964 INFO o.a.j.s.FileServer: Stored: data/tickets.csv
+2026-10-07 12:48:10,993 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = KaiWen
+2026-10-07 12:48:10,996 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2026-10-07 12:48:10,997 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2026-10-07 12:48:10,998 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2026-10-07 12:48:10,998 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2026-10-07 12:48:10,998 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2026-10-07 12:48:11,856 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-2
+2026-10-07 12:48:13,707 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-3
+2026-10-07 12:48:15,071 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-1
+2026-10-07 12:48:15,071 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-1
+2026-10-07 12:48:15,710 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-2
+2026-10-07 12:48:15,711 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-2
+2026-10-07 12:48:17,126 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-4
+2026-10-07 12:48:17,746 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-3
+2026-10-07 12:48:17,747 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-3
+2026-10-07 12:48:18,655 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-4
+2026-10-07 12:48:18,655 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-4
+2026-10-07 12:48:19,610 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-5
+2026-10-07 12:48:19,867 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-6
+2026-10-07 12:48:20,809 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-5
+2026-10-07 12:48:20,810 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-5
+2026-10-07 12:48:21,106 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-7
+2026-10-07 12:48:21,463 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-6
+2026-10-07 12:48:21,464 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-6
+2026-10-07 12:48:22,347 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-7
+2026-10-07 12:48:22,347 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-7
+2026-10-07 12:48:23,965 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-8
+2026-10-07 12:48:24,854 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-9
+2026-10-07 12:48:25,003 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-8
+2026-10-07 12:48:25,003 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-8
+2026-10-07 12:48:25,763 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-9
+2026-10-07 12:48:25,763 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-9
+2026-10-07 12:48:30,680 INFO o.a.j.t.JMeterThread: Thread started: Stats arrivals 3-1
+2026-10-07 12:48:30,699 INFO o.a.j.r.Summariser: summary +     10 in 00:00:20 =    0.5/s Avg:  1877 Min:    17 Max:  4035 Err:     0 (0.00%) Active: 1 Started: 10 Finished: 9
+2026-10-07 12:48:30,699 INFO o.a.j.t.JMeterThread: Thread is done: Stats arrivals 3-1
+2026-10-07 12:48:30,700 INFO o.a.j.t.JMeterThread: Thread finished: Stats arrivals 3-1
+2026-10-07 12:48:32,301 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-10
+2026-10-07 12:48:32,304 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-11
+2026-10-07 12:48:33,132 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-10
+2026-10-07 12:48:33,132 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-10
+2026-10-07 12:48:33,181 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-12
+2026-10-07 12:48:34,507 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-13
+2026-10-07 12:48:35,271 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-11
+2026-10-07 12:48:35,271 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-11
+2026-10-07 12:48:36,243 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-12
+2026-10-07 12:48:36,243 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-12
+2026-10-07 12:48:37,005 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-13
+2026-10-07 12:48:37,005 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-13
+2026-10-07 12:48:41,076 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-14
+2026-10-07 12:48:41,830 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-14
+2026-10-07 12:48:41,830 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-14
+2026-10-07 12:48:44,275 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-15
+2026-10-07 12:48:45,433 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-16
+2026-10-07 12:48:45,518 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-15
+2026-10-07 12:48:45,518 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-15
+2026-10-07 12:48:46,144 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-16
+2026-10-07 12:48:46,145 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-16
+2026-10-07 12:48:47,531 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-17
+2026-10-07 12:48:48,277 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-18
+2026-10-07 12:48:48,912 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-19
+2026-10-07 12:48:49,422 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-17
+2026-10-07 12:48:49,423 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-17
+2026-10-07 12:48:50,285 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-20
+2026-10-07 12:48:51,373 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-18
+2026-10-07 12:48:51,374 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-18
+2026-10-07 12:48:52,807 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-19
+2026-10-07 12:48:52,807 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-19
+2026-10-07 12:48:53,716 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-21
+2026-10-07 12:48:54,201 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-20
+2026-10-07 12:48:54,201 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-20
+2026-10-07 12:48:55,453 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-22
+2026-10-07 12:48:55,618 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-23
+2026-10-07 12:48:56,277 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-24
+2026-10-07 12:48:56,345 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-21
+2026-10-07 12:48:56,345 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-21
+2026-10-07 12:48:57,578 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-25
+2026-10-07 12:48:57,756 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-26
+2026-10-07 12:48:57,773 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-27
+2026-10-07 12:48:58,611 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-22
+2026-10-07 12:48:58,611 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-22
+2026-10-07 12:48:58,876 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-28
+2026-10-07 12:48:59,158 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-23
+2026-10-07 12:48:59,159 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-23
+2026-10-07 12:48:59,357 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-29
+2026-10-07 12:48:59,368 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-30
+2026-10-07 12:48:59,571 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-31
+2026-10-07 12:49:00,112 INFO o.a.j.r.Summariser: summary +     15 in 00:00:29 =    0.5/s Avg:  2531 Min:   708 Max:  3911 Err:     0 (0.00%) Active: 8 Started: 32 Finished: 24
+2026-10-07 12:49:00,113 INFO o.a.j.r.Summariser: summary =     25 in 00:00:49 =    0.5/s Avg:  2270 Min:    17 Max:  4035 Err:     0 (0.00%)
+2026-10-07 12:49:00,113 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-24
+2026-10-07 12:49:00,113 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-24
+2026-10-07 12:49:01,151 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-25
+2026-10-07 12:49:01,152 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-25
+2026-10-07 12:49:01,925 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-26
+2026-10-07 12:49:01,926 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-26
+2026-10-07 12:49:03,065 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-1
+2026-10-07 12:49:03,310 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-27
+2026-10-07 12:49:03,310 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-27
+2026-10-07 12:49:03,738 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-32
+2026-10-07 12:49:03,950 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-28
+2026-10-07 12:49:03,950 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-28
+2026-10-07 12:49:04,262 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-2
+2026-10-07 12:49:05,144 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-29
+2026-10-07 12:49:05,145 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-29
+2026-10-07 12:49:06,075 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-3
+2026-10-07 12:49:06,913 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-30
+2026-10-07 12:49:06,913 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-30
+2026-10-07 12:49:08,101 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-31
+2026-10-07 12:49:08,102 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-31
+2026-10-07 12:49:08,114 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-1
+2026-10-07 12:49:08,115 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-1
+2026-10-07 12:49:08,281 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-33
+2026-10-07 12:49:09,344 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-34
+2026-10-07 12:49:09,406 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-32
+2026-10-07 12:49:09,406 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-32
+2026-10-07 12:49:09,421 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-2
+2026-10-07 12:49:09,421 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-2
+2026-10-07 12:49:09,436 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-3
+2026-10-07 12:49:09,437 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-3
+2026-10-07 12:49:09,474 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-4
+2026-10-07 12:49:10,037 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-33
+2026-10-07 12:49:10,037 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-33
+2026-10-07 12:49:10,972 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-34
+2026-10-07 12:49:10,972 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-34
+2026-10-07 12:49:10,985 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-4
+2026-10-07 12:49:10,985 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-4
+2026-10-07 12:49:11,256 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-35
+2026-10-07 12:49:12,291 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-35
+2026-10-07 12:49:12,291 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-35
+2026-10-07 12:49:13,931 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-36
+2026-10-07 12:49:14,852 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-37
+2026-10-07 12:49:15,405 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-38
+2026-10-07 12:49:15,599 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-39
+2026-10-07 12:49:15,620 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-36
+2026-10-07 12:49:15,621 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-36
+2026-10-07 12:49:15,711 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-40
+2026-10-07 12:49:16,373 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-37
+2026-10-07 12:49:16,373 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-37
+2026-10-07 12:49:17,197 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-38
+2026-10-07 12:49:17,198 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-38
+2026-10-07 12:49:17,306 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-41
+2026-10-07 12:49:18,447 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-39
+2026-10-07 12:49:18,448 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-39
+2026-10-07 12:49:19,501 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-40
+2026-10-07 12:49:19,501 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-40
+2026-10-07 12:49:20,189 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-42
+2026-10-07 12:49:20,464 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-41
+2026-10-07 12:49:20,465 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-41
+2026-10-07 12:49:22,586 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-43
+2026-10-07 12:49:22,746 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-42
+2026-10-07 12:49:22,746 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-42
+2026-10-07 12:49:23,015 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-44
+2026-10-07 12:49:24,373 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-45
+2026-10-07 12:49:25,204 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-43
+2026-10-07 12:49:25,204 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-43
+2026-10-07 12:49:26,028 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-44
+2026-10-07 12:49:26,028 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-44
+2026-10-07 12:49:27,350 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-45
+2026-10-07 12:49:27,350 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-45
+2026-10-07 12:49:27,353 INFO o.a.j.t.JMeterThread: Thread started: Stats arrivals 3-2
+2026-10-07 12:49:27,375 INFO o.a.j.t.JMeterThread: Thread is done: Stats arrivals 3-2
+2026-10-07 12:49:27,375 INFO o.a.j.t.JMeterThread: Thread finished: Stats arrivals 3-2
+2026-10-07 12:49:28,835 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-5
+2026-10-07 12:49:28,863 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-5
+2026-10-07 12:49:28,863 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-5
+2026-10-07 12:49:29,977 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-46
+2026-10-07 12:49:30,993 INFO o.a.j.r.Summariser: summary +     28 in 00:00:31 =    0.9/s Avg:  3296 Min:    21 Max:  8526 Err:     0 (0.00%) Active: 1 Started: 53 Finished: 52
+2026-10-07 12:49:30,994 INFO o.a.j.r.Summariser: summary =     53 in 00:01:20 =    0.7/s Avg:  2812 Min:    17 Max:  8526 Err:     0 (0.00%)
+2026-10-07 12:49:30,994 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-46
+2026-10-07 12:49:30,994 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-46
+2026-10-07 12:49:32,190 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-47
+2026-10-07 12:49:32,218 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-48
+2026-10-07 12:49:33,636 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-49
+2026-10-07 12:49:33,739 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-47
+2026-10-07 12:49:33,739 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-47
+2026-10-07 12:49:34,605 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-48
+2026-10-07 12:49:34,605 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-48
+2026-10-07 12:49:34,618 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-50
+2026-10-07 12:49:35,451 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-49
+2026-10-07 12:49:35,451 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-49
+2026-10-07 12:49:35,910 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-51
+2026-10-07 12:49:36,195 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-50
+2026-10-07 12:49:36,195 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-50
+2026-10-07 12:49:37,086 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-51
+2026-10-07 12:49:37,087 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-51
+2026-10-07 12:49:37,400 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-6
+2026-10-07 12:49:37,420 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-6
+2026-10-07 12:49:37,420 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-6
+2026-10-07 12:49:39,343 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-7
+2026-10-07 12:49:39,361 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-7
+2026-10-07 12:49:39,362 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-7
+2026-10-07 12:49:39,526 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-52
+2026-10-07 12:49:40,372 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-52
+2026-10-07 12:49:40,372 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-52
+2026-10-07 12:49:42,266 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-8
+2026-10-07 12:49:42,290 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-8
+2026-10-07 12:49:42,290 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-8
+2026-10-07 12:49:44,212 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-53
+2026-10-07 12:49:45,567 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-53
+2026-10-07 12:49:45,568 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-53
+2026-10-07 12:49:45,986 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-54
+2026-10-07 12:49:48,373 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-55
+2026-10-07 12:49:48,423 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-54
+2026-10-07 12:49:48,423 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-54
+2026-10-07 12:49:50,563 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-55
+2026-10-07 12:49:50,563 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-55
+2026-10-07 12:49:51,155 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-56
+2026-10-07 12:49:51,958 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-56
+2026-10-07 12:49:51,958 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-56
+2026-10-07 12:49:54,018 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-57
+2026-10-07 12:49:54,762 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-58
+2026-10-07 12:49:55,375 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-57
+2026-10-07 12:49:55,375 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-57
+2026-10-07 12:49:55,414 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-59
+2026-10-07 12:49:56,587 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-60
+2026-10-07 12:49:56,848 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-58
+2026-10-07 12:49:56,848 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-58
+2026-10-07 12:49:57,502 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-61
+2026-10-07 12:49:57,637 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-59
+2026-10-07 12:49:57,637 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-59
+2026-10-07 12:49:58,511 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-9
+2026-10-07 12:49:58,676 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-60
+2026-10-07 12:49:58,676 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-60
+2026-10-07 12:49:59,569 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-62
+2026-10-07 12:50:00,030 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-63
+2026-10-07 12:50:00,635 INFO o.a.j.r.Summariser: summary +     18 in 00:00:30 =    0.6/s Avg:  1500 Min:    17 Max:  3127 Err:     0 (0.00%) Active: 4 Started: 74 Finished: 70
+2026-10-07 12:50:00,635 INFO o.a.j.r.Summariser: summary =     71 in 00:01:50 =    0.6/s Avg:  2479 Min:    17 Max:  8526 Err:     0 (0.00%)
+2026-10-07 12:50:00,636 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-61
+2026-10-07 12:50:00,636 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-61
+2026-10-07 12:50:00,652 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-9
+2026-10-07 12:50:00,652 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-9
+2026-10-07 12:50:01,308 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-62
+2026-10-07 12:50:01,308 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-62
+2026-10-07 12:50:02,805 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-63
+2026-10-07 12:50:02,806 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-63
+2026-10-07 12:50:04,603 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-10
+2026-10-07 12:50:04,631 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-10
+2026-10-07 12:50:04,631 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-10
+2026-10-07 12:50:06,206 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-11
+2026-10-07 12:50:06,230 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-11
+2026-10-07 12:50:06,230 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-11
+2026-10-07 12:50:06,533 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-64
+2026-10-07 12:50:06,900 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-65
+2026-10-07 12:50:07,234 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-12
+2026-10-07 12:50:07,351 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-13
+2026-10-07 12:50:07,832 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-66
+2026-10-07 12:50:08,266 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-64
+2026-10-07 12:50:08,266 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-64
+2026-10-07 12:50:09,056 INFO o.a.j.t.JMeterThread: Thread started: Stats arrivals 3-3
+2026-10-07 12:50:09,751 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-67
+2026-10-07 12:50:09,885 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-68
+2026-10-07 12:50:10,296 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-65
+2026-10-07 12:50:10,296 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-65
+2026-10-07 12:50:10,313 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-12
+2026-10-07 12:50:10,313 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-12
+2026-10-07 12:50:10,329 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-13
+2026-10-07 12:50:10,330 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-13
+2026-10-07 12:50:10,715 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-69
+2026-10-07 12:50:11,755 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-66
+2026-10-07 12:50:11,755 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-66
+2026-10-07 12:50:11,770 INFO o.a.j.t.JMeterThread: Thread is done: Stats arrivals 3-3
+2026-10-07 12:50:11,770 INFO o.a.j.t.JMeterThread: Thread finished: Stats arrivals 3-3
+2026-10-07 12:50:12,621 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-70
+2026-10-07 12:50:12,763 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-67
+2026-10-07 12:50:12,764 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-67
+2026-10-07 12:50:14,368 INFO o.a.j.t.JMeterThread: Thread started: Stats arrivals 3-4
+2026-10-07 12:50:14,374 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-68
+2026-10-07 12:50:14,374 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-68
+2026-10-07 12:50:15,039 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-69
+2026-10-07 12:50:15,039 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-69
+2026-10-07 12:50:15,680 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-70
+2026-10-07 12:50:15,680 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-70
+2026-10-07 12:50:15,694 INFO o.a.j.t.JMeterThread: Thread is done: Stats arrivals 3-4
+2026-10-07 12:50:15,694 INFO o.a.j.t.JMeterThread: Thread finished: Stats arrivals 3-4
+2026-10-07 12:50:17,434 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-71
+2026-10-07 12:50:18,193 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-72
+2026-10-07 12:50:18,540 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-71
+2026-10-07 12:50:18,540 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-71
+2026-10-07 12:50:19,423 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-72
+2026-10-07 12:50:19,423 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-72
+2026-10-07 12:50:19,767 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-73
+2026-10-07 12:50:20,722 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-73
+2026-10-07 12:50:20,722 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-73
+2026-10-07 12:50:21,207 INFO o.a.j.t.JMeterThread: Thread started: Stats arrivals 3-5
+2026-10-07 12:50:21,229 INFO o.a.j.t.JMeterThread: Thread is done: Stats arrivals 3-5
+2026-10-07 12:50:21,230 INFO o.a.j.t.JMeterThread: Thread finished: Stats arrivals 3-5
+2026-10-07 12:50:21,307 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-74
+2026-10-07 12:50:22,369 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-74
+2026-10-07 12:50:22,369 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-74
+2026-10-07 12:50:22,896 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-75
+2026-10-07 12:50:24,603 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-76
+2026-10-07 12:50:25,312 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-75
+2026-10-07 12:50:25,312 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-75
+2026-10-07 12:50:25,748 INFO o.a.j.t.JMeterThread: Thread started: Stats arrivals 3-6
+2026-10-07 12:50:25,816 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-77
+2026-10-07 12:50:26,319 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-76
+2026-10-07 12:50:26,320 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-76
+2026-10-07 12:50:26,336 INFO o.a.j.t.JMeterThread: Thread is done: Stats arrivals 3-6
+2026-10-07 12:50:26,336 INFO o.a.j.t.JMeterThread: Thread finished: Stats arrivals 3-6
+2026-10-07 12:50:26,991 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-78
+2026-10-07 12:50:27,068 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-14
+2026-10-07 12:50:27,411 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-77
+2026-10-07 12:50:27,411 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-77
+2026-10-07 12:50:30,161 INFO o.a.j.r.Summariser: summary +     26 in 00:00:30 =    0.9/s Avg:  2096 Min:    20 Max:  4485 Err:     0 (0.00%) Active: 2 Started: 98 Finished: 96
+2026-10-07 12:50:30,162 INFO o.a.j.r.Summariser: summary =     97 in 00:02:19 =    0.7/s Avg:  2377 Min:    17 Max:  8526 Err:     0 (0.00%)
+2026-10-07 12:50:30,162 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-78
+2026-10-07 12:50:30,162 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-78
+2026-10-07 12:50:30,178 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-14
+2026-10-07 12:50:30,178 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-14
+2026-10-07 12:50:31,722 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-79
+2026-10-07 12:50:32,802 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-79
+2026-10-07 12:50:32,803 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-79
+2026-10-07 12:50:33,752 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-80
+2026-10-07 12:50:34,497 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-81
+2026-10-07 12:50:35,291 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-82
+2026-10-07 12:50:35,814 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-80
+2026-10-07 12:50:35,814 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-80
+2026-10-07 12:50:36,139 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-83
+2026-10-07 12:50:36,929 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-81
+2026-10-07 12:50:36,929 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-81
+2026-10-07 12:50:37,984 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-84
+2026-10-07 12:50:38,079 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-85
+2026-10-07 12:50:38,749 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-82
+2026-10-07 12:50:38,750 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-82
+2026-10-07 12:50:39,731 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-83
+2026-10-07 12:50:39,732 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-83
+2026-10-07 12:50:40,640 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-86
+2026-10-07 12:50:41,393 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-87
+2026-10-07 12:50:41,818 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-88
+2026-10-07 12:50:42,213 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-84
+2026-10-07 12:50:42,213 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-84
+2026-10-07 12:50:43,246 INFO o.a.j.t.JMeterThread: Thread started: Stats arrivals 3-7
+2026-10-07 12:50:43,500 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-89
+2026-10-07 12:50:43,877 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-85
+2026-10-07 12:50:43,877 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-85
+2026-10-07 12:50:43,921 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-90
+2026-10-07 12:50:43,960 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-91
+2026-10-07 12:50:44,869 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-92
+2026-10-07 12:50:44,918 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-93
+2026-10-07 12:50:45,938 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-86
+2026-10-07 12:50:45,939 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-86
+2026-10-07 12:50:48,280 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-87
+2026-10-07 12:50:48,280 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-87
+2026-10-07 12:50:49,245 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-88
+2026-10-07 12:50:49,245 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-88
+2026-10-07 12:50:49,261 INFO o.a.j.t.JMeterThread: Thread is done: Stats arrivals 3-7
+2026-10-07 12:50:49,261 INFO o.a.j.t.JMeterThread: Thread finished: Stats arrivals 3-7
+2026-10-07 12:50:50,246 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-89
+2026-10-07 12:50:50,247 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-89
+2026-10-07 12:50:50,873 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-90
+2026-10-07 12:50:50,873 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-90
+2026-10-07 12:50:50,906 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-94
+2026-10-07 12:50:51,102 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-95
+2026-10-07 12:50:51,974 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-91
+2026-10-07 12:50:51,974 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-91
+2026-10-07 12:50:52,589 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-15
+2026-10-07 12:50:53,338 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-92
+2026-10-07 12:50:53,338 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-92
+2026-10-07 12:50:53,672 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-16
+2026-10-07 12:50:54,411 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-93
+2026-10-07 12:50:54,411 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-93
+2026-10-07 12:50:55,176 INFO o.a.j.t.JMeterThread: Thread started: Stats arrivals 3-8
+2026-10-07 12:50:56,596 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-96
+2026-10-07 12:50:56,821 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-94
+2026-10-07 12:50:56,822 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-94
+2026-10-07 12:50:58,424 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-97
+2026-10-07 12:50:59,302 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-95
+2026-10-07 12:50:59,303 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-95
+2026-10-07 12:50:59,320 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-15
+2026-10-07 12:50:59,321 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-15
+2026-10-07 12:50:59,342 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-16
+2026-10-07 12:50:59,342 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-16
+2026-10-07 12:50:59,358 INFO o.a.j.t.JMeterThread: Thread is done: Stats arrivals 3-8
+2026-10-07 12:50:59,358 INFO o.a.j.t.JMeterThread: Thread finished: Stats arrivals 3-8
+2026-10-07 12:51:01,256 INFO o.a.j.r.Summariser: summary +     23 in 00:00:31 =    0.7/s Avg:  5492 Min:  1076 Max:  9492 Err:     0 (0.00%) Active: 2 Started: 121 Finished: 119
+2026-10-07 12:51:01,257 INFO o.a.j.r.Summariser: summary =    120 in 00:02:50 =    0.7/s Avg:  2974 Min:    17 Max:  9492 Err:     0 (0.00%)
+2026-10-07 12:51:01,257 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-96
+2026-10-07 12:51:01,257 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-96
+2026-10-07 12:51:03,235 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-97
+2026-10-07 12:51:03,235 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-97
+2026-10-07 12:51:03,383 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-98
+2026-10-07 12:51:03,415 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-99
+2026-10-07 12:51:03,542 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-100
+2026-10-07 12:51:04,896 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-98
+2026-10-07 12:51:04,897 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-98
+2026-10-07 12:51:05,677 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-99
+2026-10-07 12:51:05,677 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-99
+2026-10-07 12:51:07,067 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-101
+2026-10-07 12:51:07,459 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-100
+2026-10-07 12:51:07,459 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-100
+2026-10-07 12:51:07,692 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-101
+2026-10-07 12:51:07,693 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-101
+2026-10-07 12:51:08,146 INFO o.a.j.t.JMeterThread: Thread started: Stats arrivals 3-9
+2026-10-07 12:51:08,172 INFO o.a.j.t.JMeterThread: Thread is done: Stats arrivals 3-9
+2026-10-07 12:51:08,173 INFO o.a.j.t.JMeterThread: Thread finished: Stats arrivals 3-9
+2026-10-07 12:51:11,069 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-102
+2026-10-07 12:51:11,994 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-102
+2026-10-07 12:51:11,994 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-102
+2026-10-07 12:51:13,480 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-103
+2026-10-07 12:51:14,274 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-103
+2026-10-07 12:51:14,274 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-103
+2026-10-07 12:51:14,523 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-17
+2026-10-07 12:51:14,554 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-17
+2026-10-07 12:51:14,554 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-17
+2026-10-07 12:51:17,008 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-104
+2026-10-07 12:51:18,113 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-104
+2026-10-07 12:51:18,113 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-104
+2026-10-07 12:51:19,625 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-18
+2026-10-07 12:51:19,653 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-18
+2026-10-07 12:51:19,653 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-18
+2026-10-07 12:51:21,452 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-105
+2026-10-07 12:51:21,804 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-106
+2026-10-07 12:51:22,355 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-105
+2026-10-07 12:51:22,355 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-105
+2026-10-07 12:51:22,869 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-107
+2026-10-07 12:51:23,733 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-106
+2026-10-07 12:51:23,733 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-106
+2026-10-07 12:51:24,397 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-19
+2026-10-07 12:51:24,884 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-108
+2026-10-07 12:51:24,908 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-109
+2026-10-07 12:51:24,942 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-107
+2026-10-07 12:51:24,942 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-107
+2026-10-07 12:51:24,963 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-19
+2026-10-07 12:51:24,963 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-19
+2026-10-07 12:51:25,408 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-110
+2026-10-07 12:51:25,755 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-108
+2026-10-07 12:51:25,755 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-108
+2026-10-07 12:51:27,486 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-109
+2026-10-07 12:51:27,486 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-109
+2026-10-07 12:51:29,236 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-110
+2026-10-07 12:51:29,236 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-110
+2026-10-07 12:51:29,990 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-20
+2026-10-07 12:51:30,018 INFO o.a.j.r.Summariser: summary +     19 in 00:00:29 =    0.7/s Avg:  1512 Min:    24 Max:  4808 Err:     0 (0.00%) Active: 1 Started: 139 Finished: 138
+2026-10-07 12:51:30,019 INFO o.a.j.r.Summariser: summary =    139 in 00:03:19 =    0.7/s Avg:  2774 Min:    17 Max:  9492 Err:     0 (0.00%)
+2026-10-07 12:51:30,020 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-20
+2026-10-07 12:51:30,020 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-20
+2026-10-07 12:51:31,143 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-111
+2026-10-07 12:51:31,543 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-112
+2026-10-07 12:51:32,113 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-111
+2026-10-07 12:51:32,113 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-111
+2026-10-07 12:51:32,273 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-21
+2026-10-07 12:51:33,697 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-113
+2026-10-07 12:51:33,898 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-114
+2026-10-07 12:51:33,919 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-115
+2026-10-07 12:51:34,347 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-22
+2026-10-07 12:51:34,448 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-116
+2026-10-07 12:51:34,737 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-112
+2026-10-07 12:51:34,737 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-112
+2026-10-07 12:51:34,756 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-21
+2026-10-07 12:51:34,757 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-21
+2026-10-07 12:51:36,906 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-113
+2026-10-07 12:51:36,907 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-113
+2026-10-07 12:51:38,085 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-114
+2026-10-07 12:51:38,086 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-114
+2026-10-07 12:51:38,108 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-117
+2026-10-07 12:51:38,724 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-118
+2026-10-07 12:51:39,791 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-115
+2026-10-07 12:51:39,791 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-115
+2026-10-07 12:51:39,810 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-22
+2026-10-07 12:51:39,810 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-22
+2026-10-07 12:51:40,481 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-116
+2026-10-07 12:51:40,481 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-116
+2026-10-07 12:51:42,611 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-119
+2026-10-07 12:51:42,628 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-120
+2026-10-07 12:51:43,142 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-117
+2026-10-07 12:51:43,143 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-117
+2026-10-07 12:51:45,329 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-118
+2026-10-07 12:51:45,329 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-118
+2026-10-07 12:51:46,196 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-119
+2026-10-07 12:51:46,196 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-119
+2026-10-07 12:51:47,222 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-120
+2026-10-07 12:51:47,222 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-120
+2026-10-07 12:51:49,811 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-121
+2026-10-07 12:51:49,895 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-122
+2026-10-07 12:51:50,085 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-123
+2026-10-07 12:51:50,763 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-121
+2026-10-07 12:51:50,764 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-121
+2026-10-07 12:51:51,376 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-122
+2026-10-07 12:51:51,376 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-122
+2026-10-07 12:51:52,035 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-123
+2026-10-07 12:51:52,035 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-123
+2026-10-07 12:51:52,941 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-124
+2026-10-07 12:51:53,613 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-125
+2026-10-07 12:51:53,889 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-126
+2026-10-07 12:51:53,993 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-124
+2026-10-07 12:51:53,993 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-124
+2026-10-07 12:51:55,610 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-127
+2026-10-07 12:51:55,624 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-125
+2026-10-07 12:51:55,624 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-125
+2026-10-07 12:51:56,258 INFO o.a.j.t.JMeterThread: Thread started: Stats arrivals 3-10
+2026-10-07 12:51:57,905 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-128
+2026-10-07 12:51:58,060 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-126
+2026-10-07 12:51:58,060 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-126
+2026-10-07 12:52:00,056 INFO o.a.j.r.Summariser: summary +     19 in 00:00:30 =    0.6/s Avg:  3536 Min:   948 Max:  6601 Err:     0 (0.00%) Active: 3 Started: 160 Finished: 157
+2026-10-07 12:52:00,056 INFO o.a.j.r.Summariser: summary =    158 in 00:03:49 =    0.7/s Avg:  2866 Min:    17 Max:  9492 Err:     0 (0.00%)
+2026-10-07 12:52:00,057 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-127
+2026-10-07 12:52:00,057 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-127
+2026-10-07 12:52:00,070 INFO o.a.j.t.JMeterThread: Thread is done: Stats arrivals 3-10
+2026-10-07 12:52:00,070 INFO o.a.j.t.JMeterThread: Thread finished: Stats arrivals 3-10
+2026-10-07 12:52:00,778 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-129
+2026-10-07 12:52:02,116 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-130
+2026-10-07 12:52:02,984 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-128
+2026-10-07 12:52:02,984 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-128
+2026-10-07 12:52:04,184 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-131
+2026-10-07 12:52:04,402 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-23
+2026-10-07 12:52:04,600 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-132
+2026-10-07 12:52:04,936 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-129
+2026-10-07 12:52:04,936 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-129
+2026-10-07 12:52:05,675 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-130
+2026-10-07 12:52:05,675 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-130
+2026-10-07 12:52:06,123 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-24
+2026-10-07 12:52:06,640 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-133
+2026-10-07 12:52:06,758 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-25
+2026-10-07 12:52:07,950 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-131
+2026-10-07 12:52:07,950 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-131
+2026-10-07 12:52:07,971 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-23
+2026-10-07 12:52:07,971 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-23
+2026-10-07 12:52:08,650 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-134
+2026-10-07 12:52:08,748 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-135
+2026-10-07 12:52:08,893 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-132
+2026-10-07 12:52:08,893 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-132
+2026-10-07 12:52:08,917 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-24
+2026-10-07 12:52:08,918 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-24
+2026-10-07 12:52:09,608 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-133
+2026-10-07 12:52:09,608 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-133
+2026-10-07 12:52:09,631 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-25
+2026-10-07 12:52:09,631 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-25
+2026-10-07 12:52:10,787 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-136
+2026-10-07 12:52:11,283 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-26
+2026-10-07 12:52:12,372 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-134
+2026-10-07 12:52:12,373 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-134
+2026-10-07 12:52:12,797 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-137
+2026-10-07 12:52:13,339 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-138
+2026-10-07 12:52:13,704 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-135
+2026-10-07 12:52:13,704 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-135
+2026-10-07 12:52:14,652 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-136
+2026-10-07 12:52:14,652 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-136
+2026-10-07 12:52:14,677 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-26
+2026-10-07 12:52:14,677 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-26
+2026-10-07 12:52:15,380 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-137
+2026-10-07 12:52:15,380 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-137
+2026-10-07 12:52:16,827 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-139
+2026-10-07 12:52:17,309 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-138
+2026-10-07 12:52:17,309 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-138
+2026-10-07 12:52:17,746 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-140
+2026-10-07 12:52:18,231 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-139
+2026-10-07 12:52:18,232 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-139
+2026-10-07 12:52:18,988 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-140
+2026-10-07 12:52:18,988 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-140
+2026-10-07 12:52:19,320 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-141
+2026-10-07 12:52:20,433 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-141
+2026-10-07 12:52:20,434 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-141
+2026-10-07 12:52:22,763 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-142
+2026-10-07 12:52:23,622 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-143
+2026-10-07 12:52:23,724 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-144
+2026-10-07 12:52:24,149 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-142
+2026-10-07 12:52:24,150 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-142
+2026-10-07 12:52:24,472 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-145
+2026-10-07 12:52:24,866 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-146
+2026-10-07 12:52:25,768 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-143
+2026-10-07 12:52:25,768 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-143
+2026-10-07 12:52:27,166 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-144
+2026-10-07 12:52:27,166 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-144
+2026-10-07 12:52:27,399 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-147
+2026-10-07 12:52:27,785 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-145
+2026-10-07 12:52:27,786 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-145
+2026-10-07 12:52:27,789 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-148
+2026-10-07 12:52:28,496 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-146
+2026-10-07 12:52:28,496 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-146
+2026-10-07 12:52:28,753 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-149
+2026-10-07 12:52:30,750 INFO o.a.j.r.Summariser: summary +     25 in 00:00:31 =    0.8/s Avg:  3212 Min:  1110 Max:  5075 Err:     0 (0.00%) Active: 3 Started: 185 Finished: 182
+2026-10-07 12:52:30,751 INFO o.a.j.r.Summariser: summary =    183 in 00:04:20 =    0.7/s Avg:  2913 Min:    17 Max:  9492 Err:     0 (0.00%)
+2026-10-07 12:52:30,751 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-147
+2026-10-07 12:52:30,752 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-147
+2026-10-07 12:52:31,530 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-150
+2026-10-07 12:52:31,696 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-148
+2026-10-07 12:52:31,696 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-148
+2026-10-07 12:52:32,596 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-151
+2026-10-07 12:52:32,962 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-149
+2026-10-07 12:52:32,962 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-149
+2026-10-07 12:52:33,114 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-152
+2026-10-07 12:52:34,595 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-153
+2026-10-07 12:52:34,982 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-150
+2026-10-07 12:52:34,982 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-150
+2026-10-07 12:52:35,194 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-154
+2026-10-07 12:52:35,712 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-151
+2026-10-07 12:52:35,713 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-151
+2026-10-07 12:52:36,106 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-155
+2026-10-07 12:52:36,641 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-152
+2026-10-07 12:52:36,641 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-152
+2026-10-07 12:52:36,672 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-156
+2026-10-07 12:52:38,218 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-153
+2026-10-07 12:52:38,218 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-153
+2026-10-07 12:52:38,322 INFO o.a.j.t.JMeterThread: Thread started: Stats arrivals 3-11
+2026-10-07 12:52:38,571 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-157
+2026-10-07 12:52:40,288 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-154
+2026-10-07 12:52:40,288 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-154
+2026-10-07 12:52:40,777 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-27
+2026-10-07 12:52:40,948 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-155
+2026-10-07 12:52:40,948 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-155
+2026-10-07 12:52:41,392 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-158
+2026-10-07 12:52:41,981 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-156
+2026-10-07 12:52:41,981 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-156
+2026-10-07 12:52:42,002 INFO o.a.j.t.JMeterThread: Thread is done: Stats arrivals 3-11
+2026-10-07 12:52:42,002 INFO o.a.j.t.JMeterThread: Thread finished: Stats arrivals 3-11
+2026-10-07 12:52:43,557 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-157
+2026-10-07 12:52:43,557 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-157
+2026-10-07 12:52:43,582 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-27
+2026-10-07 12:52:43,583 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-27
+2026-10-07 12:52:44,462 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-158
+2026-10-07 12:52:44,462 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-158
+2026-10-07 12:52:44,523 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-28
+2026-10-07 12:52:44,564 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-28
+2026-10-07 12:52:44,564 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-28
+2026-10-07 12:52:44,751 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-29
+2026-10-07 12:52:44,793 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-29
+2026-10-07 12:52:44,794 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-29
+2026-10-07 12:52:45,202 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-30
+2026-10-07 12:52:45,237 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-30
+2026-10-07 12:52:45,237 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-30
+2026-10-07 12:52:45,823 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-159
+2026-10-07 12:52:47,864 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-159
+2026-10-07 12:52:47,864 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-159
+2026-10-07 12:52:48,366 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-160
+2026-10-07 12:52:50,307 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-160
+2026-10-07 12:52:50,307 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-160
+2026-10-07 12:52:51,128 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-31
+2026-10-07 12:52:51,160 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-31
+2026-10-07 12:52:51,160 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-31
+2026-10-07 12:52:51,577 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-161
+2026-10-07 12:52:51,671 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-32
+2026-10-07 12:52:51,828 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-162
+2026-10-07 12:52:52,532 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-163
+2026-10-07 12:52:52,926 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-164
+2026-10-07 12:52:53,556 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-165
+2026-10-07 12:52:53,623 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-166
+2026-10-07 12:52:54,152 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-161
+2026-10-07 12:52:54,152 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-161
+2026-10-07 12:52:54,182 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-32
+2026-10-07 12:52:54,182 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-32
+2026-10-07 12:52:55,073 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-33
+2026-10-07 12:52:55,388 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-162
+2026-10-07 12:52:55,388 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-162
+2026-10-07 12:52:56,196 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-167
+2026-10-07 12:52:57,215 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-163
+2026-10-07 12:52:57,215 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-163
+2026-10-07 12:52:57,236 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-168
+2026-10-07 12:52:57,497 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-169
+2026-10-07 12:52:57,685 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-170
+2026-10-07 12:52:58,089 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-164
+2026-10-07 12:52:58,089 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-164
+2026-10-07 12:52:59,119 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-34
+2026-10-07 12:52:59,277 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-165
+2026-10-07 12:52:59,277 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-165
+2026-10-07 12:53:00,701 INFO o.a.j.r.Summariser: summary +     26 in 00:00:30 =    0.9/s Avg:  3345 Min:    31 Max:  7076 Err:     0 (0.00%) Active: 7 Started: 215 Finished: 208
+2026-10-07 12:53:00,702 INFO o.a.j.r.Summariser: summary =    209 in 00:04:50 =    0.7/s Avg:  2967 Min:    17 Max:  9492 Err:     0 (0.00%)
+2026-10-07 12:53:00,702 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-166
+2026-10-07 12:53:00,702 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-166
+2026-10-07 12:53:00,745 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-33
+2026-10-07 12:53:00,745 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-33
+2026-10-07 12:53:02,220 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-171
+2026-10-07 12:53:02,246 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-167
+2026-10-07 12:53:02,246 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-167
+2026-10-07 12:53:03,230 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-168
+2026-10-07 12:53:03,231 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-168
+2026-10-07 12:53:04,633 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-172
+2026-10-07 12:53:04,684 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-173
+2026-10-07 12:53:05,493 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-169
+2026-10-07 12:53:05,493 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-169
+2026-10-07 12:53:05,633 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-174
+2026-10-07 12:53:06,102 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-175
+2026-10-07 12:53:06,516 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-170
+2026-10-07 12:53:06,516 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-170
+2026-10-07 12:53:06,545 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-34
+2026-10-07 12:53:06,545 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-34
+2026-10-07 12:53:07,361 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-176
+2026-10-07 12:53:07,964 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-177
+2026-10-07 12:53:08,353 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-171
+2026-10-07 12:53:08,353 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-171
+2026-10-07 12:53:08,366 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-178
+2026-10-07 12:53:09,261 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-172
+2026-10-07 12:53:09,262 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-172
+2026-10-07 12:53:09,290 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-179
+2026-10-07 12:53:09,426 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-180
+2026-10-07 12:53:10,330 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-173
+2026-10-07 12:53:10,331 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-173
+2026-10-07 12:53:10,668 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-181
+2026-10-07 12:53:10,884 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-182
+2026-10-07 12:53:11,189 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-174
+2026-10-07 12:53:11,189 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-174
+2026-10-07 12:53:12,087 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-175
+2026-10-07 12:53:12,088 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-175
+2026-10-07 12:53:12,150 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-183
+2026-10-07 12:53:13,499 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-177
+2026-10-07 12:53:13,499 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-177
+2026-10-07 12:53:15,481 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-178
+2026-10-07 12:53:15,481 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-178
+2026-10-07 12:53:16,350 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-176
+2026-10-07 12:53:16,350 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-176
+2026-10-07 12:53:16,573 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-184
+2026-10-07 12:53:16,969 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-35
+2026-10-07 12:53:17,231 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-179
+2026-10-07 12:53:17,231 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-179
+2026-10-07 12:53:18,446 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-180
+2026-10-07 12:53:18,446 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-180
+2026-10-07 12:53:18,679 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-36
+2026-10-07 12:53:19,085 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-181
+2026-10-07 12:53:19,085 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-181
+2026-10-07 12:53:19,585 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-37
+2026-10-07 12:53:19,859 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-182
+2026-10-07 12:53:19,859 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-182
+2026-10-07 12:53:20,792 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-183
+2026-10-07 12:53:20,792 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-183
+2026-10-07 12:53:21,565 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-184
+2026-10-07 12:53:21,565 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-184
+2026-10-07 12:53:21,590 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-35
+2026-10-07 12:53:21,590 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-35
+2026-10-07 12:53:21,618 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-36
+2026-10-07 12:53:21,618 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-36
+2026-10-07 12:53:21,647 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-37
+2026-10-07 12:53:21,647 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-37
+2026-10-07 12:53:21,842 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-185
+2026-10-07 12:53:22,108 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-38
+2026-10-07 12:53:22,398 INFO o.a.j.t.JMeterThread: Thread started: Stats arrivals 3-12
+2026-10-07 12:53:22,694 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-185
+2026-10-07 12:53:22,694 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-185
+2026-10-07 12:53:22,725 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-38
+2026-10-07 12:53:22,725 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-38
+2026-10-07 12:53:22,753 INFO o.a.j.t.JMeterThread: Thread is done: Stats arrivals 3-12
+2026-10-07 12:53:22,753 INFO o.a.j.t.JMeterThread: Thread finished: Stats arrivals 3-12
+2026-10-07 12:53:23,335 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-186
+2026-10-07 12:53:24,049 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-39
+2026-10-07 12:53:25,447 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-187
+2026-10-07 12:53:25,463 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-186
+2026-10-07 12:53:25,463 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-186
+2026-10-07 12:53:25,488 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-39
+2026-10-07 12:53:25,488 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-39
+2026-10-07 12:53:26,450 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-187
+2026-10-07 12:53:26,450 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-187
+2026-10-07 12:53:26,593 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-188
+2026-10-07 12:53:27,412 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-188
+2026-10-07 12:53:27,412 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-188
+2026-10-07 12:53:28,776 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-189
+2026-10-07 12:53:29,605 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-189
+2026-10-07 12:53:29,605 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-189
+2026-10-07 12:53:31,619 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-190
+2026-10-07 12:53:32,184 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-191
+2026-10-07 12:53:33,001 INFO o.a.j.r.Summariser: summary +     32 in 00:00:32 =    1.0/s Avg:  4953 Min:   353 Max:  9017 Err:     0 (0.00%) Active: 2 Started: 242 Finished: 240
+2026-10-07 12:53:33,002 INFO o.a.j.r.Summariser: summary =    241 in 00:05:22 =    0.7/s Avg:  3230 Min:    17 Max:  9492 Err:     0 (0.00%)
+2026-10-07 12:53:33,002 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-190
+2026-10-07 12:53:33,002 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-190
+2026-10-07 12:53:33,639 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-191
+2026-10-07 12:53:33,639 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-191
+2026-10-07 12:53:34,788 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-192
+2026-10-07 12:53:35,944 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-193
+2026-10-07 12:53:36,017 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-40
+2026-10-07 12:53:36,792 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-192
+2026-10-07 12:53:36,792 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-192
+2026-10-07 12:53:37,080 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-194
+2026-10-07 12:53:37,833 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-195
+2026-10-07 12:53:38,179 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-196
+2026-10-07 12:53:38,898 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-193
+2026-10-07 12:53:38,898 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-193
+2026-10-07 12:53:38,923 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-40
+2026-10-07 12:53:38,923 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-40
+2026-10-07 12:53:39,367 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-197
+2026-10-07 12:53:40,287 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-194
+2026-10-07 12:53:40,287 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-194
+2026-10-07 12:53:40,609 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-198
+2026-10-07 12:53:41,750 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-199
+2026-10-07 12:53:41,755 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-195
+2026-10-07 12:53:41,755 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-195
+2026-10-07 12:53:42,706 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-200
+2026-10-07 12:53:43,426 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-41
+2026-10-07 12:53:44,144 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-42
+2026-10-07 12:53:44,162 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-196
+2026-10-07 12:53:44,162 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-196
+2026-10-07 12:53:45,526 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-201
+2026-10-07 12:53:45,700 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-202
+2026-10-07 12:53:46,290 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-203
+2026-10-07 12:53:46,576 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-197
+2026-10-07 12:53:46,576 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-197
+2026-10-07 12:53:47,112 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-198
+2026-10-07 12:53:47,112 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-198
+2026-10-07 12:53:48,104 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-199
+2026-10-07 12:53:48,105 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-199
+2026-10-07 12:53:49,178 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-200
+2026-10-07 12:53:49,178 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-200
+2026-10-07 12:53:49,205 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-41
+2026-10-07 12:53:49,205 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-41
+2026-10-07 12:53:49,239 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-42
+2026-10-07 12:53:49,240 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-42
+2026-10-07 12:53:50,004 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-201
+2026-10-07 12:53:50,004 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-201
+2026-10-07 12:53:51,274 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-202
+2026-10-07 12:53:51,274 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-202
+2026-10-07 12:53:51,939 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-203
+2026-10-07 12:53:51,939 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-203
+2026-10-07 12:53:52,924 INFO o.a.j.t.JMeterThread: Thread started: Stats arrivals 3-13
+2026-10-07 12:53:52,952 INFO o.a.j.t.JMeterThread: Thread is done: Stats arrivals 3-13
+2026-10-07 12:53:52,952 INFO o.a.j.t.JMeterThread: Thread finished: Stats arrivals 3-13
+2026-10-07 12:53:53,480 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-204
+2026-10-07 12:53:54,776 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-204
+2026-10-07 12:53:54,776 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-204
+2026-10-07 12:53:55,664 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-205
+2026-10-07 12:53:56,559 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-206
+2026-10-07 12:53:57,316 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-207
+2026-10-07 12:53:57,492 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-205
+2026-10-07 12:53:57,492 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-205
+2026-10-07 12:53:57,904 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-208
+2026-10-07 12:53:58,693 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-206
+2026-10-07 12:53:58,693 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-206
+2026-10-07 12:53:58,790 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-209
+2026-10-07 12:53:59,079 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-210
+2026-10-07 12:54:00,034 INFO o.a.j.r.Summariser: summary +     21 in 00:00:27 =    0.8/s Avg:  3976 Min:    27 Max:  7208 Err:     0 (0.00%) Active: 4 Started: 265 Finished: 261
+2026-10-07 12:54:00,034 INFO o.a.j.r.Summariser: summary =    262 in 00:05:49 =    0.8/s Avg:  3290 Min:    17 Max:  9492 Err:     0 (0.00%)
+2026-10-07 12:54:00,035 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-207
+2026-10-07 12:54:00,035 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-207
+2026-10-07 12:54:00,664 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-208
+2026-10-07 12:54:00,664 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-208
+2026-10-07 12:54:01,639 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-209
+2026-10-07 12:54:01,639 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-209
+2026-10-07 12:54:02,863 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-210
+2026-10-07 12:54:02,863 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-210
+2026-10-07 12:54:03,351 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-211
+2026-10-07 12:54:03,652 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-212
+2026-10-07 12:54:03,964 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-213
+2026-10-07 12:54:05,181 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-211
+2026-10-07 12:54:05,181 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-211
+2026-10-07 12:54:06,077 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-212
+2026-10-07 12:54:06,077 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-212
+2026-10-07 12:54:06,970 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-213
+2026-10-07 12:54:06,970 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-213
+2026-10-07 12:54:07,417 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-214
+2026-10-07 12:54:07,589 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-215
+2026-10-07 12:54:08,754 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-214
+2026-10-07 12:54:08,754 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-214
+2026-10-07 12:54:09,092 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-216
+2026-10-07 12:54:09,109 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-217
+2026-10-07 12:54:09,235 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-218
+2026-10-07 12:54:09,892 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-215
+2026-10-07 12:54:09,892 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-215
+2026-10-07 12:54:10,898 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-216
+2026-10-07 12:54:10,898 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-216
+2026-10-07 12:54:12,137 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-219
+2026-10-07 12:54:13,297 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-217
+2026-10-07 12:54:13,297 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-217
+2026-10-07 12:54:14,492 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-220
+2026-10-07 12:54:15,875 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-218
+2026-10-07 12:54:15,875 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-218
+2026-10-07 12:54:16,698 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-219
+2026-10-07 12:54:16,698 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-219
+2026-10-07 12:54:17,947 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-220
+2026-10-07 12:54:17,947 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-220
+2026-10-07 12:54:18,319 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-221
+2026-10-07 12:54:19,475 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-222
+2026-10-07 12:54:19,479 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-221
+2026-10-07 12:54:19,479 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-221
+2026-10-07 12:54:21,107 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-222
+2026-10-07 12:54:21,107 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-222
+2026-10-07 12:54:23,172 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-223
+2026-10-07 12:54:23,646 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-224
+2026-10-07 12:54:24,033 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-223
+2026-10-07 12:54:24,033 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-223
+2026-10-07 12:54:24,899 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-224
+2026-10-07 12:54:24,899 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-224
+2026-10-07 12:54:27,796 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-225
+2026-10-07 12:54:28,376 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-226
+2026-10-07 12:54:28,571 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-225
+2026-10-07 12:54:28,571 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-225
+2026-10-07 12:54:28,674 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-227
+2026-10-07 12:54:29,450 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-226
+2026-10-07 12:54:29,450 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-226
+2026-10-07 12:54:30,243 INFO o.a.j.r.Summariser: summary +     20 in 00:00:30 =    0.7/s Avg:  2461 Min:   773 Max:  6637 Err:     0 (0.00%) Active: 1 Started: 282 Finished: 281
+2026-10-07 12:54:30,243 INFO o.a.j.r.Summariser: summary =    282 in 00:06:19 =    0.7/s Avg:  3231 Min:    17 Max:  9492 Err:     0 (0.00%)
+2026-10-07 12:54:30,244 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-227
+2026-10-07 12:54:30,244 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-227
+2026-10-07 12:54:32,760 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-228
+2026-10-07 12:54:32,879 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-229
+2026-10-07 12:54:33,307 INFO o.a.j.t.JMeterThread: Thread started: Stats arrivals 3-14
+2026-10-07 12:54:34,021 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-228
+2026-10-07 12:54:34,021 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-228
+2026-10-07 12:54:36,482 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-229
+2026-10-07 12:54:36,482 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-229
+2026-10-07 12:54:36,505 INFO o.a.j.t.JMeterThread: Thread is done: Stats arrivals 3-14
+2026-10-07 12:54:36,505 INFO o.a.j.t.JMeterThread: Thread finished: Stats arrivals 3-14
+2026-10-07 12:54:39,135 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-43
+2026-10-07 12:54:39,171 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-43
+2026-10-07 12:54:39,171 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-43
+2026-10-07 12:54:39,192 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-230
+2026-10-07 12:54:40,486 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-231
+2026-10-07 12:54:40,543 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-232
+2026-10-07 12:54:41,200 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-233
+2026-10-07 12:54:41,359 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-230
+2026-10-07 12:54:41,359 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-230
+2026-10-07 12:54:42,143 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-231
+2026-10-07 12:54:42,143 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-231
+2026-10-07 12:54:42,177 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-234
+2026-10-07 12:54:42,684 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-235
+2026-10-07 12:54:43,577 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-232
+2026-10-07 12:54:43,577 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-232
+2026-10-07 12:54:43,747 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-236
+2026-10-07 12:54:44,177 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-237
+2026-10-07 12:54:44,961 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-238
+2026-10-07 12:54:45,105 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-233
+2026-10-07 12:54:45,105 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-233
+2026-10-07 12:54:45,935 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-234
+2026-10-07 12:54:45,935 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-234
+2026-10-07 12:54:46,342 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-239
+2026-10-07 12:54:46,964 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-235
+2026-10-07 12:54:46,964 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-235
+2026-10-07 12:54:47,582 INFO o.a.j.t.JMeterThread: Thread started: Stats arrivals 3-15
+2026-10-07 12:54:47,597 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-240
+2026-10-07 12:54:47,889 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-241
+2026-10-07 12:54:48,030 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-242
+2026-10-07 12:54:48,828 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-236
+2026-10-07 12:54:48,828 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-236
+2026-10-07 12:54:49,418 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-237
+2026-10-07 12:54:49,418 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-237
+2026-10-07 12:54:50,616 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-243
+2026-10-07 12:54:50,682 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-238
+2026-10-07 12:54:50,682 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-238
+2026-10-07 12:54:51,598 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-244
+2026-10-07 12:54:52,480 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-239
+2026-10-07 12:54:52,480 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-239
+2026-10-07 12:54:52,505 INFO o.a.j.t.JMeterThread: Thread is done: Stats arrivals 3-15
+2026-10-07 12:54:52,505 INFO o.a.j.t.JMeterThread: Thread finished: Stats arrivals 3-15
+2026-10-07 12:54:53,157 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-245
+2026-10-07 12:54:53,757 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-246
+2026-10-07 12:54:54,647 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-240
+2026-10-07 12:54:54,647 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-240
+2026-10-07 12:54:55,641 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-247
+2026-10-07 12:54:55,946 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-248
+2026-10-07 12:54:56,101 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-44
+2026-10-07 12:54:56,111 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-241
+2026-10-07 12:54:56,111 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-241
+2026-10-07 12:54:57,086 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-242
+2026-10-07 12:54:57,087 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-242
+2026-10-07 12:54:58,664 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-249
+2026-10-07 12:54:58,737 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-243
+2026-10-07 12:54:58,737 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-243
+2026-10-07 12:54:59,421 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-244
+2026-10-07 12:54:59,421 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-244
+2026-10-07 12:54:59,948 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-250
+2026-10-07 12:55:00,075 INFO o.a.j.r.Summariser: summary +     21 in 00:00:30 =    0.7/s Avg:  4816 Min:    35 Max:  9054 Err:     0 (0.00%) Active: 7 Started: 309 Finished: 302
+2026-10-07 12:55:00,076 INFO o.a.j.r.Summariser: summary =    303 in 00:06:49 =    0.7/s Avg:  3341 Min:    17 Max:  9492 Err:     0 (0.00%)
+2026-10-07 12:55:00,076 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-245
+2026-10-07 12:55:00,076 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-245
+2026-10-07 12:55:01,189 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-246
+2026-10-07 12:55:01,189 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-246
+2026-10-07 12:55:02,125 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-247
+2026-10-07 12:55:02,125 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-247
+2026-10-07 12:55:02,512 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-45
+2026-10-07 12:55:03,203 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-248
+2026-10-07 12:55:03,203 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-248
+2026-10-07 12:55:03,235 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-44
+2026-10-07 12:55:03,235 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-44
+2026-10-07 12:55:04,273 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-249
+2026-10-07 12:55:04,273 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-249
+2026-10-07 12:55:05,014 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-251
+2026-10-07 12:55:06,746 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-250
+2026-10-07 12:55:06,746 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-250
+2026-10-07 12:55:06,775 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-45
+2026-10-07 12:55:06,775 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-45
+2026-10-07 12:55:07,810 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-251
+2026-10-07 12:55:07,810 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-251
+2026-10-07 12:55:08,021 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-252
+2026-10-07 12:55:09,130 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-252
+2026-10-07 12:55:09,130 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-252
+2026-10-07 12:55:09,435 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-253
+2026-10-07 12:55:09,457 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-46
+2026-10-07 12:55:12,289 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-254
+2026-10-07 12:55:12,316 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-253
+2026-10-07 12:55:12,316 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-253
+2026-10-07 12:55:12,355 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-46
+2026-10-07 12:55:12,355 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-46
+2026-10-07 12:55:12,523 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-47
+2026-10-07 12:55:13,373 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-254
+2026-10-07 12:55:13,373 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-254
+2026-10-07 12:55:13,404 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-47
+2026-10-07 12:55:13,404 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-47
+2026-10-07 12:55:17,209 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-255
+2026-10-07 12:55:17,962 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-256
+2026-10-07 12:55:19,267 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-255
+2026-10-07 12:55:19,267 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-255
+2026-10-07 12:55:19,545 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-48
+2026-10-07 12:55:20,411 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-256
+2026-10-07 12:55:20,411 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-256
+2026-10-07 12:55:20,445 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-48
+2026-10-07 12:55:20,445 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-48
+2026-10-07 12:55:22,146 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-257
+2026-10-07 12:55:22,879 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-258
+2026-10-07 12:55:24,093 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-257
+2026-10-07 12:55:24,093 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-257
+2026-10-07 12:55:25,102 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-258
+2026-10-07 12:55:25,102 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-258
+2026-10-07 12:55:25,518 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-259
+2026-10-07 12:55:26,993 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-260
+2026-10-07 12:55:27,115 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-261
+2026-10-07 12:55:27,216 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-262
+2026-10-07 12:55:28,003 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-259
+2026-10-07 12:55:28,003 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-259
+2026-10-07 12:55:29,692 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-260
+2026-10-07 12:55:29,692 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-260
+2026-10-07 12:55:31,738 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-263
+2026-10-07 12:55:31,801 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-264
+2026-10-07 12:55:31,802 INFO o.a.j.r.Summariser: summary +     21 in 00:00:32 =    0.7/s Avg:  3619 Min:   880 Max:  7429 Err:     0 (0.00%) Active: 4 Started: 327 Finished: 323
+2026-10-07 12:55:31,802 INFO o.a.j.r.Summariser: summary =    324 in 00:07:21 =    0.7/s Avg:  3359 Min:    17 Max:  9492 Err:     0 (0.00%)
+2026-10-07 12:55:31,802 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-261
+2026-10-07 12:55:31,802 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-261
+2026-10-07 12:55:34,308 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-262
+2026-10-07 12:55:34,308 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-262
+2026-10-07 12:55:35,310 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-263
+2026-10-07 12:55:35,310 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-263
+2026-10-07 12:55:35,428 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-265
+2026-10-07 12:55:35,928 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-49
+2026-10-07 12:55:36,255 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-264
+2026-10-07 12:55:36,256 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-264
+2026-10-07 12:55:36,916 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-265
+2026-10-07 12:55:36,916 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-265
+2026-10-07 12:55:36,948 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-49
+2026-10-07 12:55:36,949 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-49
+2026-10-07 12:55:38,608 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-266
+2026-10-07 12:55:38,955 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-267
+2026-10-07 12:55:39,739 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-266
+2026-10-07 12:55:39,739 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-266
+2026-10-07 12:55:39,877 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-268
+2026-10-07 12:55:40,560 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-269
+2026-10-07 12:55:41,059 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-267
+2026-10-07 12:55:41,059 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-267
+2026-10-07 12:55:41,683 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-270
+2026-10-07 12:55:42,143 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-268
+2026-10-07 12:55:42,143 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-268
+2026-10-07 12:55:42,446 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-271
+2026-10-07 12:55:42,536 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-272
+2026-10-07 12:55:42,756 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-273
+2026-10-07 12:55:44,402 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-274
+2026-10-07 12:55:44,575 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-275
+2026-10-07 12:55:44,757 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-269
+2026-10-07 12:55:44,757 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-269
+2026-10-07 12:55:44,931 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-50
+2026-10-07 12:55:47,311 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-270
+2026-10-07 12:55:47,311 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-270
+2026-10-07 12:55:47,955 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-276
+2026-10-07 12:55:48,056 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-277
+2026-10-07 12:55:49,220 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-271
+2026-10-07 12:55:49,220 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-271
+2026-10-07 12:55:49,764 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-51
+2026-10-07 12:55:51,120 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-272
+2026-10-07 12:55:51,120 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-272
+2026-10-07 12:55:52,597 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-273
+2026-10-07 12:55:52,597 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-273
+2026-10-07 12:55:52,630 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-52
+2026-10-07 12:55:53,454 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-274
+2026-10-07 12:55:53,454 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-274
+2026-10-07 12:55:54,957 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-275
+2026-10-07 12:55:54,957 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-275
+2026-10-07 12:55:54,990 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-50
+2026-10-07 12:55:54,990 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-50
+2026-10-07 12:55:55,429 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-278
+2026-10-07 12:55:55,579 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-276
+2026-10-07 12:55:55,579 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-276
+2026-10-07 12:55:55,824 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-53
+2026-10-07 12:55:56,567 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-277
+2026-10-07 12:55:56,567 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-277
+2026-10-07 12:55:56,595 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-51
+2026-10-07 12:55:56,595 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-51
+2026-10-07 12:55:56,627 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-52
+2026-10-07 12:55:56,627 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-52
+2026-10-07 12:55:57,419 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-278
+2026-10-07 12:55:57,419 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-278
+2026-10-07 12:55:57,452 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-53
+2026-10-07 12:55:57,453 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-53
+2026-10-07 12:55:58,096 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-279
+2026-10-07 12:55:58,769 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-280
+2026-10-07 12:55:59,227 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-279
+2026-10-07 12:55:59,227 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-279
+2026-10-07 12:56:00,124 INFO o.a.j.r.Summariser: summary +     24 in 00:00:28 =    0.8/s Avg:  5027 Min:  1019 Max: 10380 Err:     0 (0.00%) Active: 1 Started: 348 Finished: 347
+2026-10-07 12:56:00,124 INFO o.a.j.r.Summariser: summary =    348 in 00:07:49 =    0.7/s Avg:  3474 Min:    17 Max: 10380 Err:     0 (0.00%)
+2026-10-07 12:56:00,126 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-280
+2026-10-07 12:56:00,126 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-280
+2026-10-07 12:56:01,055 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-281
+2026-10-07 12:56:01,180 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-282
+2026-10-07 12:56:02,443 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-281
+2026-10-07 12:56:02,443 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-281
+2026-10-07 12:56:03,688 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-282
+2026-10-07 12:56:03,688 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-282
+2026-10-07 12:56:05,317 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-283
+2026-10-07 12:56:05,867 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-54
+2026-10-07 12:56:06,137 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-283
+2026-10-07 12:56:06,137 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-283
+2026-10-07 12:56:06,176 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-54
+2026-10-07 12:56:06,176 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-54
+2026-10-07 12:56:07,597 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-284
+2026-10-07 12:56:07,660 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-285
+2026-10-07 12:56:08,083 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-286
+2026-10-07 12:56:08,097 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-287
+2026-10-07 12:56:08,226 INFO o.a.j.t.JMeterThread: Thread started: Stats arrivals 3-16
+2026-10-07 12:56:08,291 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-55
+2026-10-07 12:56:09,470 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-284
+2026-10-07 12:56:09,470 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-284
+2026-10-07 12:56:10,598 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-288
+2026-10-07 12:56:11,203 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-285
+2026-10-07 12:56:11,203 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-285
+2026-10-07 12:56:12,165 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-286
+2026-10-07 12:56:12,165 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-286
+2026-10-07 12:56:13,600 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-56
+2026-10-07 12:56:14,194 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-289
+2026-10-07 12:56:14,923 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-287
+2026-10-07 12:56:14,923 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-287
+2026-10-07 12:56:14,946 INFO o.a.j.t.JMeterThread: Thread is done: Stats arrivals 3-16
+2026-10-07 12:56:14,946 INFO o.a.j.t.JMeterThread: Thread finished: Stats arrivals 3-16
+2026-10-07 12:56:14,979 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-55
+2026-10-07 12:56:14,979 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-55
+2026-10-07 12:56:16,312 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-290
+2026-10-07 12:56:16,752 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-291
+2026-10-07 12:56:17,242 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-288
+2026-10-07 12:56:17,242 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-288
+2026-10-07 12:56:17,281 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-56
+2026-10-07 12:56:17,281 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-56
+2026-10-07 12:56:18,496 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-289
+2026-10-07 12:56:18,496 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-289
+2026-10-07 12:56:20,266 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-290
+2026-10-07 12:56:20,266 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-290
+2026-10-07 12:56:20,765 INFO o.a.j.t.JMeterThread: Thread started: Stats arrivals 3-17
+2026-10-07 12:56:20,982 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-291
+2026-10-07 12:56:20,982 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-291
+2026-10-07 12:56:21,004 INFO o.a.j.t.JMeterThread: Thread is done: Stats arrivals 3-17
+2026-10-07 12:56:21,004 INFO o.a.j.t.JMeterThread: Thread finished: Stats arrivals 3-17
+2026-10-07 12:56:21,368 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-292
+2026-10-07 12:56:24,043 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-292
+2026-10-07 12:56:24,043 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-292
+2026-10-07 12:56:24,897 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-293
+2026-10-07 12:56:25,466 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-294
+2026-10-07 12:56:26,600 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-295
+2026-10-07 12:56:27,032 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-293
+2026-10-07 12:56:27,032 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-293
+2026-10-07 12:56:27,043 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-296
+2026-10-07 12:56:27,923 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-294
+2026-10-07 12:56:27,923 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-294
+2026-10-07 12:56:28,289 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-57
+2026-10-07 12:56:29,010 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-295
+2026-10-07 12:56:29,010 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-295
+2026-10-07 12:56:30,032 INFO o.a.j.r.Summariser: summary +     21 in 00:00:30 =    0.7/s Avg:  3354 Min:   237 Max:  6824 Err:     0 (0.00%) Active: 2 Started: 370 Finished: 368
+2026-10-07 12:56:30,032 INFO o.a.j.r.Summariser: summary =    369 in 00:08:19 =    0.7/s Avg:  3467 Min:    17 Max: 10380 Err:     0 (0.00%)
+2026-10-07 12:56:30,032 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-296
+2026-10-07 12:56:30,032 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-296
+2026-10-07 12:56:30,064 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-57
+2026-10-07 12:56:30,064 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-57
+2026-10-07 12:56:30,496 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-297
+2026-10-07 12:56:31,092 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-297
+2026-10-07 12:56:31,092 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-297
+2026-10-07 12:56:32,533 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-58
+2026-10-07 12:56:32,572 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-58
+2026-10-07 12:56:32,572 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-58
+2026-10-07 12:56:32,882 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-59
+2026-10-07 12:56:32,926 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-59
+2026-10-07 12:56:32,926 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-59
+2026-10-07 12:56:33,571 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-298
+2026-10-07 12:56:33,835 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-60
+2026-10-07 12:56:34,175 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-299
+2026-10-07 12:56:34,357 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-298
+2026-10-07 12:56:34,358 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-298
+2026-10-07 12:56:34,395 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-60
+2026-10-07 12:56:34,395 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-60
+2026-10-07 12:56:34,492 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-300
+2026-10-07 12:56:35,486 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-299
+2026-10-07 12:56:35,486 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-299
+2026-10-07 12:56:37,196 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-300
+2026-10-07 12:56:37,196 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-300
+2026-10-07 12:56:37,515 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-61
+2026-10-07 12:56:37,553 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-61
+2026-10-07 12:56:37,553 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-61
+2026-10-07 12:56:39,074 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-62
+2026-10-07 12:56:39,113 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-62
+2026-10-07 12:56:39,113 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-62
+2026-10-07 12:56:39,710 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-301
+2026-10-07 12:56:39,991 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-302
+2026-10-07 12:56:40,819 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-303
+2026-10-07 12:56:41,042 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-304
+2026-10-07 12:56:42,124 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-301
+2026-10-07 12:56:42,124 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-301
+2026-10-07 12:56:42,343 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-305
+2026-10-07 12:56:44,239 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-302
+2026-10-07 12:56:44,239 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-302
+2026-10-07 12:56:44,933 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-306
+2026-10-07 12:56:45,163 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-307
+2026-10-07 12:56:46,858 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-303
+2026-10-07 12:56:46,858 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-303
+2026-10-07 12:56:47,297 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-308
+2026-10-07 12:56:47,316 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-63
+2026-10-07 12:56:47,352 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-309
+2026-10-07 12:56:48,082 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-310
+2026-10-07 12:56:48,686 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-304
+2026-10-07 12:56:48,686 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-304
+2026-10-07 12:56:48,763 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-311
+2026-10-07 12:56:49,455 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-305
+2026-10-07 12:56:49,455 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-305
+2026-10-07 12:56:49,655 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-312
+2026-10-07 12:56:49,754 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-313
+2026-10-07 12:56:49,957 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-314
+2026-10-07 12:56:51,922 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-306
+2026-10-07 12:56:51,922 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-306
+2026-10-07 12:56:52,195 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-315
+2026-10-07 12:56:52,951 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-64
+2026-10-07 12:56:53,069 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-307
+2026-10-07 12:56:53,069 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-307
+2026-10-07 12:56:53,809 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-308
+2026-10-07 12:56:53,809 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-308
+2026-10-07 12:56:53,841 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-63
+2026-10-07 12:56:53,841 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-63
+2026-10-07 12:56:55,361 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-316
+2026-10-07 12:56:56,589 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-309
+2026-10-07 12:56:56,589 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-309
+2026-10-07 12:56:57,027 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-65
+2026-10-07 12:56:57,713 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-310
+2026-10-07 12:56:57,713 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-310
+2026-10-07 12:56:58,438 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-317
+2026-10-07 12:56:58,590 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-311
+2026-10-07 12:56:58,590 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-311
+2026-10-07 12:56:59,100 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-318
+2026-10-07 12:56:59,277 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-312
+2026-10-07 12:56:59,277 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-312
+2026-10-07 12:57:00,800 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-66
+2026-10-07 12:57:00,852 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-319
+2026-10-07 12:57:01,036 INFO o.a.j.r.Summariser: summary +     24 in 00:00:31 =    0.8/s Avg:  4701 Min:    37 Max: 11279 Err:     0 (0.00%) Active: 10 Started: 402 Finished: 392
+2026-10-07 12:57:01,036 INFO o.a.j.r.Summariser: summary =    393 in 00:08:50 =    0.7/s Avg:  3543 Min:    17 Max: 11279 Err:     0 (0.00%)
+2026-10-07 12:57:01,037 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-313
+2026-10-07 12:57:01,037 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-313
+2026-10-07 12:57:01,144 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-320
+2026-10-07 12:57:01,275 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-321
+2026-10-07 12:57:01,858 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-322
+2026-10-07 12:57:01,889 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-323
+2026-10-07 12:57:01,920 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-314
+2026-10-07 12:57:01,920 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-314
+2026-10-07 12:57:01,952 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-324
+2026-10-07 12:57:02,729 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-315
+2026-10-07 12:57:02,730 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-315
+2026-10-07 12:57:02,779 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-64
+2026-10-07 12:57:02,779 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-64
+2026-10-07 12:57:02,949 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-325
+2026-10-07 12:57:03,919 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-316
+2026-10-07 12:57:03,919 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-316
+2026-10-07 12:57:03,958 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-65
+2026-10-07 12:57:03,958 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-65
+2026-10-07 12:57:04,295 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-326
+2026-10-07 12:57:04,524 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-327
+2026-10-07 12:57:04,851 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-67
+2026-10-07 12:57:05,133 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-328
+2026-10-07 12:57:05,145 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-329
+2026-10-07 12:57:05,403 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-317
+2026-10-07 12:57:05,404 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-317
+2026-10-07 12:57:06,315 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-330
+2026-10-07 12:57:06,412 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-68
+2026-10-07 12:57:07,046 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-318
+2026-10-07 12:57:07,046 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-318
+2026-10-07 12:57:07,085 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-66
+2026-10-07 12:57:07,085 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-66
+2026-10-07 12:57:08,538 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-319
+2026-10-07 12:57:08,538 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-319
+2026-10-07 12:57:09,147 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-320
+2026-10-07 12:57:09,147 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-320
+2026-10-07 12:57:09,859 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-321
+2026-10-07 12:57:09,859 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-321
+2026-10-07 12:57:10,013 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-331
+2026-10-07 12:57:10,885 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-332
+2026-10-07 12:57:12,131 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-322
+2026-10-07 12:57:12,131 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-322
+2026-10-07 12:57:13,190 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-323
+2026-10-07 12:57:13,190 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-323
+2026-10-07 12:57:14,298 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-324
+2026-10-07 12:57:14,298 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-324
+2026-10-07 12:57:16,024 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-333
+2026-10-07 12:57:16,077 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-334
+2026-10-07 12:57:16,256 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-325
+2026-10-07 12:57:16,256 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-325
+2026-10-07 12:57:16,265 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-335
+2026-10-07 12:57:16,979 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-326
+2026-10-07 12:57:16,979 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-326
+2026-10-07 12:57:17,851 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-327
+2026-10-07 12:57:17,851 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-327
+2026-10-07 12:57:17,886 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-67
+2026-10-07 12:57:17,886 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-67
+2026-10-07 12:57:18,097 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-336
+2026-10-07 12:57:19,397 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-328
+2026-10-07 12:57:19,397 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-328
+2026-10-07 12:57:19,736 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-337
+2026-10-07 12:57:21,290 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-329
+2026-10-07 12:57:21,290 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-329
+2026-10-07 12:57:21,888 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-330
+2026-10-07 12:57:21,888 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-330
+2026-10-07 12:57:21,923 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-68
+2026-10-07 12:57:21,923 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-68
+2026-10-07 12:57:22,866 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-338
+2026-10-07 12:57:23,010 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-331
+2026-10-07 12:57:23,010 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-331
+2026-10-07 12:57:24,356 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-332
+2026-10-07 12:57:24,356 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-332
+2026-10-07 12:57:25,172 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-333
+2026-10-07 12:57:25,172 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-333
+2026-10-07 12:57:25,260 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-339
+2026-10-07 12:57:27,105 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-334
+2026-10-07 12:57:27,106 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-334
+2026-10-07 12:57:29,013 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-335
+2026-10-07 12:57:29,013 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-335
+2026-10-07 12:57:30,899 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-340
+2026-10-07 12:57:31,344 INFO o.a.j.r.Summariser: summary +     28 in 00:00:30 =    0.9/s Avg: 11201 Min:  6283 Max: 16144 Err:     0 (0.00%) Active: 5 Started: 425 Finished: 420
+2026-10-07 12:57:31,344 INFO o.a.j.r.Summariser: summary =    421 in 00:09:21 =    0.8/s Avg:  4052 Min:    17 Max: 16144 Err:     0 (0.00%)
+2026-10-07 12:57:31,346 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-336
+2026-10-07 12:57:31,346 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-336
+2026-10-07 12:57:32,538 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-337
+2026-10-07 12:57:32,538 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-337
+2026-10-07 12:57:34,270 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-338
+2026-10-07 12:57:34,270 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-338
+2026-10-07 12:57:35,051 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-339
+2026-10-07 12:57:35,051 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-339
+2026-10-07 12:57:35,974 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-340
+2026-10-07 12:57:35,974 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-340
+2026-10-07 12:57:37,123 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-341
+2026-10-07 12:57:38,237 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-341
+2026-10-07 12:57:38,237 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-341
+2026-10-07 12:57:40,435 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-342
+2026-10-07 12:57:40,996 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-343
+2026-10-07 12:57:41,735 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-342
+2026-10-07 12:57:41,735 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-342
+2026-10-07 12:57:42,581 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-343
+2026-10-07 12:57:42,581 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-343
+2026-10-07 12:57:43,078 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-344
+2026-10-07 12:57:43,123 INFO o.a.j.t.JMeterThread: Thread started: Stats arrivals 3-18
+2026-10-07 12:57:43,565 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-345
+2026-10-07 12:57:43,578 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-346
+2026-10-07 12:57:45,117 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-347
+2026-10-07 12:57:45,141 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-344
+2026-10-07 12:57:45,141 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-344
+2026-10-07 12:57:45,154 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-69
+2026-10-07 12:57:45,168 INFO o.a.j.t.JMeterThread: Thread is done: Stats arrivals 3-18
+2026-10-07 12:57:45,168 INFO o.a.j.t.JMeterThread: Thread finished: Stats arrivals 3-18
+2026-10-07 12:57:45,310 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-348
+2026-10-07 12:57:46,095 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-345
+2026-10-07 12:57:46,095 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-345
+2026-10-07 12:57:46,123 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-70
+2026-10-07 12:57:47,356 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-349
+2026-10-07 12:57:47,517 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-350
+2026-10-07 12:57:47,626 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-346
+2026-10-07 12:57:47,626 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-346
+2026-10-07 12:57:48,109 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-351
+2026-10-07 12:57:48,210 INFO o.a.j.t.JMeterThread: Thread started: Stats arrivals 3-19
+2026-10-07 12:57:48,394 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-347
+2026-10-07 12:57:48,394 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-347
+2026-10-07 12:57:48,427 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-69
+2026-10-07 12:57:48,427 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-69
+2026-10-07 12:57:48,846 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-352
+2026-10-07 12:57:49,404 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-348
+2026-10-07 12:57:49,406 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-348
+2026-10-07 12:57:49,440 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-70
+2026-10-07 12:57:49,440 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-70
+2026-10-07 12:57:50,354 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-349
+2026-10-07 12:57:50,354 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-349
+2026-10-07 12:57:51,226 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-350
+2026-10-07 12:57:51,226 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-350
+2026-10-07 12:57:51,992 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-351
+2026-10-07 12:57:51,992 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-351
+2026-10-07 12:57:52,018 INFO o.a.j.t.JMeterThread: Thread is done: Stats arrivals 3-19
+2026-10-07 12:57:52,018 INFO o.a.j.t.JMeterThread: Thread finished: Stats arrivals 3-19
+2026-10-07 12:57:53,227 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-352
+2026-10-07 12:57:53,227 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-352
+2026-10-07 12:57:53,276 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-71
+2026-10-07 12:57:53,316 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-71
+2026-10-07 12:57:53,316 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-71
+2026-10-07 12:57:53,617 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-353
+2026-10-07 12:57:55,385 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-353
+2026-10-07 12:57:55,385 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-353
+2026-10-07 12:57:56,274 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-72
+2026-10-07 12:57:56,311 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-72
+2026-10-07 12:57:56,311 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-72
+2026-10-07 12:57:59,235 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-354
+2026-10-07 12:57:59,391 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-355
+2026-10-07 12:57:59,512 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-356
+2026-10-07 12:57:59,522 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-73
+2026-10-07 12:57:59,761 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-357
+2026-10-07 12:57:59,984 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-354
+2026-10-07 12:57:59,984 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-354
+2026-10-07 12:58:00,293 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-358
+2026-10-07 12:58:00,506 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-359
+2026-10-07 12:58:00,655 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-360
+2026-10-07 12:58:01,041 INFO o.a.j.r.Summariser: summary +     25 in 00:00:30 =    0.8/s Avg:  3627 Min:    36 Max: 12801 Err:     0 (0.00%) Active: 7 Started: 452 Finished: 445
+2026-10-07 12:58:01,041 INFO o.a.j.r.Summariser: summary =    446 in 00:09:50 =    0.8/s Avg:  4028 Min:    17 Max: 16144 Err:     0 (0.00%)
+2026-10-07 12:58:01,042 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-355
+2026-10-07 12:58:01,042 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-355
+2026-10-07 12:58:01,606 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-356
+2026-10-07 12:58:01,606 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-356
+2026-10-07 12:58:01,640 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-73
+2026-10-07 12:58:01,640 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-73
+2026-10-07 12:58:02,265 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-357
+2026-10-07 12:58:02,265 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-357
+2026-10-07 12:58:03,111 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-361
+2026-10-07 12:58:03,199 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-358
+2026-10-07 12:58:03,199 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-358
+2026-10-07 12:58:03,499 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-74
+2026-10-07 12:58:03,718 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-362
+2026-10-07 12:58:03,930 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-363
+2026-10-07 12:58:03,957 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-359
+2026-10-07 12:58:03,957 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-359
+2026-10-07 12:58:04,669 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-360
+2026-10-07 12:58:04,669 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-360
+2026-10-07 12:58:04,677 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-364
+2026-10-07 12:58:05,441 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-365
+2026-10-07 12:58:06,648 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-361
+2026-10-07 12:58:06,648 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-361
+2026-10-07 12:58:06,682 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-74
+2026-10-07 12:58:06,682 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-74
+2026-10-07 12:58:07,028 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-366
+2026-10-07 12:58:07,164 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-367
+2026-10-07 12:58:07,628 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-362
+2026-10-07 12:58:07,628 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-362
+2026-10-07 12:58:07,862 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-368
+2026-10-07 12:58:08,406 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-363
+2026-10-07 12:58:08,407 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-363
+2026-10-07 12:58:09,205 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-364
+2026-10-07 12:58:09,205 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-364
+2026-10-07 12:58:10,518 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-365
+2026-10-07 12:58:10,518 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-365
+2026-10-07 12:58:10,573 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-369
+2026-10-07 12:58:11,148 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-366
+2026-10-07 12:58:11,148 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-366
+2026-10-07 12:58:11,678 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-75
+2026-10-07 12:58:12,432 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-370
+2026-10-07 12:58:13,229 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-367
+2026-10-07 12:58:13,229 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-367
+2026-10-07 12:58:15,104 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-371
+2026-10-07 12:58:15,282 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-368
+2026-10-07 12:58:15,282 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-368
+2026-10-07 12:58:15,479 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-372
+2026-10-07 12:58:16,619 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-369
+2026-10-07 12:58:16,619 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-369
+2026-10-07 12:58:16,680 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-75
+2026-10-07 12:58:16,680 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-75
+2026-10-07 12:58:17,645 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-373
+2026-10-07 12:58:17,852 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-374
+2026-10-07 12:58:18,067 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-370
+2026-10-07 12:58:18,067 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-370
+2026-10-07 12:58:19,934 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-375
+2026-10-07 12:58:20,305 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-371
+2026-10-07 12:58:20,306 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-371
+2026-10-07 12:58:20,456 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-376
+2026-10-07 12:58:22,313 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-377
+2026-10-07 12:58:22,699 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-372
+2026-10-07 12:58:22,699 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-372
+2026-10-07 12:58:23,088 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-378
+2026-10-07 12:58:23,295 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-373
+2026-10-07 12:58:23,295 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-373
+2026-10-07 12:58:23,532 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-379
+2026-10-07 12:58:24,270 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-374
+2026-10-07 12:58:24,270 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-374
+2026-10-07 12:58:25,395 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-375
+2026-10-07 12:58:25,395 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-375
+2026-10-07 12:58:26,174 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-376
+2026-10-07 12:58:26,174 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-376
+2026-10-07 12:58:27,481 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-377
+2026-10-07 12:58:27,481 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-377
+2026-10-07 12:58:28,176 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-378
+2026-10-07 12:58:28,176 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-378
+2026-10-07 12:58:29,352 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-380
+2026-10-07 12:58:29,416 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-379
+2026-10-07 12:58:29,416 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-379
+2026-10-07 12:58:30,359 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-381
+2026-10-07 12:58:31,312 INFO o.a.j.r.Summariser: summary +     28 in 00:00:30 =    0.9/s Avg:  4635 Min:  1957 Max:  7420 Err:     0 (0.00%) Active: 2 Started: 475 Finished: 473
+2026-10-07 12:58:31,313 INFO o.a.j.r.Summariser: summary =    474 in 00:10:20 =    0.8/s Avg:  4064 Min:    17 Max: 16144 Err:     0 (0.00%)
+2026-10-07 12:58:31,313 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-380
+2026-10-07 12:58:31,314 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-380
+2026-10-07 12:58:32,599 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-381
+2026-10-07 12:58:32,599 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-381
+2026-10-07 12:58:33,202 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-382
+2026-10-07 12:58:33,694 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-76
+2026-10-07 12:58:34,593 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-382
+2026-10-07 12:58:34,594 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-382
+2026-10-07 12:58:34,635 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-76
+2026-10-07 12:58:34,635 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-76
+2026-10-07 12:58:35,123 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-383
+2026-10-07 12:58:35,378 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-384
+2026-10-07 12:58:35,634 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-385
+2026-10-07 12:58:35,818 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-383
+2026-10-07 12:58:35,819 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-383
+2026-10-07 12:58:36,454 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-77
+2026-10-07 12:58:36,860 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-384
+2026-10-07 12:58:36,861 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-384
+2026-10-07 12:58:37,752 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-386
+2026-10-07 12:58:37,954 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-385
+2026-10-07 12:58:37,954 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-385
+2026-10-07 12:58:37,993 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-77
+2026-10-07 12:58:37,995 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-77
+2026-10-07 12:58:38,423 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-387
+2026-10-07 12:58:38,781 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-388
+2026-10-07 12:58:39,607 INFO o.a.j.t.JMeterThread: Thread started: Stats arrivals 3-20
+2026-10-07 12:58:39,755 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-386
+2026-10-07 12:58:39,755 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-386
+2026-10-07 12:58:40,317 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-389
+2026-10-07 12:58:40,556 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-387
+2026-10-07 12:58:40,556 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-387
+2026-10-07 12:58:41,454 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-388
+2026-10-07 12:58:41,454 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-388
+2026-10-07 12:58:41,489 INFO o.a.j.t.JMeterThread: Thread is done: Stats arrivals 3-20
+2026-10-07 12:58:41,489 INFO o.a.j.t.JMeterThread: Thread finished: Stats arrivals 3-20
+2026-10-07 12:58:42,360 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-390
+2026-10-07 12:58:42,509 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-78
+2026-10-07 12:58:43,000 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-389
+2026-10-07 12:58:43,000 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-389
+2026-10-07 12:58:43,602 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-391
+2026-10-07 12:58:44,218 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-390
+2026-10-07 12:58:44,218 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-390
+2026-10-07 12:58:44,261 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-78
+2026-10-07 12:58:44,261 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-78
+2026-10-07 12:58:45,318 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-391
+2026-10-07 12:58:45,318 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-391
+2026-10-07 12:58:47,930 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-392
+2026-10-07 12:58:50,493 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-392
+2026-10-07 12:58:50,493 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-392
+2026-10-07 12:58:53,454 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-79
+2026-10-07 12:58:53,503 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-79
+2026-10-07 12:58:53,504 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-79
+2026-10-07 12:58:54,509 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-393
+2026-10-07 12:58:55,343 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-394
+2026-10-07 12:58:57,138 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-393
+2026-10-07 12:58:57,138 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-393
+2026-10-07 12:58:57,950 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-394
+2026-10-07 12:58:57,950 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-394
+2026-10-07 12:59:01,648 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-395
+2026-10-07 12:59:02,932 INFO o.a.j.r.Summariser: summary +     20 in 00:00:32 =    0.6/s Avg:  1819 Min:    49 Max:  2679 Err:     0 (0.00%) Active: 1 Started: 494 Finished: 493
+2026-10-07 12:59:02,933 INFO o.a.j.r.Summariser: summary =    494 in 00:10:52 =    0.8/s Avg:  3973 Min:    17 Max: 16144 Err:     0 (0.00%)
+2026-10-07 12:59:02,933 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-395
+2026-10-07 12:59:02,933 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-395
+2026-10-07 12:59:04,312 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-80
+2026-10-07 12:59:04,356 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-80
+2026-10-07 12:59:04,356 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-80
+2026-10-07 12:59:04,417 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-396
+2026-10-07 12:59:04,573 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-397
+2026-10-07 12:59:05,532 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-396
+2026-10-07 12:59:05,532 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-396
+2026-10-07 12:59:06,324 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-398
+2026-10-07 12:59:07,081 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-397
+2026-10-07 12:59:07,081 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-397
+2026-10-07 12:59:08,007 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-398
+2026-10-07 12:59:08,007 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-398
+2026-10-07 12:59:09,944 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-399
+2026-10-07 12:59:10,486 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-400
+2026-10-07 12:59:10,791 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-399
+2026-10-07 12:59:10,791 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-399
+2026-10-07 12:59:11,553 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-400
+2026-10-07 12:59:11,553 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-400
+2026-10-07 12:59:12,655 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-401
+2026-10-07 12:59:13,052 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-402
+2026-10-07 12:59:13,161 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-403
+2026-10-07 12:59:13,194 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-404
+2026-10-07 12:59:13,646 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-401
+2026-10-07 12:59:13,646 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-401
+2026-10-07 12:59:13,761 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-405
+2026-10-07 12:59:14,471 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-402
+2026-10-07 12:59:14,471 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-402
+2026-10-07 12:59:14,780 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-406
+2026-10-07 12:59:15,757 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-403
+2026-10-07 12:59:15,757 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-403
+2026-10-07 12:59:18,149 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-404
+2026-10-07 12:59:18,149 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-404
+2026-10-07 12:59:20,089 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-407
+2026-10-07 12:59:20,347 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-405
+2026-10-07 12:59:20,348 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-405
+2026-10-07 12:59:21,192 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-406
+2026-10-07 12:59:21,192 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-406
+2026-10-07 12:59:22,193 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-408
+2026-10-07 12:59:22,607 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-409
+2026-10-07 12:59:22,626 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-407
+2026-10-07 12:59:22,626 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-407
+2026-10-07 12:59:24,261 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-408
+2026-10-07 12:59:24,262 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-408
+2026-10-07 12:59:25,133 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-409
+2026-10-07 12:59:25,133 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-409
+2026-10-07 12:59:25,913 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-410
+2026-10-07 12:59:26,961 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-410
+2026-10-07 12:59:26,961 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-410
+2026-10-07 12:59:27,881 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-411
+2026-10-07 12:59:28,522 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-81
+2026-10-07 12:59:29,844 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-411
+2026-10-07 12:59:29,844 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-411
+2026-10-07 12:59:29,889 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-81
+2026-10-07 12:59:29,889 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-81
+2026-10-07 12:59:33,087 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-412
+2026-10-07 12:59:33,717 INFO o.a.j.r.Summariser: summary +     19 in 00:00:31 =    0.6/s Avg:  2227 Min:    45 Max:  6585 Err:     0 (0.00%) Active: 1 Started: 513 Finished: 512
+2026-10-07 12:59:33,717 INFO o.a.j.r.Summariser: summary =    513 in 00:11:23 =    0.8/s Avg:  3909 Min:    17 Max: 16144 Err:     0 (0.00%)
+2026-10-07 12:59:33,717 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-412
+2026-10-07 12:59:33,717 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-412
+2026-10-07 12:59:35,121 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-413
+2026-10-07 12:59:35,251 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-82
+2026-10-07 12:59:36,389 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-413
+2026-10-07 12:59:36,389 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-413
+2026-10-07 12:59:36,431 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-82
+2026-10-07 12:59:36,431 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-82
+2026-10-07 12:59:40,937 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-414
+2026-10-07 12:59:40,984 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-83
+2026-10-07 12:59:42,778 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-414
+2026-10-07 12:59:42,778 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-414
+2026-10-07 12:59:42,830 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-83
+2026-10-07 12:59:42,830 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-83
+2026-10-07 12:59:43,763 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-415
+2026-10-07 12:59:45,080 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-416
+2026-10-07 12:59:45,836 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-415
+2026-10-07 12:59:45,836 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-415
+2026-10-07 12:59:47,149 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-417
+2026-10-07 12:59:47,286 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-418
+2026-10-07 12:59:47,361 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-416
+2026-10-07 12:59:47,361 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-416
+2026-10-07 12:59:47,872 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-419
+2026-10-07 12:59:48,340 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-84
+2026-10-07 12:59:48,361 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-417
+2026-10-07 12:59:48,361 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-417
+2026-10-07 12:59:49,319 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-420
+2026-10-07 12:59:50,049 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-418
+2026-10-07 12:59:50,049 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-418
+2026-10-07 12:59:50,181 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-421
+2026-10-07 12:59:50,752 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-419
+2026-10-07 12:59:50,752 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-419
+2026-10-07 12:59:50,802 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-84
+2026-10-07 12:59:50,802 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-84
+2026-10-07 12:59:51,515 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-420
+2026-10-07 12:59:51,515 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-420
+2026-10-07 12:59:51,994 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-422
+2026-10-07 12:59:52,809 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-421
+2026-10-07 12:59:52,809 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-421
+2026-10-07 12:59:53,720 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-85
+2026-10-07 12:59:53,722 INFO o.a.j.t.o.EvenArrivalsRamp: Generating 0 events, beginRate = 0.0 / sec, endRate = 0.0 / sec, duration = 360.0 sec
+2026-10-07 12:59:53,722 INFO o.a.j.t.o.OpenModelThreadGroup: There will be no more events, so will wait for 376 sec till the end of the schedule
+2026-10-07 12:59:53,722 INFO o.a.j.t.JMeterThread: Thread started: Search arrivals 2-86
+2026-10-07 12:59:53,853 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-422
+2026-10-07 12:59:53,853 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-422
+2026-10-07 12:59:53,916 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-85
+2026-10-07 12:59:53,916 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-85
+2026-10-07 12:59:53,941 INFO o.a.j.t.JMeterThread: Thread is done: Search arrivals 2-86
+2026-10-07 12:59:53,941 INFO o.a.j.t.JMeterThread: Thread finished: Search arrivals 2-86
+2026-10-07 12:59:54,158 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-423
+2026-10-07 12:59:54,623 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-424
+2026-10-07 12:59:54,823 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-425
+2026-10-07 12:59:55,308 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-423
+2026-10-07 12:59:55,308 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-423
+2026-10-07 12:59:55,878 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-426
+2026-10-07 12:59:56,425 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-424
+2026-10-07 12:59:56,425 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-424
+2026-10-07 12:59:58,766 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-427
+2026-10-07 12:59:58,769 INFO o.a.j.t.o.EvenArrivalsRamp: Generating 0 events, beginRate = 0.0 / sec, endRate = 0.0 / sec, duration = 360.0 sec
+2026-10-07 12:59:58,769 INFO o.a.j.t.o.OpenModelThreadGroup: There will be no more events, so will wait for 371 sec till the end of the schedule
+2026-10-07 12:59:58,769 INFO o.a.j.t.JMeterThread: Thread started: Stats arrivals 3-21
+2026-10-07 12:59:58,966 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-428
+2026-10-07 12:59:59,092 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-425
+2026-10-07 12:59:59,092 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-425
+2026-10-07 12:59:59,929 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-429
+2026-10-07 13:00:00,166 INFO o.a.j.r.Summariser: summary +     19 in 00:00:26 =    0.7/s Avg:  2020 Min:   195 Max:  4288 Err:     0 (0.00%) Active: 5 Started: 536 Finished: 531
+2026-10-07 13:00:00,167 INFO o.a.j.r.Summariser: summary =    532 in 00:11:49 =    0.7/s Avg:  3841 Min:    17 Max: 16144 Err:     0 (0.00%)
+2026-10-07 13:00:00,167 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-426
+2026-10-07 13:00:00,167 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-426
+2026-10-07 13:00:01,318 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-427
+2026-10-07 13:00:01,318 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-427
+2026-10-07 13:00:01,353 INFO o.a.j.t.JMeterThread: Thread is done: Stats arrivals 3-21
+2026-10-07 13:00:01,354 INFO o.a.j.t.JMeterThread: Thread finished: Stats arrivals 3-21
+2026-10-07 13:00:04,380 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-428
+2026-10-07 13:00:04,380 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-428
+2026-10-07 13:00:05,389 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-429
+2026-10-07 13:00:05,389 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-429
+2026-10-07 13:00:05,407 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-430
+2026-10-07 13:00:06,806 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-431
+2026-10-07 13:00:07,058 INFO o.a.j.t.o.EvenArrivalsRamp: Generating 0 events, beginRate = 0.0 / sec, endRate = 0.0 / sec, duration = 360.0 sec
+2026-10-07 13:00:07,058 INFO o.a.j.t.o.OpenModelThreadGroup: There will be no more events, so will wait for 363 sec till the end of the schedule
+2026-10-07 13:00:07,058 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-432
+2026-10-07 13:00:07,574 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-430
+2026-10-07 13:00:07,574 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-430
+2026-10-07 13:00:08,823 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-431
+2026-10-07 13:00:08,824 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-431
+2026-10-07 13:00:10,756 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-432
+2026-10-07 13:00:10,756 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-432
+2026-10-07 13:06:10,626 INFO o.a.j.t.o.OpenModelThreadGroup: There will be no more events, will shutdown the thread pool
+2026-10-07 13:06:10,626 INFO o.a.j.t.o.OpenModelThreadGroup: There will be no more events, will shutdown the thread pool
+2026-10-07 13:06:10,626 INFO o.a.j.t.o.OpenModelThreadGroup: Thread starting done
+2026-10-07 13:06:10,626 INFO o.a.j.t.o.OpenModelThreadGroup: Thread starting done
+2026-10-07 13:06:10,627 INFO o.a.j.t.o.OpenModelThreadGroup: There will be no more events, will shutdown the thread pool
+2026-10-07 13:06:10,627 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2026-10-07 13:06:10,627 INFO o.a.j.s.FileServer: Close: data/tickets.csv
+2026-10-07 13:06:10,629 INFO o.a.j.t.o.OpenModelThreadGroup: Thread starting done
+2026-10-07 13:06:10,633 INFO o.a.j.r.Summariser: summary +      7 in 00:06:10 =    0.0/s Avg:  3411 Min:  2015 Max:  5458 Err:     0 (0.00%) Active: 0 Started: 539 Finished: 539
+2026-10-07 13:06:10,635 INFO o.a.j.r.Summariser: summary =    539 in 00:18:00 =    0.5/s Avg:  3836 Min:    17 Max: 16144 Err:     0 (0.00%)
