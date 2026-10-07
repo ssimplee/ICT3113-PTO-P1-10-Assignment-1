@@ -1,0 +1,4293 @@
+{
+  "run_id": "peak-llama3-r1",
+  "model": "llama3.2:3b-instruct-q4_K_M",
+  "engine_start_sgt": "2026-10-07T20:06:39.240000+08:00",
+  "measurement_start_sgt": "2026-10-07T20:08:39.240000+08:00",
+  "measurement_end_sgt": "2026-10-07T20:18:39.240000+08:00",
+  "percentile_method": "linear interpolation at (n-1)*p; all attempts in start-time cohort",
+  "whole_run_requests": 539,
+  "whole_run_failures": 427,
+  "endpoints": {
+    "POST tickets": {
+      "measured_arrivals": 368,
+      "successful_completions_in_window": 69,
+      "completions_per_minute": 6.9,
+      "failures": 347,
+      "error_percent": 94.293,
+      "p50_ms": 244835.5,
+      "p95_ms": 300011.65,
+      "p99_ms": 300015.33,
+      "pending_at_window_end": 127
+    },
+    "GET search": {
+      "measured_arrivals": 73,
+      "successful_completions_in_window": 19,
+      "completions_per_minute": 1.9,
+      "failures": 64,
+      "error_percent": 87.671,
+      "p50_ms": 274275.0,
+      "p95_ms": 300013.0,
+      "p99_ms": 300016.52,
+      "pending_at_window_end": 23
+    },
+    "GET stats": {
+      "measured_arrivals": 19,
+      "successful_completions_in_window": 5,
+      "completions_per_minute": 0.5,
+      "failures": 16,
+      "error_percent": 84.211,
+      "p50_ms": 134778.0,
+      "p95_ms": 300008.4,
+      "p99_ms": 300011.28,
+      "pending_at_window_end": 3
+    }
+  },
+  "duplicate_client_ids": [
+    "MISSING"
+  ],
+  "reconciliation_problems": [
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    },
+    {
+      "request_id": "MISSING",
+      "matches": 0
+    }
+  ],
+  "extra_service_records": [
+    {
+      "request_id": "88855ff1-8022-440e-a94d-291e162b1c68",
+      "timestamp": "2026-10-07T12:03:16.982786Z",
+      "method": "GET",
+      "path": "/stats",
+      "status": 200,
+      "duration_ms": 4.652,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": null,
+      "ticket_id": null,
+      "error": null
+    },
+    {
+      "request_id": "3d1e18e4-92da-40f4-ad32-d37ecda41bab",
+      "timestamp": "2026-10-07T12:14:25.693491Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 4727.003,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 86,
+      "error": null
+    },
+    {
+      "request_id": "f9fb3bda-c922-4591-8374-bc551b05720a",
+      "timestamp": "2026-10-07T12:14:30.424245Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 6371.538,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Debt collection",
+      "ticket_id": 87,
+      "error": null
+    },
+    {
+      "request_id": "078cb657-c8d7-4b6c-ac10-928748396f99",
+      "timestamp": "2026-10-07T12:14:36.799172Z",
+      "method": "GET",
+      "path": "/search",
+      "status": 200,
+      "duration_ms": 10.48,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": null,
+      "ticket_id": null,
+      "error": null
+    },
+    {
+      "request_id": "3e2e9286-08d5-40f0-a21d-51fbed12d80c",
+      "timestamp": "2026-10-07T12:14:36.813038Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 1899.671,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 88,
+      "error": null
+    },
+    {
+      "request_id": "ec2ec38e-bb88-409f-bcba-5aea5a21ea16",
+      "timestamp": "2026-10-07T12:14:38.717089Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 3497.095,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 89,
+      "error": null
+    },
+    {
+      "request_id": "6c7f2dff-449f-492a-a7e9-fbb300174f59",
+      "timestamp": "2026-10-07T12:14:42.217450Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 2443.853,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 90,
+      "error": null
+    },
+    {
+      "request_id": "e61d8599-c808-4c4c-a8d5-661e7a6bbe7f",
+      "timestamp": "2026-10-07T12:14:44.664931Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 4732.787,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Mortgage",
+      "ticket_id": 91,
+      "error": null
+    },
+    {
+      "request_id": "b1815d92-067b-4105-960d-efc7e1a666aa",
+      "timestamp": "2026-10-07T12:14:49.398846Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 3569.791,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 92,
+      "error": null
+    },
+    {
+      "request_id": "7495f0f3-b524-419c-b88e-e193fb3ac10a",
+      "timestamp": "2026-10-07T12:14:52.972564Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 2078.324,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Bank account or service",
+      "ticket_id": 93,
+      "error": null
+    },
+    {
+      "request_id": "314686a8-b4ab-4c86-aa59-d52be437dced",
+      "timestamp": "2026-10-07T12:14:55.054347Z",
+      "method": "GET",
+      "path": "/search",
+      "status": 200,
+      "duration_ms": 10.245,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": null,
+      "ticket_id": null,
+      "error": null
+    },
+    {
+      "request_id": "40c2b0da-395e-4911-b785-1f490f9ee247",
+      "timestamp": "2026-10-07T12:14:55.068003Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 3425.086,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 94,
+      "error": null
+    },
+    {
+      "request_id": "e837dd14-6933-45fc-b613-4a2ff6cd2b21",
+      "timestamp": "2026-10-07T12:14:58.497729Z",
+      "method": "GET",
+      "path": "/search",
+      "status": 200,
+      "duration_ms": 9.375,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": null,
+      "ticket_id": null,
+      "error": null
+    },
+    {
+      "request_id": "f5776cd0-618a-42af-85a8-c1f623ae0b0a",
+      "timestamp": "2026-10-07T12:14:58.510472Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 4225.946,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 95,
+      "error": null
+    },
+    {
+      "request_id": "8fb0b0bb-725a-445e-b701-a6a27ca7fadc",
+      "timestamp": "2026-10-07T12:15:02.740198Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 3429.671,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit card",
+      "ticket_id": 96,
+      "error": null
+    },
+    {
+      "request_id": "ab558ae8-788c-4b8b-88a4-12d8d6211f5f",
+      "timestamp": "2026-10-07T12:15:06.173586Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 2034.725,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Bank account or service",
+      "ticket_id": 97,
+      "error": null
+    },
+    {
+      "request_id": "c4cb4795-4153-4df2-9f66-c4c0d07c5c4b",
+      "timestamp": "2026-10-07T12:15:08.212096Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 2550.948,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 98,
+      "error": null
+    },
+    {
+      "request_id": "3265c171-6626-4f24-848e-e2eb5b24eb23",
+      "timestamp": "2026-10-07T12:15:10.766580Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 7825.636,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 99,
+      "error": null
+    },
+    {
+      "request_id": "32a826be-fed8-4d9b-8229-886a1d48a345",
+      "timestamp": "2026-10-07T12:15:18.593953Z",
+      "method": "GET",
+      "path": "/search",
+      "status": 200,
+      "duration_ms": 11.006,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": null,
+      "ticket_id": null,
+      "error": null
+    },
+    {
+      "request_id": "5e96db51-18b0-48a2-a5c5-f9ae5cef73b8",
+      "timestamp": "2026-10-07T12:15:18.608861Z",
+      "method": "GET",
+      "path": "/search",
+      "status": 200,
+      "duration_ms": 9.732,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": null,
+      "ticket_id": null,
+      "error": null
+    },
+    {
+      "request_id": "54dc2db3-905e-4079-9022-d981307fdd96",
+      "timestamp": "2026-10-07T12:15:18.621996Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 2970.943,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Bank account or service",
+      "ticket_id": 100,
+      "error": null
+    },
+    {
+      "request_id": "50cbd5a1-9b32-47e4-ab37-802e2e971d09",
+      "timestamp": "2026-10-07T12:15:21.596465Z",
+      "method": "GET",
+      "path": "/stats",
+      "status": 200,
+      "duration_ms": 10.426,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": null,
+      "ticket_id": null,
+      "error": null
+    },
+    {
+      "request_id": "a613f7ed-5db8-411b-a7a2-e71a500e00b1",
+      "timestamp": "2026-10-07T12:15:21.610388Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 4502.132,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 101,
+      "error": null
+    },
+    {
+      "request_id": "95dfea9d-9b80-4c7e-9c31-4645c9d3709c",
+      "timestamp": "2026-10-07T12:15:26.115763Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 2658.767,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 102,
+      "error": null
+    },
+    {
+      "request_id": "8210815b-b4d6-4449-8789-6b026b81428d",
+      "timestamp": "2026-10-07T12:15:28.777961Z",
+      "method": "GET",
+      "path": "/search",
+      "status": 200,
+      "duration_ms": 9.816,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": null,
+      "ticket_id": null,
+      "error": null
+    },
+    {
+      "request_id": "4d900764-648b-441b-a858-906363ee760c",
+      "timestamp": "2026-10-07T12:15:28.791393Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 3757.729,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 103,
+      "error": null
+    },
+    {
+      "request_id": "0e541eba-8173-427e-b1c0-cc8d500c88c9",
+      "timestamp": "2026-10-07T12:15:32.560256Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 5514.239,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 104,
+      "error": null
+    },
+    {
+      "request_id": "0a446da3-1589-48dd-aa8b-2ba9f348e691",
+      "timestamp": "2026-10-07T12:15:38.078365Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 5905.02,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 105,
+      "error": null
+    },
+    {
+      "request_id": "7119a54e-5ff1-49c0-9bb2-f2d65eb343fb",
+      "timestamp": "2026-10-07T12:15:43.987116Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 5065.339,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Consumer loan",
+      "ticket_id": 106,
+      "error": null
+    },
+    {
+      "request_id": "5c20aa84-f37c-425c-aaca-fef2c5f473ac",
+      "timestamp": "2026-10-07T12:15:49.055663Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 4036.296,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 107,
+      "error": null
+    },
+    {
+      "request_id": "8223fef9-53fa-4908-8723-ba88c6d4be15",
+      "timestamp": "2026-10-07T12:15:53.095996Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 5514.339,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Debt collection",
+      "ticket_id": 108,
+      "error": null
+    },
+    {
+      "request_id": "c7f8f4d9-0900-489c-8856-042c4044c8bd",
+      "timestamp": "2026-10-07T12:15:58.614075Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 5323.768,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Consumer loan",
+      "ticket_id": 109,
+      "error": null
+    },
+    {
+      "request_id": "1bee89ad-f093-4fdc-babb-e37e028668f0",
+      "timestamp": "2026-10-07T12:16:03.942186Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 3458.805,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Consumer loan",
+      "ticket_id": 110,
+      "error": null
+    },
+    {
+      "request_id": "8fa0f216-b716-4e2f-9cac-f1f35e39bea8",
+      "timestamp": "2026-10-07T12:16:07.404159Z",
+      "method": "GET",
+      "path": "/search",
+      "status": 200,
+      "duration_ms": 11.403,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": null,
+      "ticket_id": null,
+      "error": null
+    },
+    {
+      "request_id": "cbca242a-a7d9-4cf8-ad15-86424ef87db6",
+      "timestamp": "2026-10-07T12:16:07.418762Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 5260.154,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 111,
+      "error": null
+    },
+    {
+      "request_id": "34a02a60-7550-4053-8f5a-1534402d3fd4",
+      "timestamp": "2026-10-07T12:16:12.682393Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 7701.916,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Debt collection",
+      "ticket_id": 112,
+      "error": null
+    },
+    {
+      "request_id": "824badf7-7b3d-4711-bd5c-dd10ccbeb988",
+      "timestamp": "2026-10-07T12:16:20.386089Z",
+      "method": "GET",
+      "path": "/search",
+      "status": 200,
+      "duration_ms": 11.557,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": null,
+      "ticket_id": null,
+      "error": null
+    },
+    {
+      "request_id": "0fbaabe6-b345-4587-893b-f90386aa4a8a",
+      "timestamp": "2026-10-07T12:16:20.400880Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 2261.205,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Bank account or service",
+      "ticket_id": 113,
+      "error": null
+    },
+    {
+      "request_id": "fd720aeb-73c0-42fd-89d1-32bf9edf5c49",
+      "timestamp": "2026-10-07T12:16:22.665377Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 3811.494,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Bank account or service",
+      "ticket_id": 114,
+      "error": null
+    },
+    {
+      "request_id": "4d1cbfa9-3fb0-4a95-88a4-5a45bc07a0d4",
+      "timestamp": "2026-10-07T12:16:26.480647Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 2589.619,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Bank account or service",
+      "ticket_id": 115,
+      "error": null
+    },
+    {
+      "request_id": "e5e242de-eeaa-4347-a490-2314c40d0754",
+      "timestamp": "2026-10-07T12:16:29.073644Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 9451.588,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 116,
+      "error": null
+    },
+    {
+      "request_id": "63e5517b-f7cf-4c02-8040-f49024360131",
+      "timestamp": "2026-10-07T12:16:38.528709Z",
+      "method": "GET",
+      "path": "/search",
+      "status": 200,
+      "duration_ms": 10.504,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": null,
+      "ticket_id": null,
+      "error": null
+    },
+    {
+      "request_id": "f00a1d7d-6dd9-4fd7-849f-6df9963b3479",
+      "timestamp": "2026-10-07T12:16:38.542486Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 4219.278,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Debt collection",
+      "ticket_id": 117,
+      "error": null
+    },
+    {
+      "request_id": "d5fb54dd-2c5d-4de3-9a9e-a002cabd37e6",
+      "timestamp": "2026-10-07T12:16:42.765035Z",
+      "method": "GET",
+      "path": "/search",
+      "status": 200,
+      "duration_ms": 10.813,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": null,
+      "ticket_id": null,
+      "error": null
+    },
+    {
+      "request_id": "af7cba05-3795-4de7-93ef-8f2c954636e7",
+      "timestamp": "2026-10-07T12:16:42.778957Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 8437.682,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 118,
+      "error": null
+    },
+    {
+      "request_id": "a0cc81d2-fd45-40f0-a8fd-23c3669b07f5",
+      "timestamp": "2026-10-07T12:16:51.217223Z",
+      "method": "GET",
+      "path": "/search",
+      "status": 200,
+      "duration_ms": 11.119,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": null,
+      "ticket_id": null,
+      "error": null
+    },
+    {
+      "request_id": "47e18b71-c3b7-4504-8a8a-58da1de24325",
+      "timestamp": "2026-10-07T12:16:51.231859Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 5005.383,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 119,
+      "error": null
+    },
+    {
+      "request_id": "45837a9c-77df-404a-9855-0051f5f1e5cc",
+      "timestamp": "2026-10-07T12:16:56.241008Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 7717.916,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Bank account or service",
+      "ticket_id": 120,
+      "error": null
+    },
+    {
+      "request_id": "bce6ec7b-2314-4543-b7b3-65b440d01923",
+      "timestamp": "2026-10-07T12:17:03.962936Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 9314.56,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 121,
+      "error": null
+    },
+    {
+      "request_id": "46a1c203-b1b1-4b0c-bca6-205e85d01178",
+      "timestamp": "2026-10-07T12:17:13.280940Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 6846.289,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 122,
+      "error": null
+    },
+    {
+      "request_id": "74ed855d-5764-4381-8814-758049e51ed2",
+      "timestamp": "2026-10-07T12:17:20.129179Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 8131.151,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Consumer loan",
+      "ticket_id": 123,
+      "error": null
+    },
+    {
+      "request_id": "a144f072-3cc3-4d4a-b1d4-2de60f4e2a23",
+      "timestamp": "2026-10-07T12:17:28.263845Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 9129.849,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Bank account or service",
+      "ticket_id": 124,
+      "error": null
+    },
+    {
+      "request_id": "2e432443-9ac9-4929-b84d-7e51380de99c",
+      "timestamp": "2026-10-07T12:17:37.397258Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 3375.857,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Bank account or service",
+      "ticket_id": 125,
+      "error": null
+    },
+    {
+      "request_id": "730035ed-2fc0-4474-b3d4-23d5933263da",
+      "timestamp": "2026-10-07T12:17:40.777015Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 2909.637,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Bank account or service",
+      "ticket_id": 126,
+      "error": null
+    },
+    {
+      "request_id": "6d566f93-edc4-48e0-b32e-1004635edada",
+      "timestamp": "2026-10-07T12:17:43.691011Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 5864.925,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Debt collection",
+      "ticket_id": 127,
+      "error": null
+    },
+    {
+      "request_id": "9c858aa2-7a94-4ab3-ae85-8f240e3e90ed",
+      "timestamp": "2026-10-07T12:17:49.558275Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 4250.723,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Bank account or service",
+      "ticket_id": 128,
+      "error": null
+    },
+    {
+      "request_id": "486acad5-aeaa-42d1-8551-a76005c9fce0",
+      "timestamp": "2026-10-07T12:17:53.812139Z",
+      "method": "GET",
+      "path": "/search",
+      "status": 200,
+      "duration_ms": 15.246,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": null,
+      "ticket_id": null,
+      "error": null
+    },
+    {
+      "request_id": "5b2cc19f-bbb2-4d5a-9ffa-e28bd1968969",
+      "timestamp": "2026-10-07T12:17:53.830621Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 3035.582,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit card",
+      "ticket_id": 129,
+      "error": null
+    },
+    {
+      "request_id": "7a2f7353-af57-4766-b309-927087c41290",
+      "timestamp": "2026-10-07T12:17:56.869542Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 2642.632,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 130,
+      "error": null
+    },
+    {
+      "request_id": "3d385f33-fc32-446f-8231-697e307e2620",
+      "timestamp": "2026-10-07T12:17:59.517236Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 7030.704,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 131,
+      "error": null
+    },
+    {
+      "request_id": "f021acf6-9bdf-46e3-9547-3783d54491bb",
+      "timestamp": "2026-10-07T12:18:06.551437Z",
+      "method": "GET",
+      "path": "/search",
+      "status": 200,
+      "duration_ms": 12.017,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": null,
+      "ticket_id": null,
+      "error": null
+    },
+    {
+      "request_id": "4064b7a2-dc17-4684-8bcb-be556f6a588c",
+      "timestamp": "2026-10-07T12:18:06.566893Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 9287.279,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit card",
+      "ticket_id": 132,
+      "error": null
+    },
+    {
+      "request_id": "15b18c80-9422-44ec-8eec-df794f409b75",
+      "timestamp": "2026-10-07T12:18:15.856437Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 2042.55,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Bank account or service",
+      "ticket_id": 133,
+      "error": null
+    },
+    {
+      "request_id": "e64d6d9b-1bb1-465f-b099-9b6763b7b85c",
+      "timestamp": "2026-10-07T12:18:17.902192Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 11679.638,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 134,
+      "error": null
+    },
+    {
+      "request_id": "e5a1c959-598f-40da-9944-6451a6369092",
+      "timestamp": "2026-10-07T12:18:29.585255Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 4202.032,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Bank account or service",
+      "ticket_id": 135,
+      "error": null
+    },
+    {
+      "request_id": "06afea6f-a5a1-47c3-8176-d6642b98fe82",
+      "timestamp": "2026-10-07T12:18:33.790738Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 3243.767,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Consumer loan",
+      "ticket_id": 136,
+      "error": null
+    },
+    {
+      "request_id": "b56b8506-8c1f-4fb4-b599-781ec15483c3",
+      "timestamp": "2026-10-07T12:18:37.038327Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 1890.913,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Mortgage",
+      "ticket_id": 137,
+      "error": null
+    },
+    {
+      "request_id": "ad514afc-0fb0-44d1-94b0-561550650360",
+      "timestamp": "2026-10-07T12:18:38.932772Z",
+      "method": "GET",
+      "path": "/stats",
+      "status": 200,
+      "duration_ms": 11.188,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": null,
+      "ticket_id": null,
+      "error": null
+    },
+    {
+      "request_id": "a5f75356-4267-40f9-b499-e873259543ec",
+      "timestamp": "2026-10-07T12:18:38.947375Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 2722.916,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 138,
+      "error": null
+    },
+    {
+      "request_id": "53c51964-7bcb-46ec-984a-345cfed9aca0",
+      "timestamp": "2026-10-07T12:18:41.673659Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 1761.693,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Consumer loan",
+      "ticket_id": 139,
+      "error": null
+    },
+    {
+      "request_id": "7af6b60c-9d59-43e8-9f5b-6bdd6c398bd3",
+      "timestamp": "2026-10-07T12:18:43.439443Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 2273.597,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Debt collection",
+      "ticket_id": 140,
+      "error": null
+    },
+    {
+      "request_id": "0f430e30-88a8-4da3-9987-2bb00e573834",
+      "timestamp": "2026-10-07T12:18:45.715861Z",
+      "method": "GET",
+      "path": "/stats",
+      "status": 200,
+      "duration_ms": 10.409,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": null,
+      "ticket_id": null,
+      "error": null
+    },
+    {
+      "request_id": "2519f042-b799-4365-941b-689d0b26e390",
+      "timestamp": "2026-10-07T12:18:45.729498Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 8086.385,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 141,
+      "error": null
+    },
+    {
+      "request_id": "82559efb-923b-41e6-8da7-6cd48a77e5b9",
+      "timestamp": "2026-10-07T12:18:53.817744Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 3776.938,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Debt collection",
+      "ticket_id": 142,
+      "error": null
+    },
+    {
+      "request_id": "899fb124-a871-4252-852f-5ebad073c15c",
+      "timestamp": "2026-10-07T12:18:57.598099Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 11067.372,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 143,
+      "error": null
+    },
+    {
+      "request_id": "bab64077-2961-4c9b-832c-91b120d2a7f4",
+      "timestamp": "2026-10-07T12:19:08.668734Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 5023.645,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 144,
+      "error": null
+    },
+    {
+      "request_id": "0d4fb283-4fc4-429c-bc86-6f8541ea85f9",
+      "timestamp": "2026-10-07T12:19:13.696242Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 3389.677,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Consumer loan",
+      "ticket_id": 145,
+      "error": null
+    },
+    {
+      "request_id": "219cf29b-15c0-4f4b-bb65-9cf77f007ca1",
+      "timestamp": "2026-10-07T12:19:17.088159Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 2735.907,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 146,
+      "error": null
+    },
+    {
+      "request_id": "84fbcf56-f1b8-4f64-a6b0-e1de64d032bd",
+      "timestamp": "2026-10-07T12:19:19.827656Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 9532.591,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 147,
+      "error": null
+    },
+    {
+      "request_id": "c9dfb292-282b-44d2-b2b2-2ee3c229409b",
+      "timestamp": "2026-10-07T12:19:29.364127Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 10516.072,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 148,
+      "error": null
+    },
+    {
+      "request_id": "c887a677-170f-4ea0-a299-a3a1bb27c578",
+      "timestamp": "2026-10-07T12:19:39.883448Z",
+      "method": "GET",
+      "path": "/search",
+      "status": 200,
+      "duration_ms": 11.94,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": null,
+      "ticket_id": null,
+      "error": null
+    },
+    {
+      "request_id": "7aaa4865-6e2f-4b57-843a-6a24a662c045",
+      "timestamp": "2026-10-07T12:19:39.898609Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 9890.398,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 149,
+      "error": null
+    },
+    {
+      "request_id": "74b82fe2-ddac-45e5-9384-e776730bf7fc",
+      "timestamp": "2026-10-07T12:19:49.790662Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 4918.397,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Bank account or service",
+      "ticket_id": 150,
+      "error": null
+    },
+    {
+      "request_id": "fe9738d7-d18e-4985-8ca9-eb9b780b0921",
+      "timestamp": "2026-10-07T12:19:54.712049Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 2210.736,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 151,
+      "error": null
+    },
+    {
+      "request_id": "6e4f4088-a872-4e13-ad0a-338f6412e781",
+      "timestamp": "2026-10-07T12:19:56.926137Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 6714.389,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit card",
+      "ticket_id": 152,
+      "error": null
+    },
+    {
+      "request_id": "073dc62e-dff3-4004-a1b0-c1b5fd016872",
+      "timestamp": "2026-10-07T12:20:03.643870Z",
+      "method": "GET",
+      "path": "/search",
+      "status": 200,
+      "duration_ms": 12.624,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": null,
+      "ticket_id": null,
+      "error": null
+    },
+    {
+      "request_id": "35a3148b-a5cc-492a-a4de-b0337ea434e7",
+      "timestamp": "2026-10-07T12:20:03.659720Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 8958.877,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Debt collection",
+      "ticket_id": 153,
+      "error": null
+    },
+    {
+      "request_id": "b62ab605-4acf-4e83-8281-528449b87fde",
+      "timestamp": "2026-10-07T12:20:12.625253Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 4209.293,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 154,
+      "error": null
+    },
+    {
+      "request_id": "96ab4fab-f358-4584-a1fe-5a6e57d5922f",
+      "timestamp": "2026-10-07T12:20:16.837055Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 2216.192,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 155,
+      "error": null
+    },
+    {
+      "request_id": "f2d19fa3-473c-4ef7-a6ab-50c11e22b694",
+      "timestamp": "2026-10-07T12:20:19.056386Z",
+      "method": "GET",
+      "path": "/search",
+      "status": 200,
+      "duration_ms": 11.992,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": null,
+      "ticket_id": null,
+      "error": null
+    },
+    {
+      "request_id": "04012e54-c829-49e0-b26d-9a3567ef1cc0",
+      "timestamp": "2026-10-07T12:20:19.073333Z",
+      "method": "GET",
+      "path": "/stats",
+      "status": 200,
+      "duration_ms": 11.774,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": null,
+      "ticket_id": null,
+      "error": null
+    },
+    {
+      "request_id": "2c018cf1-41c5-48c6-8fdf-1f8656ed45a9",
+      "timestamp": "2026-10-07T12:20:19.088384Z",
+      "method": "GET",
+      "path": "/search",
+      "status": 200,
+      "duration_ms": 12.076,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": null,
+      "ticket_id": null,
+      "error": null
+    },
+    {
+      "request_id": "25103b71-f069-4419-8c74-58d05f24545a",
+      "timestamp": "2026-10-07T12:20:19.103982Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 2476.881,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 156,
+      "error": null
+    },
+    {
+      "request_id": "34c7fc50-add0-4c2c-84fd-0b02b6e0e720",
+      "timestamp": "2026-10-07T12:20:21.584566Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 4271.433,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 157,
+      "error": null
+    },
+    {
+      "request_id": "dcbbcf05-1b4a-41ab-8809-312a035ef86c",
+      "timestamp": "2026-10-07T12:20:25.859428Z",
+      "method": "GET",
+      "path": "/search",
+      "status": 200,
+      "duration_ms": 12.454,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": null,
+      "ticket_id": null,
+      "error": null
+    },
+    {
+      "request_id": "cc9e952a-e4e4-4775-be19-6c71170d826e",
+      "timestamp": "2026-10-07T12:20:25.874858Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 1636.207,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 158,
+      "error": null
+    },
+    {
+      "request_id": "672b7719-73d2-4d6a-922d-bcd7ccf46072",
+      "timestamp": "2026-10-07T12:20:27.514354Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 9265.596,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Consumer loan",
+      "ticket_id": 159,
+      "error": null
+    },
+    {
+      "request_id": "9df30d5c-8b07-48a5-b59e-34159bd65684",
+      "timestamp": "2026-10-07T12:20:36.783714Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 5736.026,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 160,
+      "error": null
+    },
+    {
+      "request_id": "8119c6b8-86c1-4f23-94ed-0856708c71ce",
+      "timestamp": "2026-10-07T12:20:42.523190Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 4565.022,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit card",
+      "ticket_id": 161,
+      "error": null
+    },
+    {
+      "request_id": "e6e3c668-518b-4460-8f7f-2f8f723f13ab",
+      "timestamp": "2026-10-07T12:20:47.089951Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 2544.48,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit card",
+      "ticket_id": 162,
+      "error": null
+    },
+    {
+      "request_id": "50aebb6d-76b3-41af-b197-2083ffa77fa9",
+      "timestamp": "2026-10-07T12:20:49.638413Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 8226.242,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 163,
+      "error": null
+    },
+    {
+      "request_id": "5e0838a7-c748-4f1d-9418-f1afc581ea73",
+      "timestamp": "2026-10-07T12:20:57.868574Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 3048.415,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Consumer loan",
+      "ticket_id": 164,
+      "error": null
+    },
+    {
+      "request_id": "33b951a1-404d-40e4-9df9-7239f272484c",
+      "timestamp": "2026-10-07T12:21:00.920898Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 3501.024,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Bank account or service",
+      "ticket_id": 165,
+      "error": null
+    },
+    {
+      "request_id": "dc80e72e-578d-4de9-b87c-b2ce418a36a8",
+      "timestamp": "2026-10-07T12:21:04.425495Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 5336.719,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 166,
+      "error": null
+    },
+    {
+      "request_id": "a0b0eb8d-fb06-4866-8d86-9ca8366e24fb",
+      "timestamp": "2026-10-07T12:21:09.765560Z",
+      "method": "GET",
+      "path": "/search",
+      "status": 200,
+      "duration_ms": 16.25,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": null,
+      "ticket_id": null,
+      "error": null
+    },
+    {
+      "request_id": "c8e3416b-2882-4ff8-96a1-e2e163dfc83b",
+      "timestamp": "2026-10-07T12:21:09.785431Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 1875.113,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 167,
+      "error": null
+    },
+    {
+      "request_id": "bf47e64d-b34e-47b6-833d-a2cd9e0eaf20",
+      "timestamp": "2026-10-07T12:21:11.663746Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 10664.296,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 168,
+      "error": null
+    },
+    {
+      "request_id": "e2d87a4e-d0f6-4a35-86ab-35019695327f",
+      "timestamp": "2026-10-07T12:21:22.329604Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 9236.939,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 169,
+      "error": null
+    },
+    {
+      "request_id": "14896539-15e9-46a3-9454-a7e8ee3588d8",
+      "timestamp": "2026-10-07T12:21:31.570711Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 4817.903,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 170,
+      "error": null
+    },
+    {
+      "request_id": "656dd434-60e5-406d-a39b-9fcfa9fbe188",
+      "timestamp": "2026-10-07T12:21:36.391984Z",
+      "method": "GET",
+      "path": "/search",
+      "status": 200,
+      "duration_ms": 16.621,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": null,
+      "ticket_id": null,
+      "error": null
+    },
+    {
+      "request_id": "f989638b-9765-4b75-978f-995b9ed89413",
+      "timestamp": "2026-10-07T12:21:36.412295Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 2266.7,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Bank account or service",
+      "ticket_id": 171,
+      "error": null
+    },
+    {
+      "request_id": "28fed3fb-fbdf-4275-a0ee-a859c20dc04b",
+      "timestamp": "2026-10-07T12:21:38.682354Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 9066.083,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 172,
+      "error": null
+    },
+    {
+      "request_id": "c4eeafcc-91cb-4e1b-a34a-1a351e026bf7",
+      "timestamp": "2026-10-07T12:21:47.750247Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 7674.445,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Mortgage",
+      "ticket_id": 173,
+      "error": null
+    },
+    {
+      "request_id": "ecfc80f3-336f-42b6-9e2c-ccf351c0b0d3",
+      "timestamp": "2026-10-07T12:21:55.428270Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 3929.167,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Consumer loan",
+      "ticket_id": 174,
+      "error": null
+    },
+    {
+      "request_id": "9da360bc-8d71-465d-b2e6-1718f3d680ec",
+      "timestamp": "2026-10-07T12:21:59.360861Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 3948.989,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 175,
+      "error": null
+    },
+    {
+      "request_id": "3f0dfcab-71c6-455a-83bf-8bd220235a41",
+      "timestamp": "2026-10-07T12:22:03.312971Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 5581.746,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 176,
+      "error": null
+    },
+    {
+      "request_id": "4efb2b54-4a7f-4427-8ad6-1b9512bbddf2",
+      "timestamp": "2026-10-07T12:22:08.897702Z",
+      "method": "GET",
+      "path": "/search",
+      "status": 200,
+      "duration_ms": 15.684,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": null,
+      "ticket_id": null,
+      "error": null
+    },
+    {
+      "request_id": "87b2d4de-6e45-430b-ae73-4640a69c4bfe",
+      "timestamp": "2026-10-07T12:22:08.916529Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 2570.548,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 177,
+      "error": null
+    },
+    {
+      "request_id": "9fc8df0c-0908-46c6-90c0-134699c2f710",
+      "timestamp": "2026-10-07T12:22:11.490079Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 3489.799,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 178,
+      "error": null
+    },
+    {
+      "request_id": "f5df55c4-7694-4a18-baec-9a25210d8d56",
+      "timestamp": "2026-10-07T12:22:14.983103Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 3200.921,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Bank account or service",
+      "ticket_id": 179,
+      "error": null
+    },
+    {
+      "request_id": "fb323ca5-f8ff-43d5-ba3e-e4f60405f09d",
+      "timestamp": "2026-10-07T12:22:18.186572Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 3829.282,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 180,
+      "error": null
+    },
+    {
+      "request_id": "24bf76ff-a9ac-466a-b8ca-3b50b43b795a",
+      "timestamp": "2026-10-07T12:22:22.021230Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 7034.64,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 181,
+      "error": null
+    },
+    {
+      "request_id": "9e5ab93f-5d42-433a-9510-018a10f876df",
+      "timestamp": "2026-10-07T12:22:29.059078Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 6864.449,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 182,
+      "error": null
+    },
+    {
+      "request_id": "0454a3e7-c70c-4cdd-ab68-2b104efd58e9",
+      "timestamp": "2026-10-07T12:22:35.927120Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 2617.62,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 183,
+      "error": null
+    },
+    {
+      "request_id": "2819bdff-f33f-4bb1-b3a1-0328deea8c37",
+      "timestamp": "2026-10-07T12:22:38.549121Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 2102.03,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Mortgage",
+      "ticket_id": 184,
+      "error": null
+    },
+    {
+      "request_id": "76cc914c-361a-4181-918a-e59782c47654",
+      "timestamp": "2026-10-07T12:22:40.654896Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 3356.012,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 185,
+      "error": null
+    },
+    {
+      "request_id": "a6fedb82-3841-470c-a315-41fa2d836c64",
+      "timestamp": "2026-10-07T12:22:44.014145Z",
+      "method": "GET",
+      "path": "/search",
+      "status": 200,
+      "duration_ms": 13.756,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": null,
+      "ticket_id": null,
+      "error": null
+    },
+    {
+      "request_id": "e7604a4a-035d-4a06-a3b5-1f1034022f35",
+      "timestamp": "2026-10-07T12:22:44.031543Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 6472.809,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 186,
+      "error": null
+    },
+    {
+      "request_id": "1e606f72-f35f-4475-a21e-302f715c003b",
+      "timestamp": "2026-10-07T12:22:50.507223Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 4468.45,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Consumer loan",
+      "ticket_id": 187,
+      "error": null
+    },
+    {
+      "request_id": "f03ffefb-422f-476d-b554-a3e0ffeb6e2f",
+      "timestamp": "2026-10-07T12:22:54.978940Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 7547.66,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Mortgage",
+      "ticket_id": 188,
+      "error": null
+    },
+    {
+      "request_id": "6e1574fa-4d7a-4bd6-8128-6c2ff1ec28aa",
+      "timestamp": "2026-10-07T12:23:02.529812Z",
+      "method": "GET",
+      "path": "/search",
+      "status": 200,
+      "duration_ms": 14.543,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": null,
+      "ticket_id": null,
+      "error": null
+    },
+    {
+      "request_id": "00cb9b94-a4e8-4ef4-9bb4-2c1f288be90e",
+      "timestamp": "2026-10-07T12:23:02.547845Z",
+      "method": "GET",
+      "path": "/search",
+      "status": 200,
+      "duration_ms": 13.557,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": null,
+      "ticket_id": null,
+      "error": null
+    },
+    {
+      "request_id": "440bfa5a-d441-4728-9002-6bcf53cf6c3b",
+      "timestamp": "2026-10-07T12:23:02.564614Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 2078.826,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Bank account or service",
+      "ticket_id": 189,
+      "error": null
+    },
+    {
+      "request_id": "ba97634e-8577-4bfa-a90b-fb3895b7d6c7",
+      "timestamp": "2026-10-07T12:23:04.646389Z",
+      "method": "GET",
+      "path": "/search",
+      "status": 200,
+      "duration_ms": 12.063,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": null,
+      "ticket_id": null,
+      "error": null
+    },
+    {
+      "request_id": "f3aaeeaf-023a-42dc-8d42-f9de49558ec1",
+      "timestamp": "2026-10-07T12:23:04.661660Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 4422.329,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 190,
+      "error": null
+    },
+    {
+      "request_id": "daacedcc-0f58-4ab6-bbe5-feb3462d2b84",
+      "timestamp": "2026-10-07T12:23:09.087130Z",
+      "method": "GET",
+      "path": "/search",
+      "status": 200,
+      "duration_ms": 12.839,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": null,
+      "ticket_id": null,
+      "error": null
+    },
+    {
+      "request_id": "823abfe4-54b7-43dc-9260-a70ae07477f1",
+      "timestamp": "2026-10-07T12:23:09.103985Z",
+      "method": "GET",
+      "path": "/search",
+      "status": 200,
+      "duration_ms": 14.23,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": null,
+      "ticket_id": null,
+      "error": null
+    },
+    {
+      "request_id": "9db259b9-d104-4b44-ac5c-a36e7e79128a",
+      "timestamp": "2026-10-07T12:23:09.121791Z",
+      "method": "GET",
+      "path": "/search",
+      "status": 200,
+      "duration_ms": 15.183,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": null,
+      "ticket_id": null,
+      "error": null
+    },
+    {
+      "request_id": "0a6a8a2f-e00a-46dc-8c7e-1919ce0f7b60",
+      "timestamp": "2026-10-07T12:23:09.140215Z",
+      "method": "GET",
+      "path": "/search",
+      "status": 200,
+      "duration_ms": 16.246,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": null,
+      "ticket_id": null,
+      "error": null
+    },
+    {
+      "request_id": "0ebb3162-5a93-4a3d-90e1-8c3ed8b9f24f",
+      "timestamp": "2026-10-07T12:23:09.160197Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 3287.316,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit card",
+      "ticket_id": 191,
+      "error": null
+    },
+    {
+      "request_id": "7f2e89ac-ced0-484e-ae3e-b86024e781a9",
+      "timestamp": "2026-10-07T12:23:12.451329Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 5076.818,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Consumer loan",
+      "ticket_id": 192,
+      "error": null
+    },
+    {
+      "request_id": "e398723b-336a-41b0-976b-4dda434258fb",
+      "timestamp": "2026-10-07T12:23:17.530208Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 5057.985,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Debt collection",
+      "ticket_id": 193,
+      "error": null
+    },
+    {
+      "request_id": "294d50c0-010f-4fc5-a966-993beb709698",
+      "timestamp": "2026-10-07T12:23:22.591464Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 3548.707,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 194,
+      "error": null
+    },
+    {
+      "request_id": "128034ae-dc61-4508-b749-579784afeb02",
+      "timestamp": "2026-10-07T12:23:26.143566Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 5208.728,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Consumer loan",
+      "ticket_id": 195,
+      "error": null
+    },
+    {
+      "request_id": "0a02d07c-6a32-453a-af9c-c3a556afbfef",
+      "timestamp": "2026-10-07T12:23:31.355738Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 4808.394,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 196,
+      "error": null
+    },
+    {
+      "request_id": "f3cb7556-d247-4bd2-b412-38f15605a2d7",
+      "timestamp": "2026-10-07T12:23:36.167780Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 7729.44,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Debt collection",
+      "ticket_id": 197,
+      "error": null
+    },
+    {
+      "request_id": "c7683c54-aaff-4f5f-a88b-836cd4c4e4e8",
+      "timestamp": "2026-10-07T12:23:43.900716Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 3842.818,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Bank account or service",
+      "ticket_id": 198,
+      "error": null
+    },
+    {
+      "request_id": "1804487e-24ea-4d4f-84cb-e070e7501d8f",
+      "timestamp": "2026-10-07T12:23:47.745389Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 9226.675,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 199,
+      "error": null
+    },
+    {
+      "request_id": "61197cea-8086-44b1-b45e-a979f1ec7d1c",
+      "timestamp": "2026-10-07T12:23:56.975383Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 2762.596,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Bank account or service",
+      "ticket_id": 200,
+      "error": null
+    },
+    {
+      "request_id": "f5984e9a-1b65-4401-9219-9f6fa5271001",
+      "timestamp": "2026-10-07T12:23:59.741102Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 8148.444,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Bank account or service",
+      "ticket_id": 201,
+      "error": null
+    },
+    {
+      "request_id": "0de69e7a-6f85-4727-a511-a8a4a133829f",
+      "timestamp": "2026-10-07T12:24:07.892784Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 7826.365,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Consumer loan",
+      "ticket_id": 202,
+      "error": null
+    },
+    {
+      "request_id": "74defe54-541b-46d3-aa63-894943894dc2",
+      "timestamp": "2026-10-07T12:24:15.722570Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 7603.247,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Bank account or service",
+      "ticket_id": 203,
+      "error": null
+    },
+    {
+      "request_id": "9a164894-96ac-4ddb-8227-d56781e67e55",
+      "timestamp": "2026-10-07T12:24:23.328004Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 4777.07,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 204,
+      "error": null
+    },
+    {
+      "request_id": "19bfa5ad-35c1-4400-b4db-30a1b108508a",
+      "timestamp": "2026-10-07T12:24:28.108459Z",
+      "method": "GET",
+      "path": "/search",
+      "status": 200,
+      "duration_ms": 17.903,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": null,
+      "ticket_id": null,
+      "error": null
+    },
+    {
+      "request_id": "1de54973-e0ad-4fa7-b0ea-13cdcc52dd8a",
+      "timestamp": "2026-10-07T12:24:28.129634Z",
+      "method": "GET",
+      "path": "/search",
+      "status": 200,
+      "duration_ms": 15.953,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": null,
+      "ticket_id": null,
+      "error": null
+    },
+    {
+      "request_id": "1d98492a-8ce1-4c83-a72a-164147e64659",
+      "timestamp": "2026-10-07T12:24:28.149566Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 2534.062,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 205,
+      "error": null
+    },
+    {
+      "request_id": "0482c9c9-c692-4aeb-bef9-36a06d796330",
+      "timestamp": "2026-10-07T12:24:30.686811Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 4030.163,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Bank account or service",
+      "ticket_id": 206,
+      "error": null
+    },
+    {
+      "request_id": "cd65c67f-5028-44c5-a2ed-b27dc9750296",
+      "timestamp": "2026-10-07T12:24:34.720447Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 3259.983,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Consumer loan",
+      "ticket_id": 207,
+      "error": null
+    },
+    {
+      "request_id": "53108c80-9cdf-47bf-b9e0-8a3895ae8ed6",
+      "timestamp": "2026-10-07T12:24:37.984436Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 2719.593,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 208,
+      "error": null
+    },
+    {
+      "request_id": "9ad5d2e7-dea7-48b4-8b69-826119590136",
+      "timestamp": "2026-10-07T12:24:40.707704Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 1863.763,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Bank account or service",
+      "ticket_id": 209,
+      "error": null
+    },
+    {
+      "request_id": "17f819fb-5749-4c3e-bdcc-51d0e9c0d737",
+      "timestamp": "2026-10-07T12:24:42.574566Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 2750.747,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 210,
+      "error": null
+    },
+    {
+      "request_id": "0f4c48a4-7cd2-486d-ab8f-175bde62824f",
+      "timestamp": "2026-10-07T12:24:45.329339Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 6156.954,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 211,
+      "error": null
+    },
+    {
+      "request_id": "892e01fd-7f11-4e7b-aa93-daea363ca717",
+      "timestamp": "2026-10-07T12:24:51.488054Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 2836.808,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Mortgage",
+      "ticket_id": 212,
+      "error": null
+    },
+    {
+      "request_id": "d2a39fde-7ad2-46ea-8e2b-2b214baa99e3",
+      "timestamp": "2026-10-07T12:24:54.328787Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 3244.428,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Bank account or service",
+      "ticket_id": 213,
+      "error": null
+    },
+    {
+      "request_id": "bd364fff-e9aa-45c5-88b9-6be97b4c1a3e",
+      "timestamp": "2026-10-07T12:24:57.576867Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 4613.848,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 214,
+      "error": null
+    },
+    {
+      "request_id": "7c1f87f2-d2e6-4d49-97d8-5cb0baf90c30",
+      "timestamp": "2026-10-07T12:25:02.195191Z",
+      "method": "GET",
+      "path": "/search",
+      "status": 200,
+      "duration_ms": 22.378,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": null,
+      "ticket_id": null,
+      "error": null
+    },
+    {
+      "request_id": "e35c0f1f-bdc1-4d08-b8bd-b0bb730807a0",
+      "timestamp": "2026-10-07T12:25:02.222261Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 2210.929,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 215,
+      "error": null
+    },
+    {
+      "request_id": "1aa3f8f1-1ec1-4cf9-936e-e388bf17425e",
+      "timestamp": "2026-10-07T12:25:04.436688Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 2589.927,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 216,
+      "error": null
+    },
+    {
+      "request_id": "6ea34ffb-cdc2-4e27-b0e0-3935f126e8d5",
+      "timestamp": "2026-10-07T12:25:07.029952Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 8612.482,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 217,
+      "error": null
+    },
+    {
+      "request_id": "a4b9034c-6b86-46f9-b918-a4ad9f010d77",
+      "timestamp": "2026-10-07T12:25:15.645720Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 5602.738,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 218,
+      "error": null
+    },
+    {
+      "request_id": "ed03f8b5-2c7b-4ffa-b0cc-b0e375f9fba0",
+      "timestamp": "2026-10-07T12:25:21.250370Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 9562.473,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 219,
+      "error": null
+    },
+    {
+      "request_id": "8bc94b1f-ad5b-45d4-b6af-8f5a06ea587d",
+      "timestamp": "2026-10-07T12:25:30.816606Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 9100.96,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 220,
+      "error": null
+    },
+    {
+      "request_id": "192b9f0f-a698-4126-a972-110b456b4d6e",
+      "timestamp": "2026-10-07T12:25:39.920935Z",
+      "method": "GET",
+      "path": "/search",
+      "status": 200,
+      "duration_ms": 19.301,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": null,
+      "ticket_id": null,
+      "error": null
+    },
+    {
+      "request_id": "ccd0579c-7828-48e6-b1b7-8e48cde1e84f",
+      "timestamp": "2026-10-07T12:25:39.943263Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 2011.326,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Debt collection",
+      "ticket_id": 221,
+      "error": null
+    },
+    {
+      "request_id": "c801257b-9ade-4b87-a0c4-ba106f4f6f90",
+      "timestamp": "2026-10-07T12:25:41.957951Z",
+      "method": "GET",
+      "path": "/stats",
+      "status": 200,
+      "duration_ms": 14.057,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": null,
+      "ticket_id": null,
+      "error": null
+    },
+    {
+      "request_id": "1c0022d0-0f7f-470e-990d-605980ecb15e",
+      "timestamp": "2026-10-07T12:25:41.974973Z",
+      "method": "GET",
+      "path": "/search",
+      "status": 200,
+      "duration_ms": 14.525,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": null,
+      "ticket_id": null,
+      "error": null
+    },
+    {
+      "request_id": "288845ac-c3ab-4153-b622-c062b4afe5b4",
+      "timestamp": "2026-10-07T12:25:41.992573Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 3431.228,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 222,
+      "error": null
+    },
+    {
+      "request_id": "1e6b6c14-11a7-4883-9ab9-08c0b63f7fa8",
+      "timestamp": "2026-10-07T12:25:45.427035Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 6102.358,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Bank account or service",
+      "ticket_id": 223,
+      "error": null
+    },
+    {
+      "request_id": "f0721fa7-049c-4aec-9dd0-84aeded9238a",
+      "timestamp": "2026-10-07T12:25:51.531025Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 1750.834,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 224,
+      "error": null
+    },
+    {
+      "request_id": "10236655-a130-4e81-a1b8-23fb2281013e",
+      "timestamp": "2026-10-07T12:25:53.286078Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 2954.669,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Consumer loan",
+      "ticket_id": 225,
+      "error": null
+    },
+    {
+      "request_id": "38faf0f8-a58e-4cbd-ba70-f788b11f96fe",
+      "timestamp": "2026-10-07T12:25:56.243889Z",
+      "method": "GET",
+      "path": "/search",
+      "status": 200,
+      "duration_ms": 15.823,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": null,
+      "ticket_id": null,
+      "error": null
+    },
+    {
+      "request_id": "c9f2d259-a409-4b75-a017-9fd0654e78ca",
+      "timestamp": "2026-10-07T12:25:56.262943Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 4498.681,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 226,
+      "error": null
+    },
+    {
+      "request_id": "116969ce-da6c-4737-a460-1b2b9e6eb7b3",
+      "timestamp": "2026-10-07T12:26:00.765787Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 9779.673,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 227,
+      "error": null
+    },
+    {
+      "request_id": "1e95afcc-86c1-45fc-a071-122a094d38f7",
+      "timestamp": "2026-10-07T12:26:10.548943Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 7907.762,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 228,
+      "error": null
+    },
+    {
+      "request_id": "1387386a-2714-4998-9854-6c7bdaf56375",
+      "timestamp": "2026-10-07T12:26:18.459852Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 8229.206,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Mortgage",
+      "ticket_id": 229,
+      "error": null
+    },
+    {
+      "request_id": "4611dd87-b0e3-41f6-8050-68bb6f18d450",
+      "timestamp": "2026-10-07T12:26:26.692234Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 3183.658,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Consumer loan",
+      "ticket_id": 230,
+      "error": null
+    },
+    {
+      "request_id": "2f2d7b98-06fd-41d7-b5d8-2d5e02a4745f",
+      "timestamp": "2026-10-07T12:26:29.879201Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 7149.939,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 231,
+      "error": null
+    },
+    {
+      "request_id": "eaf6c0c8-d22b-4354-a96a-aaf3e84eaa7b",
+      "timestamp": "2026-10-07T12:26:37.033116Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 8908.999,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Mortgage",
+      "ticket_id": 232,
+      "error": null
+    },
+    {
+      "request_id": "4d044c47-1fe4-4d45-9f5f-fc3b66d4a019",
+      "timestamp": "2026-10-07T12:26:45.944310Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 2581.112,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 233,
+      "error": null
+    },
+    {
+      "request_id": "e8316226-df46-404e-8c5a-ad2bd7eb7347",
+      "timestamp": "2026-10-07T12:26:48.531736Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 4263.046,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 234,
+      "error": null
+    },
+    {
+      "request_id": "76114a46-f260-4511-aa7b-40c81000a077",
+      "timestamp": "2026-10-07T12:26:52.799068Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 5603.297,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Money transfer or service",
+      "ticket_id": 235,
+      "error": null
+    },
+    {
+      "request_id": "dfdb959b-f493-4b50-94bd-33528dc15dab",
+      "timestamp": "2026-10-07T12:26:58.406118Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 5378.102,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 236,
+      "error": null
+    },
+    {
+      "request_id": "8a986ca7-e9fd-4c9a-9fae-8a6da6e352f4",
+      "timestamp": "2026-10-07T12:27:03.787469Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 3796.281,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 237,
+      "error": null
+    },
+    {
+      "request_id": "11d4f633-281b-4f3e-9a79-b157ead5be25",
+      "timestamp": "2026-10-07T12:27:07.587058Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 2431.619,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 238,
+      "error": null
+    },
+    {
+      "request_id": "63afd747-4e2f-4bb5-8846-80ad0e467a3f",
+      "timestamp": "2026-10-07T12:27:10.021901Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 4813.785,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 239,
+      "error": null
+    },
+    {
+      "request_id": "4c6af4a0-d897-44c8-b62b-d7c69baa2664",
+      "timestamp": "2026-10-07T12:27:14.839136Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 3507.025,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 240,
+      "error": null
+    },
+    {
+      "request_id": "5a163937-e096-44bc-b847-7f388571faca",
+      "timestamp": "2026-10-07T12:27:18.349072Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 3309.566,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Bank account or service",
+      "ticket_id": 241,
+      "error": null
+    },
+    {
+      "request_id": "454f0d37-3021-4b1c-99a2-80637caf2a9f",
+      "timestamp": "2026-10-07T12:27:21.661942Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 4858.476,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Consumer loan",
+      "ticket_id": 242,
+      "error": null
+    },
+    {
+      "request_id": "1c3d7a63-fdb1-471e-8434-905525c40c7c",
+      "timestamp": "2026-10-07T12:27:26.523919Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 1782.082,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 243,
+      "error": null
+    },
+    {
+      "request_id": "e62edf5f-4d06-45b2-bd06-6de5942a8a12",
+      "timestamp": "2026-10-07T12:27:28.309688Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 6734.772,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 244,
+      "error": null
+    },
+    {
+      "request_id": "ac911c64-c3bc-4686-a343-34a66909ac4e",
+      "timestamp": "2026-10-07T12:27:35.048595Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 3957.836,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Debt collection",
+      "ticket_id": 245,
+      "error": null
+    },
+    {
+      "request_id": "97e9dd66-4689-4b21-8464-e1c033149f41",
+      "timestamp": "2026-10-07T12:27:39.011032Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 3616.804,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Bank account or service",
+      "ticket_id": 246,
+      "error": null
+    },
+    {
+      "request_id": "0e208bc0-d02f-48d1-8608-1e198858ba7b",
+      "timestamp": "2026-10-07T12:27:42.632556Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 4441.124,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 247,
+      "error": null
+    },
+    {
+      "request_id": "1e8974e7-4af2-4501-aca4-63f1c2be8005",
+      "timestamp": "2026-10-07T12:27:47.075248Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 5731.949,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 248,
+      "error": null
+    },
+    {
+      "request_id": "a56c998a-1cd4-4feb-8742-fc84f9c2d3af",
+      "timestamp": "2026-10-07T12:27:52.810860Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 3611.73,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 249,
+      "error": null
+    },
+    {
+      "request_id": "53f466e8-2cae-4d34-a8a5-ed74f770c456",
+      "timestamp": "2026-10-07T12:27:56.425975Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 3153.587,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 250,
+      "error": null
+    },
+    {
+      "request_id": "bdeed299-0e73-42fa-88de-b6a274249016",
+      "timestamp": "2026-10-07T12:27:59.584481Z",
+      "method": "GET",
+      "path": "/search",
+      "status": 200,
+      "duration_ms": 23.593,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": null,
+      "ticket_id": null,
+      "error": null
+    },
+    {
+      "request_id": "19aab299-877c-483f-b46e-78e86db5edc8",
+      "timestamp": "2026-10-07T12:27:59.612411Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 10224.729,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Credit reporting",
+      "ticket_id": 251,
+      "error": null
+    },
+    {
+      "request_id": "b1140026-f0e5-4ff9-84a9-24ddcb6136cd",
+      "timestamp": "2026-10-07T12:28:09.840737Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 2805.19,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Debt collection",
+      "ticket_id": 252,
+      "error": null
+    },
+    {
+      "request_id": "80f363d4-4307-4b6a-952a-16da62cd84e7",
+      "timestamp": "2026-10-07T12:28:12.649658Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 6471.943,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Mortgage",
+      "ticket_id": 253,
+      "error": null
+    },
+    {
+      "request_id": "8cc7bd49-792a-40ef-98ec-b0822be9c52f",
+      "timestamp": "2026-10-07T12:28:19.123458Z",
+      "method": "POST",
+      "path": "/tickets",
+      "status": 201,
+      "duration_ms": 8016.731,
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "category": "Mortgage",
+      "ticket_id": 254,
+      "error": null
+    }
+  ],
+  "jmeter_warnings_errors": []
+}
