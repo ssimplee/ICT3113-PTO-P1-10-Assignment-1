@@ -1,0 +1,267 @@
+{
+  "run_id": "stress-llama1-r1",
+  "engine_start_sgt": "2026-10-07T09:58:55.033000+08:00",
+  "steps": [
+    {
+      "post_target_per_min": 6,
+      "start_sgt": "2026-10-07T10:00:55.033000+08:00",
+      "end_sgt": "2026-10-07T10:05:55.033000+08:00",
+      "numeric_limits_pass": true,
+      "endpoints": {
+        "POST tickets": {
+          "arrivals": 30,
+          "completions": 30,
+          "throughput_per_min": 6.0,
+          "error_percent": 0.0,
+          "p50_ms": 2339.0,
+          "p95_ms": 4252.55,
+          "p99_ms": 4564.77,
+          "pending_all_arrivals_at_step_end": 0,
+          "throughput_percent_of_actual_arrivals": 100.0,
+          "throughput_percent_of_target": 100.0
+        },
+        "GET search": {
+          "arrivals": 6,
+          "completions": 6,
+          "throughput_per_min": 1.2,
+          "error_percent": 0.0,
+          "p50_ms": 44.5,
+          "p95_ms": 1273.25,
+          "p99_ms": 1373.05,
+          "pending_all_arrivals_at_step_end": 0
+        },
+        "GET stats": {
+          "arrivals": 1,
+          "completions": 1,
+          "throughput_per_min": 0.2,
+          "error_percent": 0.0,
+          "p50_ms": 27.0,
+          "p95_ms": 27.0,
+          "p99_ms": 27.0,
+          "pending_all_arrivals_at_step_end": 0
+        }
+      }
+    },
+    {
+      "post_target_per_min": 12,
+      "start_sgt": "2026-10-07T10:05:55.033000+08:00",
+      "end_sgt": "2026-10-07T10:10:55.033000+08:00",
+      "numeric_limits_pass": true,
+      "endpoints": {
+        "POST tickets": {
+          "arrivals": 60,
+          "completions": 60,
+          "throughput_per_min": 12.0,
+          "error_percent": 0.0,
+          "p50_ms": 2076.0,
+          "p95_ms": 6764.5,
+          "p99_ms": 7463.88,
+          "pending_all_arrivals_at_step_end": 0,
+          "throughput_percent_of_actual_arrivals": 100.0,
+          "throughput_percent_of_target": 100.0
+        },
+        "GET search": {
+          "arrivals": 12,
+          "completions": 12,
+          "throughput_per_min": 2.4,
+          "error_percent": 0.0,
+          "p50_ms": 42.5,
+          "p95_ms": 3716.4,
+          "p99_ms": 3880.08,
+          "pending_all_arrivals_at_step_end": 0
+        },
+        "GET stats": {
+          "arrivals": 3,
+          "completions": 3,
+          "throughput_per_min": 0.6,
+          "error_percent": 0.0,
+          "p50_ms": 24.0,
+          "p95_ms": 32.1,
+          "p99_ms": 32.82,
+          "pending_all_arrivals_at_step_end": 0
+        }
+      }
+    },
+    {
+      "post_target_per_min": 18,
+      "start_sgt": "2026-10-07T10:10:55.033000+08:00",
+      "end_sgt": "2026-10-07T10:15:55.033000+08:00",
+      "numeric_limits_pass": true,
+      "endpoints": {
+        "POST tickets": {
+          "arrivals": 90,
+          "completions": 88,
+          "throughput_per_min": 17.6,
+          "error_percent": 0.0,
+          "p50_ms": 2831.5,
+          "p95_ms": 6772.9,
+          "p99_ms": 8527.53,
+          "pending_all_arrivals_at_step_end": 2,
+          "throughput_percent_of_actual_arrivals": 97.77777777777777,
+          "throughput_percent_of_target": 97.77777777777779
+        },
+        "GET search": {
+          "arrivals": 18,
+          "completions": 18,
+          "throughput_per_min": 3.6,
+          "error_percent": 0.0,
+          "p50_ms": 1148.0,
+          "p95_ms": 5017.75,
+          "p99_ms": 7387.55,
+          "pending_all_arrivals_at_step_end": 0
+        },
+        "GET stats": {
+          "arrivals": 4,
+          "completions": 4,
+          "throughput_per_min": 0.8,
+          "error_percent": 0.0,
+          "p50_ms": 32.5,
+          "p95_ms": 2294.85,
+          "p99_ms": 2614.17,
+          "pending_all_arrivals_at_step_end": 0
+        }
+      }
+    },
+    {
+      "post_target_per_min": 24,
+      "start_sgt": "2026-10-07T10:15:55.033000+08:00",
+      "end_sgt": "2026-10-07T10:20:55.033000+08:00",
+      "numeric_limits_pass": true,
+      "endpoints": {
+        "POST tickets": {
+          "arrivals": 120,
+          "completions": 118,
+          "throughput_per_min": 23.6,
+          "error_percent": 0.0,
+          "p50_ms": 3887.5,
+          "p95_ms": 15062.8,
+          "p99_ms": 16109.26,
+          "pending_all_arrivals_at_step_end": 4,
+          "throughput_percent_of_actual_arrivals": 98.33333333333333,
+          "throughput_percent_of_target": 98.33333333333333
+        },
+        "GET search": {
+          "arrivals": 24,
+          "completions": 24,
+          "throughput_per_min": 4.8,
+          "error_percent": 0.0,
+          "p50_ms": 1048.0,
+          "p95_ms": 9567.55,
+          "p99_ms": 14070.75,
+          "pending_all_arrivals_at_step_end": 0
+        },
+        "GET stats": {
+          "arrivals": 6,
+          "completions": 6,
+          "throughput_per_min": 1.2,
+          "error_percent": 0.0,
+          "p50_ms": 1120.5,
+          "p95_ms": 3255.25,
+          "p99_ms": 3373.45,
+          "pending_all_arrivals_at_step_end": 0
+        }
+      }
+    },
+    {
+      "post_target_per_min": 30,
+      "start_sgt": "2026-10-07T10:20:55.033000+08:00",
+      "end_sgt": "2026-10-07T10:25:55.033000+08:00",
+      "numeric_limits_pass": true,
+      "endpoints": {
+        "POST tickets": {
+          "arrivals": 150,
+          "completions": 146,
+          "throughput_per_min": 29.2,
+          "error_percent": 0.0,
+          "p50_ms": 6699.0,
+          "p95_ms": 15348.5,
+          "p99_ms": 17724.15,
+          "pending_all_arrivals_at_step_end": 8,
+          "throughput_percent_of_actual_arrivals": 97.33333333333333,
+          "throughput_percent_of_target": 97.33333333333333
+        },
+        "GET search": {
+          "arrivals": 30,
+          "completions": 30,
+          "throughput_per_min": 6.0,
+          "error_percent": 0.0,
+          "p50_ms": 3282.0,
+          "p95_ms": 13695.15,
+          "p99_ms": 14362.13,
+          "pending_all_arrivals_at_step_end": 0
+        },
+        "GET stats": {
+          "arrivals": 7,
+          "completions": 7,
+          "throughput_per_min": 1.4,
+          "error_percent": 0.0,
+          "p50_ms": 8038.0,
+          "p95_ms": 12577.4,
+          "p99_ms": 13269.08,
+          "pending_all_arrivals_at_step_end": 0
+        }
+      }
+    },
+    {
+      "post_target_per_min": 36,
+      "start_sgt": "2026-10-07T10:25:55.033000+08:00",
+      "end_sgt": "2026-10-07T10:30:55.033000+08:00",
+      "numeric_limits_pass": false,
+      "endpoints": {
+        "POST tickets": {
+          "arrivals": 180,
+          "completions": 154,
+          "throughput_per_min": 30.8,
+          "error_percent": 0.0,
+          "p50_ms": 54454.5,
+          "p95_ms": 70452.6,
+          "p99_ms": 72419.79,
+          "pending_all_arrivals_at_step_end": 34,
+          "throughput_percent_of_actual_arrivals": 85.55555555555556,
+          "throughput_percent_of_target": 85.55555555555556
+        },
+        "GET search": {
+          "arrivals": 36,
+          "completions": 31,
+          "throughput_per_min": 6.2,
+          "error_percent": 0.0,
+          "p50_ms": 54494.5,
+          "p95_ms": 69017.0,
+          "p99_ms": 69351.1,
+          "pending_all_arrivals_at_step_end": 5
+        },
+        "GET stats": {
+          "arrivals": 9,
+          "completions": 4,
+          "throughput_per_min": 0.8,
+          "error_percent": 0.0,
+          "p50_ms": 61390.0,
+          "p95_ms": 66382.4,
+          "p99_ms": 67428.48,
+          "pending_all_arrivals_at_step_end": 5
+        }
+      }
+    }
+  ],
+  "whole_run_requests": 800,
+  "whole_run_failures": 0,
+  "reconciliation_problems": [],
+  "duplicate_client_ids": [],
+  "extra_service_records": [
+    {
+      "request_id": "2a7233bb-e59d-4f7e-8758-de53033bf2a9",
+      "timestamp": "2026-10-07T01:57:02.822369Z",
+      "method": "GET",
+      "path": "/stats",
+      "status": 200,
+      "duration_ms": 7.601,
+      "model": "llama3.2:1b-instruct-q4_K_M",
+      "category": null,
+      "ticket_id": null,
+      "error": null
+    }
+  ],
+  "final_completion_seconds_after_arrivals_end": 60.643,
+  "jmeter_warnings_errors": [],
+  "method": "Start-time cohorts; interpolated (n-1)*p percentiles; completion throughput includes earlier-step carry-over. Compare throughput with actual offered arrivals; also show nominal target ratio. Six finite steps do not prove indefinite stability."
+}

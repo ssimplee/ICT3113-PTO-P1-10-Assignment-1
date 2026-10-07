@@ -1,0 +1,62 @@
+{
+  "run_id": "peak-qwen06-r2",
+  "model": "qwen3:0.6b-q4_K_M",
+  "engine_start_sgt": "2026-10-07T12:26:12.270000+08:00",
+  "measurement_start_sgt": "2026-10-07T12:28:12.270000+08:00",
+  "measurement_end_sgt": "2026-10-07T12:38:12.270000+08:00",
+  "percentile_method": "linear interpolation at (n-1)*p; all attempts in start-time cohort",
+  "whole_run_requests": 539,
+  "whole_run_failures": 0,
+  "endpoints": {
+    "POST tickets": {
+      "measured_arrivals": 360,
+      "successful_completions_in_window": 360,
+      "completions_per_minute": 36.0,
+      "failures": 0,
+      "error_percent": 0.0,
+      "p50_ms": 3384.0,
+      "p95_ms": 8495.65,
+      "p99_ms": 15675.07,
+      "pending_at_window_end": 0
+    },
+    "GET search": {
+      "measured_arrivals": 73,
+      "successful_completions_in_window": 73,
+      "completions_per_minute": 7.3,
+      "failures": 0,
+      "error_percent": 0.0,
+      "p50_ms": 1887.0,
+      "p95_ms": 10855.6,
+      "p99_ms": 14640.84,
+      "pending_at_window_end": 0
+    },
+    "GET stats": {
+      "measured_arrivals": 17,
+      "successful_completions_in_window": 17,
+      "completions_per_minute": 1.7,
+      "failures": 0,
+      "error_percent": 0.0,
+      "p50_ms": 2702.0,
+      "p95_ms": 7011.4,
+      "p99_ms": 11582.28,
+      "pending_at_window_end": 0
+    }
+  },
+  "duplicate_client_ids": [],
+  "reconciliation_problems": [],
+  "extra_service_records": [
+    {
+      "request_id": "d66e37f0-5b09-4f9d-840e-bbfd5ae0efdc",
+      "timestamp": "2026-10-07T04:24:52.199220Z",
+      "method": "GET",
+      "path": "/stats",
+      "status": 200,
+      "duration_ms": 5.375,
+      "model": "qwen3:0.6b-q4_K_M",
+      "category": null,
+      "ticket_id": null,
+      "error": null
+    }
+  ],
+  "jmeter_warnings_errors": []
+}

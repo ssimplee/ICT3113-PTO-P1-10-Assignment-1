@@ -1,0 +1,42 @@
+{
+  "run_id": "peak-llama1-r1",
+  "profile": "peak",
+  "model_tag": "llama3.2:1b-instruct-q4_K_M",
+  "model_digest": "sha256:22bc6b92eb0160c4629782fca05a9032c59d306ab2058b7dacc8a4644fbafa02",
+  "repeat": 1,
+  "host": "192.168.1.5",
+  "port": 18000,
+  "preparation_git_revision": "bb62d3fb2c9af9d616ebe25281dd5a9a679c04f7",
+  "warmup_seconds": 120,
+  "measurement_seconds": 600,
+  "drain_seconds": 360,
+  "narrative_seed": 1100,
+  "arrival_seeds": [
+    1101,
+    1102,
+    1103
+  ],
+  "post_search_stats_rates_per_minute": [
+    36,
+    7.2,
+    1.8
+  ],
+  "schedules": {
+    "POST arrivals": "rate(36/min) random_arrivals(720 sec) rate(36/min) pause(360 sec)",
+    "Search arrivals": "rate(7.2/min) random_arrivals(720 sec) rate(7.2/min) pause(360 sec)",
+    "Stats arrivals": "rate(1.8/min) random_arrivals(720 sec) rate(1.8/min) pause(360 sec)"
+  },
+  "golden_sha256": "2faa7a5f22414ad1bf62872c2bb1c5adb1a9badaa41c02c9d50ef81c6119fc13",
+  "status": "PREPARED_NOT_RUN",
+  "search_query": "payment",
+  "limitations": [
+    "175-ticket category-selected subset, not the full natural workload",
+    "Arrival schedule is seeded; concurrent assignment of CSV rows can vary",
+    "Computer A differs from historical accuracy-test hardware"
+  ],
+  "file_sha256": {
+    "plan.jmx": "b240d6457eab56d78f8561545ba819631bb6c207bb3068c40634690fc341d83b",
+    "results.properties": "8fbf5191b8c5f9a8ce5d25700e71deb25837c5f6cb4efc6d1330c33b6da26f1b",
+    "data/tickets.csv": "ccd18ecd6be223e9a9e42b3593cbba0b8a69290df176de287c2bc8ad4c1c6c04"
+  }
+}
