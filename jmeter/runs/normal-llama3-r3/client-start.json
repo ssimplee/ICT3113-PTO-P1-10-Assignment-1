@@ -1,0 +1,76 @@
+﻿{
+    "run_id":  "normal-llama3-r3",
+    "launch_utc":  "2026-10-07T11:31:19.2478705Z",
+    "computer":  "KAIWEN",
+    "cpu":  [
+                {
+                    "Name":  "13th Gen Intel(R) Core(TM) i7-13700H",
+                    "NumberOfCores":  14,
+                    "NumberOfLogicalProcessors":  20
+                }
+            ],
+    "memory_bytes":  16895500288,
+    "os":  {
+               "Caption":  "Microsoft Windows 11 Pro",
+               "Version":  "10.0.26200"
+           },
+    "git_revision":  "1d2f303b821357185f881783c829f05b2ef79ebf",
+    "git_status":  [
+                       " M ../jmeter.log",
+                       " M load-test.jmx",
+                       "?? runs/normal-llama1-r1/server-ready.json",
+                       "?? runs/normal-llama1-r2/server-ready.json",
+                       "?? runs/normal-llama3-r1/server-ready.json",
+                       "?? runs/normal-llama3-r2/server-ready.json",
+                       "?? runs/normal-llama3-r3/server-ready.json",
+                       "?? runs/normal-qwen06-r1/server-ready.json",
+                       "?? runs/normal-qwen06-r2/server-ready.json",
+                       "?? runs/normal-qwen06-r3/server-ready.json",
+                       "?? runs/normal-qwen17-r1/server-ready.json",
+                       "?? runs/normal-qwen17-r2/server-ready.json",
+                       "?? runs/normal-qwen17-r3/server-ready.json",
+                       "?? runs/peak-llama1-r1/server-ready.json",
+                       "?? runs/peak-llama1-r2/server-ready.json",
+                       "?? runs/peak-llama1-r3/server-ready.json",
+                       "?? runs/peak-qwen06-r1/server-ready.json",
+                       "?? runs/peak-qwen06-r2/server-ready.json",
+                       "?? runs/peak-qwen06-r3/server-ready.json",
+                       "?? runs/peak-qwen17-r1/server-ready.json",
+                       "?? runs/peak-qwen17-r2/server-ready.json",
+                       "?? runs/peak-qwen17-r3/server-ready.json",
+                       "?? runs/read-heavy-llama1-r1/server-ready.json",
+                       "?? runs/read-heavy-llama1-r2/server-ready.json",
+                       "?? runs/read-heavy-llama1-r3/server-ready.json",
+                       "?? runs/read-heavy-qwen06-r1/server-ready.json",
+                       "?? runs/read-heavy-qwen06-r2/server-ready.json",
+                       "?? runs/read-heavy-qwen06-r3/server-ready.json",
+                       "?? runs/read-heavy-qwen17-r1/server-ready.json",
+                       "?? runs/read-heavy-qwen17-r2/server-ready.json",
+                       "?? runs/read-heavy-qwen17-r3/server-ready.json",
+                       "?? runs/stress-llama1-r1/server-ready.json",
+                       "?? runs/validation-llama1-r1/client-finish.json",
+                       "?? runs/validation-llama1-r1/client-start.json",
+                       "?? runs/validation-llama1-r1/jmeter.log",
+                       "?? runs/validation-llama1-r1/results.jtl",
+                       "?? runs/validation-llama1-r1/server-ready.json"
+                   ],
+    "java":  [
+                 "java version \"21.0.5\" 2024-10-15 LTS",
+                 "Java(TM) SE Runtime Environment (build 21.0.5+9-LTS-239)",
+                 "Java HotSpot(TM) 64-Bit Server VM (build 21.0.5+9-LTS-239, mixed mode, sharing)"
+             ],
+    "jmeter":  [
+                   "WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release",
+                   "WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release",
+                   "WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release",
+                   "WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release",
+                   "    _    ____   _    ____ _   _ _____       _ __  __ _____ _____ _____ ____",
+                   "   / \\  |  _ \\ / \\  / ___| | | | ____|     | |  \\/  | ____|_   _| ____|  _ \\",
+                   "  / _ \\ | |_) / _ \\| |   | |_| |  _|    _  | | |\\/| |  _|   | | |  _| | |_) |",
+                   " / ___ \\|  __/ ___ \\ |___|  _  | |___  | |_| | |  | | |___  | | | |___|  _ \u003c",
+                   "/_/   \\_\\_| /_/   \\_\\____|_| |_|_____|  \\___/|_|  |_|_____| |_| |_____|_| \\_\\ 5.6.3",
+                   "",
+                   "Copyright (c) 1999-2024 The Apache Software Foundation",
+                   ""
+               ]
+}
