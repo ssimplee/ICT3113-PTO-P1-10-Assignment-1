@@ -12,7 +12,31 @@ The Assignment 1 baseline uses one synchronous Flask/Werkzeug request handler, C
 - Model correctness is not established: `qwen3:0.6b` returned `Bank account or service` for our synthetic mortgage complaint.
 - Browser access has exposed a hanging-request issue. Closing browser tabs and restarting cleared it, but the underlying cause has not been fixed. Use PowerShell for the walkthrough below.
 
-These checks cover the implemented Member 1 baseline. The 175-ticket golden set has complete independent labels, adjudication evidence, a reproducible agreement report, and a validator. Member 4 has frozen the prediction record and completed formal accuracy testing for four pinned candidates, including per-category results, confusion matrices, retained raw evidence, and classification-error analysis. JMeter load/stress testing and the team's final model selection remain. See [Member 4 handoff](docs/member4-handoff.md) and [the formal accuracy comparison](accuracy/results/README.md).
+These checks cover the implemented Member 1 baseline. The 175-ticket golden set has complete independent labels, adjudication evidence, a reproducible agreement report, and a validator. Member 4 has frozen the prediction record and completed formal accuracy testing for four pinned candidates, including per-category results, confusion matrices, retained raw evidence, and classification-error analysis. JMeter results and analysis are now retained for 36 load runs (four models, three profiles, three repetitions) and one Llama 1B stress run. Recorded measurements do not imply that every configuration passed the requirements; the team's final model selection remains. See [Member 4 handoff](docs/member4-handoff.md), [the formal accuracy comparison](accuracy/results/README.md), and [the JMeter playbook](jmeter/README.md).
+
+## Repository overview
+
+This table covers every top-level project folder and the main nested folders. Root-level `docker-compose.yml` and `.env.example` configure the local service and Ollama stack.
+
+| Folder | Description |
+|---|---|
+| `accuracy/` | Accuracy test runner, isolated testing configuration and golden-set audit validation. |
+| `accuracy/results/` | Per-model accuracy evidence, confusion matrices and comparison results. |
+| `docs/` | Requirements, workload model, model records, verification notes and member handoffs. |
+| `golden-set/` | Independently labelled tickets, labelling protocol, agreement report and audit trail. |
+| `jmeter/` | Load-test plans, run preparation scripts, execution scripts and analysis tools. |
+| `jmeter/data/` | Ticket data used to generate test workloads. |
+| `jmeter/runs/` | Individual run bundles containing plans, manifests, raw results, service logs and analysis. |
+| `logs/` | Service request logs and smoke-test evidence. |
+| `logs/smoke-2026-09-23/` | Retained evidence from the baseline smoke checks. |
+| `predictions/` | Frozen predictions recorded before formal testing. |
+| `scripts/` | Smoke-check and workload-analysis utilities. |
+| `service/` | Flask service dependencies and Docker image definition. |
+| `service/app/` | API request handling, Ollama classification and SQLite storage implementation. |
+| `tests/` | Automated service, HTTP integration and accuracy-runner tests. |
+| `.git/` | Local Git metadata and version history. |
+
+Each JMeter run bundle groups its input `data/`, retained `service-logs/`, and any local `service-data/` database with its manifest, JTL results and analysis. Start with [the requirements](docs/requirements.md) for evaluation criteria, [accuracy results](accuracy/results/README.md) for classification evidence, and [JMeter runs](jmeter/runs/) for performance evidence.
 
 ## Prerequisites
 
@@ -22,20 +46,20 @@ All commands below are PowerShell commands. Copy only the contents of code block
 
 ## 1. Get the code and open the repository
 
-For the existing local checkout:
+For an existing local checkout, replace the example path with your repository location:
 
 ```powershell
-cd "D:\SWE\School\3113\Assignment 1"
+cd "C:\path\to\ICT3113-PTO-P1-10-Assignment-1"
 ```
 
-For a new checkout, clone the implementation branch from a directory of your choice (repository access is required):
+For a new checkout, clone `main` from a directory of your choice (repository access is required):
 
 ```powershell
-git clone --branch feat/member1-baseline https://github.com/ssimplee/ICT3113-PTO-P1-10-Assignment-1.git
+git clone --branch main https://github.com/ssimplee/ICT3113-PTO-P1-10-Assignment-1.git
 cd ICT3113-PTO-P1-10-Assignment-1
 ```
 
-This expanded guide is developed on `docs/setup-and-testing`, based on the implementation branch. Once that branch is pushed, use `git fetch origin` and `git switch docs/setup-and-testing` to obtain it before it is merged.
+The setup guide and retained testing evidence are available on `main`.
 
 ## 2. Check Docker and start the service
 
@@ -269,7 +293,7 @@ docker compose logs --tail 50 ollama
 
 The seven categories are Credit reporting, Debt collection, Mortgage, Credit card, Bank account or service, Consumer loan, and Money transfer or service. The service starts empty with a new database and accepts tickets only through POST. Group 10 uses dataset rows 10000–10999 for assignment labelling and test traffic; synthetic checks here are development diagnostics, not submission benchmark evidence.
 
-The independently human-labelled golden set and prediction record were frozen before formal testing. Four candidates across three parameter-size classes have exact tags and full digests recorded, and their formal accuracy evidence is retained under `accuracy/results/`. Formal JMeter tests still require a separate load-generator machine, open-loop arrivals, three runs per configuration, retained raw `.jtl` files, and matching service logs. The repository does not yet provide the final JMeter playbook.
+The independently human-labelled golden set and prediction record were frozen before formal testing. Four candidates across three parameter-size classes have exact tags and full digests recorded, and their formal accuracy evidence is retained under `accuracy/results/`. The [JMeter playbook](jmeter/README.md) documents the separate load-generator machine, open-loop arrivals, three runs per configuration, and evidence requirements. The [run folders](jmeter/runs/) retain raw `.jtl` files, matching service logs and `analysis.json` reports for the 36 normal, peak and read-heavy runs and the Llama 1B stress run. See the [stress summary](jmeter/runs/stress-llama1-r1/summary.md) for the measured load boundary; assess each configuration against [the requirements](docs/requirements.md) before making a final model recommendation.
 
 For access from that separate machine, configure `SERVICE_BIND_ADDRESS=0.0.0.0`, recreate the service, and use the service host's LAN address and configured port. Permit the port through the host firewall on the intended test network. Record both machines' CPU, memory, OS, network, Docker resource allocation, model/runtime settings, and Git revision.
 
@@ -277,4 +301,4 @@ Keep logs and raw results for every reported run in Git. Service `duration_ms` m
 
 ## Branch and commit workflow
 
-Use `feat/<topic>` for features, `docs/<topic>` for documentation-only changes, and `fix/<topic>` for fixes. Keep focused commits with relevant checks and review changes before merging into `main`. The implementation branch is `feat/member1-baseline`; this README update uses `docs/setup-and-testing`.
+Use `feat/<topic>` for features, `docs/<topic>` for documentation-only changes, and `fix/<topic>` for fixes. Create new work from `main`, keep focused commits with relevant checks, and review changes before merging into `main`.

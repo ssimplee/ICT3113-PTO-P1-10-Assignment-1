@@ -1,8 +1,8 @@
 {
-  "run_id": "normal-llama1-r3",
+  "run_id": "read-heavy-llama1-r1",
   "model_tag": "llama3.2:1b-instruct-q4_K_M",
   "model_digest": "sha256:22bc6b92eb0160c4629782fca05a9032c59d306ab2058b7dacc8a4644fbafa02",
-  "captured_utc": "2026-10-06T18:16:42.1396410Z",
+  "captured_utc": "2026-10-06T19:55:11.1684645Z",
   "cpu": [
     {
       "Name": "AMD Ryzen 5 3600 6-Core Processor              ",
@@ -18,7 +18,7 @@
   "docker_info": [
     "{\"Driver\":\"overlayfs\",\"DriverStatus\":[[\"driver-type\",\"io.containerd.snapshotter.v1\"]],\"MemoryLimit\":true,\"SwapLimit\":true,\"LoggingDriver\":\"json-file\",\"CgroupDriver\":\"cgroupfs\",\"CgroupVersion\":\"2\",\"KernelVersion\":\"6.18.40.1-microsoft-standard-WSL2\",\"OperatingSystem\":\"Docker Desktop (containerized)\",\"OSVersion\":\"\",\"OSType\":\"linux\",\"Architecture\":\"x86_64\",\"NCPU\":12,\"MemTotal\":8299986944,\"ServerVersion\":\"29.5.3\",\"DefaultRuntime\":\"runc\"}"
   ],
-  "git_revision": "d604ba2eed5dbc570eeb11b28b953d66e523875b",
+  "git_revision": "597c5380097f6a90f415d108848b9e157f3582bd",
   "initial_stats": {
     "categories": {
       "Bank account or service": 0,

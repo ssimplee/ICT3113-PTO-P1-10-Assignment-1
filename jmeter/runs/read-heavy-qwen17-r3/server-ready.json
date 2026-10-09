@@ -1,8 +1,8 @@
 {
-  "run_id": "normal-llama1-r3",
-  "model_tag": "llama3.2:1b-instruct-q4_K_M",
-  "model_digest": "sha256:22bc6b92eb0160c4629782fca05a9032c59d306ab2058b7dacc8a4644fbafa02",
-  "captured_utc": "2026-10-06T18:16:42.1396410Z",
+  "run_id": "read-heavy-qwen17-r3",
+  "model_tag": "qwen3:1.7b-q4_K_M",
+  "model_digest": "sha256:8f68893c685c3ddff2aa3fffce2aa60a30bb2da65ca488b61fff134a4d1730e7",
+  "captured_utc": "2026-10-07T10:06:27.9354858Z",
   "cpu": [
     {
       "Name": "AMD Ryzen 5 3600 6-Core Processor              ",
@@ -16,9 +16,9 @@
     "Version": "10.0.19045"
   },
   "docker_info": [
-    "{\"Driver\":\"overlayfs\",\"DriverStatus\":[[\"driver-type\",\"io.containerd.snapshotter.v1\"]],\"MemoryLimit\":true,\"SwapLimit\":true,\"LoggingDriver\":\"json-file\",\"CgroupDriver\":\"cgroupfs\",\"CgroupVersion\":\"2\",\"KernelVersion\":\"6.18.40.1-microsoft-standard-WSL2\",\"OperatingSystem\":\"Docker Desktop (containerized)\",\"OSVersion\":\"\",\"OSType\":\"linux\",\"Architecture\":\"x86_64\",\"NCPU\":12,\"MemTotal\":8299986944,\"ServerVersion\":\"29.5.3\",\"DefaultRuntime\":\"runc\"}"
+    "{\"Driver\":\"overlayfs\",\"DriverStatus\":[[\"driver-type\",\"io.containerd.snapshotter.v1\"]],\"MemoryLimit\":true,\"SwapLimit\":true,\"LoggingDriver\":\"json-file\",\"CgroupDriver\":\"cgroupfs\",\"CgroupVersion\":\"2\",\"KernelVersion\":\"6.18.40.1-microsoft-standard-WSL2\",\"OperatingSystem\":\"Docker Desktop (containerized)\",\"OSVersion\":\"\",\"OSType\":\"linux\",\"Architecture\":\"x86_64\",\"NCPU\":12,\"MemTotal\":8299982848,\"ServerVersion\":\"29.5.3\",\"DefaultRuntime\":\"runc\"}"
   ],
-  "git_revision": "d604ba2eed5dbc570eeb11b28b953d66e523875b",
+  "git_revision": "d01dd733587d202d01f30984f1377ed7e719527a",
   "initial_stats": {
     "categories": {
       "Bank account or service": 0,
@@ -32,19 +32,19 @@
     "total": 0
   },
   "model_metadata": {
-    "name": "llama3.2:1b-instruct-q4_K_M",
-    "model": "llama3.2:1b-instruct-q4_K_M",
-    "modified_at": "2026-10-06T14:17:29.656555331Z",
-    "size": 807709787,
-    "digest": "22bc6b92eb0160c4629782fca05a9032c59d306ab2058b7dacc8a4644fbafa02",
+    "name": "qwen3:1.7b-q4_K_M",
+    "model": "qwen3:1.7b-q4_K_M",
+    "modified_at": "2026-10-07T06:21:56.359103626Z",
+    "size": 1359293444,
+    "digest": "8f68893c685c3ddff2aa3fffce2aa60a30bb2da65ca488b61fff134a4d1730e7",
     "details": {
       "parent_model": "",
       "format": "gguf",
-      "family": "llama",
+      "family": "qwen3",
       "families": [
-        "llama"
+        "qwen3"
       ],
-      "parameter_size": "1.2B",
+      "parameter_size": "2.0B",
       "quantization_level": "Q4_K_M"
     }
   },

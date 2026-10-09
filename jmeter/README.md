@@ -1,8 +1,13 @@
 # JMeter preparation and run playbook
 
-Status: configuration prepared; runtime validation and all formal measurements are pending.
-Preparing bundles, opening a plan, and invoking the PowerShell scripts WITHOUT their
-execution switches send no test traffic. Do not press JMeter Start during preparation.
+Status: results and analysis are retained for 36 load runs (four models across normal,
+peak and read-heavy profiles, with three repetitions each) and one Llama 1B stress
+run under [runs/](runs/). Each measured run has raw `results.jtl`, service logs and
+`analysis.json`; the stress run also has a [summary](runs/stress-llama1-r1/summary.md).
+Recorded results do not mean every configuration passed the requirements. Use the
+per-run analysis and `docs/requirements.md` to assess performance and model selection.
+Preparing bundles, opening a plan, and invoking the PowerShell scripts without their
+execution switches send no test traffic.
 
 ## Files and machines
 
@@ -10,16 +15,15 @@ execution switches send no test traffic. Do not press JMeter Start during prepar
 - Computer B: Windows, Java 21, Apache JMeter 5.6.3; run CLI measurements here only.
 - `load-test.jmx`: editable normal-load template, status/category assertions and request-ID extraction.
 - `prepare_run.py`: standard-library Python 3 script generating isolated, reproducible bundles.
-- `Prepare-Server.ps1`: preview by default; `-Apply` later recreates only the service with fresh per-run storage.
-- `Start-Run.ps1`: preview by default; `-Start` later invokes non-GUI JMeter.
+- `Prepare-Server.ps1`: preview by default; `-Apply` recreates only the service with fresh per-run storage.
+- `Start-Run.ps1`: preview by default; `-Start` invokes non-GUI JMeter.
 - `results.properties`: CSV JTL including request_id, row, elapsed, status, assertions and threads.
 
-The saved category assertion was missing its two `||` operators; those have been repaired.
-The original connectivity group remains disabled. Generated bundles remove it entirely.
+Generated bundles exclude the template's disabled connectivity group.
 Raw outputs and logs are not gitignored; retain them in the repository. SQLite storage
 may be large; logs/JTL are the mandatory measurement evidence.
 
-## Preparation only (safe before a break)
+## Prepare new run bundles
 
 Run from repository root on A (or B with Python installed):
 
@@ -33,7 +37,7 @@ Each folder under `jmeter/runs/` contains `plan.jmx`, `data/tickets.csv`,
 to overwrite an existing folder. Use a new ID for retries. Hashes pin each generated
 plan, CSV and properties file. Git revision and exact model tag/digest are recorded.
 
-To prepare the full 36-run matrix (still NO tests):
+To generate bundles for the full 36-run matrix:
 
 ```powershell
 foreach ($model in @('qwen06','llama1','qwen17','llama3')) {
@@ -52,7 +56,7 @@ python jmeter/prepare_run.py --profile stress --model llama1 --run-id stress-lla
 
 Use `--host NEW_IP` if A's address changes. Regenerate into new run IDs rather than
 editing hashed bundles. Push the intended preparation files and fetch/pull them on B;
-copy the identical bundle to both machines. Do not overwrite unsaved JMeter GUI edits.
+copy the identical bundle to both machines.
 Preview commands (no traffic or container changes):
 
 ```powershell
@@ -60,7 +64,8 @@ Preview commands (no traffic or container changes):
 .\jmeter\Start-Run.ps1 -RunId normal-llama1-r1
 ```
 
-STOP HERE for the requested pre-test pause. Everything below is for a later session.
+The example run IDs already exist in the retained evidence. Use new IDs for new
+measurements.
 
 ## Profile definitions
 
@@ -80,7 +85,7 @@ recycled. Concurrent threads can change which arrival gets which row.
 The subset is category-selected and contains only 175 of Group 10's 1,000 rows;
 state this sampling limitation. Labels are never sent. Search uses fixed `payment`.
 
-All profiles include 360 seconds of final drain with NO new arrivals. JMeter's open
+All profiles include 360 seconds of final drain with no new arrivals. JMeter's open
 group interrupts threads at schedule end; this allowance exceeds the 10-second
 connection plus 300-second response cutoffs. Confirm no samples were truncated.
 Drain time is additional wall time: the 36 formal runs require about 11h48 of scheduled
@@ -88,7 +93,7 @@ time including warm-up and drain, before setup, downloads, validation and stress
 Client timeouts do not guarantee Ollama has stopped work; do not start another run
 until the previous server activity has drained. This is especially important for 3B.
 
-## Later: prepare a server for one run
+## Prepare a server for one run
 
 On A, ensure the existing Compose stack runs and pull the chosen exact tag from the
 bundle manifest if missing. Pulls can change mutable registry tags: the preparation
@@ -99,7 +104,7 @@ digest without documenting a separate condition.
 .\jmeter\Prepare-Server.ps1 -RunId validation-llama1-r1 -Apply
 ```
 
-This is intentionally NOT executed as part of preparation. It checks the installed
+The `-Apply` command checks the installed
 digest, creates separate database/log folders, recreates the service and checks empty
 stats. It preserves existing volumes and never bulk-loads data. The preflight GET is
 in the service log but excluded from measured arrivals. Copy the generated
@@ -111,11 +116,11 @@ known offset. Keep hardware, resource allocation, software and prompt fixed.
 The current A has different hardware/resources from the historical accuracy host.
 Report this explicitly; old latency predictions are not same-hardware comparisons.
 The two-minute warm-up includes model loading; if it is insufficient, document it,
-settle the warm-up rule BEFORE formal runs and regenerate all affected bundles.
+settle the warm-up rule before formal runs and regenerate all affected bundles.
 
-## Later: short validation, then formal runs
+## Short validation, then formal runs
 
-On B, after server preparation, the following DOES send traffic:
+On B, after server preparation, start the validation run:
 
 ```powershell
 .\jmeter\Start-Run.ps1 -RunId validation-llama1-r1 -Start
@@ -133,7 +138,7 @@ assertion compilation, nonempty CSV row IDs for POST, request-ID extraction, cor
 JTL headers and actual arrival timestamps. Inspect `jmeter.log` for errors. Confirm
 CPU-only inference with `docker compose exec ollama ollama ps` on A during activity
 and retain output. Validate that the load generator keeps up and is not resource-bound.
-Save validation evidence separately. Do not infer runtime success from static checks.
+Save validation evidence separately.
 
 For each formal bundle, repeat server preparation, readiness transfer and client start.
 Never reuse a validation database. After completion, copy A's `service-logs/` into B's
@@ -143,7 +148,7 @@ Use `docker compose logs --no-color service ollama` to retain runtime diagnostic
 well. Keep full evidence even for unsuccessful or interrupted runs. Commit before
 moving on to final report tables; do not replace failures with reruns silently.
 
-## Later: stress and interpretation
+## Stress and interpretation
 
 The prepared stress profile explores 6 through 36 POST/min. It is an upper search
 range, not a claimed system limit. If all steps pass, extend the next version to higher
