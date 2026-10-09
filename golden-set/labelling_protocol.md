@@ -305,4 +305,4 @@ After this commit, do not change golden labels simply because a model predicts s
 
 | Version | Description | Date |
 |---|---|---|
-| 1.0 | Initial protocol created before independent labelling | TBD |
+| 1.0 | Initial protocol created before independent labelling | 23 September 2026 |
