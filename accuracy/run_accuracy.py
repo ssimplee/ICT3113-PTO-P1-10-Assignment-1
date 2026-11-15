@@ -234,6 +234,8 @@ def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--golden", type=Path,
                         default=Path("golden-set/golden_tickets_175_baseline.csv"))
+    parser.add_argument("--expected-count", type=int, default=175,
+                        help="Number of tickets the golden CSV must contain")
     parser.add_argument("--prediction-record", type=Path,
                         default=Path("predictions/prediction_record.md"))
     parser.add_argument("--prediction-commit",
@@ -260,7 +262,7 @@ def main(argv: list[str] | None = None) -> int:
                        if not args.prediction_record.is_absolute() else args.prediction_record)
     output_dir = ((repo / args.output_dir).resolve()
                   if not args.output_dir.is_absolute() else args.output_dir)
-    tickets = load_golden(golden_path)
+    tickets = load_golden(golden_path, args.expected_count)
 
     if not re.fullmatch(r"sha256:[0-9a-f]{64}", args.model_digest):
         raise ValueError("--model-digest must be a full value in sha256:<64 lowercase hex> form")
