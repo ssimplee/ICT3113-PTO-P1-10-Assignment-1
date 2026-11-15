@@ -1,0 +1,8 @@
+category,total,correct,errors,accuracy
+Credit reporting,23,20,0,0.8695652173913043
+Debt collection,10,2,0,0.2
+Mortgage,13,5,0,0.38461538461538464
+Credit card,13,0,0,0.0
+Bank account or service,15,4,0,0.26666666666666666
+Consumer loan,8,2,0,0.25
+Money transfer or service,14,3,0,0.21428571428571427
