@@ -183,7 +183,9 @@ Each run, in order:
    writes `server-finish.json` with the rise in the `/stats` total and a final `ollama ps`.
 
 The same repeat number gives every configuration the same arrival schedule.
-`analyze_run.py` reports the Assignment 1 profiles only.
+`analyze_run.py` reports the Assignment 1 profiles only. After the runs,
+`python jmeter/analyze_a2.py` writes `runs/a2-speed-summary.md` and `.json`: p50 per run
+with mean and spread, pooled p95, throughput, error rate and escalation fraction.
 
 ## Stress and interpretation
 
