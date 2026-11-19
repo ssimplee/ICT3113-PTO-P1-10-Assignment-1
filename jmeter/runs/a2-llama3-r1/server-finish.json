@@ -1,0 +1,10 @@
+﻿{
+    "run_id":  "a2-llama3-r1",
+    "captured_utc":  "2026-11-19T13:02:26.1713781Z",
+    "stats_before_run":  3,
+    "stats_after_run":  33,
+    "completed_and_stored":  30,
+    "ollama_ps":  [
+                      "NAME    ID    SIZE    PROCESSOR    CONTEXT    UNTIL "
+                  ]
+}
