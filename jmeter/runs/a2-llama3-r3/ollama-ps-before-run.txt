@@ -1,0 +1,2 @@
+﻿NAME                           ID              SIZE      PROCESSOR    CONTEXT    UNTIL              
+llama3.2:3b-instruct-q4_K_M    a80c4f17acd5    2.6 GB    100% CPU     4096       4 minutes from now    
