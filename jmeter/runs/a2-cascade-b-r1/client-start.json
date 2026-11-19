@@ -1,0 +1,41 @@
+﻿{
+    "run_id":  "a2-cascade-b-r1-retry",
+    "launch_utc":  "2026-11-19T13:30:43.7812522Z",
+    "computer":  "KAIWEN",
+    "cpu":  [
+                {
+                    "Name":  "13th Gen Intel(R) Core(TM) i7-13700H",
+                    "NumberOfCores":  14,
+                    "NumberOfLogicalProcessors":  20
+                }
+            ],
+    "memory_bytes":  16895500288,
+    "os":  {
+               "Caption":  "Microsoft Windows 11 Pro",
+               "Version":  "10.0.26200"
+           },
+    "git_revision":  "425a371c7c99b198865f97be2931b8b5f35fb417",
+    "git_status":  [
+                       " M ../jmeter.log",
+                       "?? \"../ICT3113_Assignment_2 - Copy (1) (1).pdf\""
+                   ],
+    "java":  [
+                 "java version \"21.0.5\" 2024-10-15 LTS",
+                 "Java(TM) SE Runtime Environment (build 21.0.5+9-LTS-239)",
+                 "Java HotSpot(TM) 64-Bit Server VM (build 21.0.5+9-LTS-239, mixed mode, sharing)"
+             ],
+    "jmeter":  [
+                   "WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release",
+                   "WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release",
+                   "WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release",
+                   "WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release",
+                   "    _    ____   _    ____ _   _ _____       _ __  __ _____ _____ _____ ____",
+                   "   / \\  |  _ \\ / \\  / ___| | | | ____|     | |  \\/  | ____|_   _| ____|  _ \\",
+                   "  / _ \\ | |_) / _ \\| |   | |_| |  _|    _  | | |\\/| |  _|   | | |  _| | |_) |",
+                   " / ___ \\|  __/ ___ \\ |___|  _  | |___  | |_| | |  | | |___  | | | |___|  _ \u003c",
+                   "/_/   \\_\\_| /_/   \\_\\____|_| |_|_____|  \\___/|_|  |_|_____| |_| |_____|_| \\_\\ 5.6.3",
+                   "",
+                   "Copyright (c) 1999-2024 The Apache Software Foundation",
+                   ""
+               ]
+}

@@ -8,8 +8,8 @@
         "CASCADE_MIN_WORDS": "142"
       },
       "volumes": [
-        "./jmeter/runs/a2-cascade-b-r1/service-data:/data",
-        "./jmeter/runs/a2-cascade-b-r1/service-logs:/logs"
+        "./jmeter/runs/a2-cascade-b-r1-retry/service-data:/data",
+        "./jmeter/runs/a2-cascade-b-r1-retry/service-logs:/logs"
       ]
     }
   }
