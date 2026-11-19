@@ -1,0 +1,10 @@
+﻿{
+    "run_id":  "a2-cascade-a-r1",
+    "captured_utc":  "2026-11-19T13:21:34.6680992Z",
+    "stats_before_run":  3,
+    "stats_after_run":  33,
+    "completed_and_stored":  30,
+    "ollama_ps":  [
+                      "NAME    ID    SIZE    PROCESSOR    CONTEXT    UNTIL "
+                  ]
+}
