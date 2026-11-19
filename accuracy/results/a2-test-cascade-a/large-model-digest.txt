@@ -1,0 +1,10 @@
+Cascade models for a2-test-cascade-a
+
+Configuration label (--model-tag): cascade[small=llama3.2:1b-instruct-q4_K_M;large=llama3.2:3b-instruct-q4_K_M;min_words=223]
+Small model: llama3.2:1b-instruct-q4_K_M
+Small model digest (--model-digest in manifest.json): sha256:22bc6b92eb0160c4629782fca05a9032c59d306ab2058b7dacc8a4644fbafa02
+Large model: llama3.2:3b-instruct-q4_K_M
+Large model digest: sha256:a80c4f17acd55265feec403c7aef86be0c25983ab279d83f3bcd3abbcb5b8b72
+
+Both digests were read from Ollama (/api/tags) just before the run and match
+docs/member4-model-manifest.json and docs/a2-escalation-rule.md.

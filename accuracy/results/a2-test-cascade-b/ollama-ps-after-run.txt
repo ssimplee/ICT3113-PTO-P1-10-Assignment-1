@@ -1,0 +1,5 @@
+ollama ps in container ict3113-group10-ollama-1, captured 2026-11-19T12:27:36Z, immediately after the a2-test-cascade-b accuracy run
+
+NAME                           ID              SIZE      PROCESSOR    CONTEXT    UNTIL              
+llama3.2:1b-instruct-q4_K_M    22bc6b92eb01    981 MB    100% CPU     4096       4 minutes from now    
+llama3.2:3b-instruct-q4_K_M    a80c4f17acd5    2.6 GB    100% CPU     4096       4 minutes from now    
