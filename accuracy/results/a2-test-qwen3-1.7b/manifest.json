@@ -1,0 +1,15 @@
+{
+  "run_started_at": "2026-11-19T12:11:56.198858Z",
+  "git_head": "560eb5508351383cd27e6af2f2b3c6774f8067e9",
+  "prediction_commit": "67297532b0de647745d83f398e0b262b646603da",
+  "golden_path": "golden-set/split/golden_test_even_rows.csv",
+  "golden_sha256": "d1632a30c54637d11119226f6795133d416c98773a9cff296308c748a47fd6c7",
+  "prediction_record_path": "predictions/a2_prediction_record.md",
+  "model_tag": "qwen3:1.7b-q4_K_M",
+  "model_digest": "sha256:8f68893c685c3ddff2aa3fffce2aa60a30bb2da65ca488b61fff134a4d1730e7",
+  "service_url": "http://127.0.0.1:18000",
+  "timeout_seconds": 300.0,
+  "database_total_at_start": 0,
+  "run_finished_at": "2026-11-19T12:15:13.377279Z",
+  "records_written": 79
+}

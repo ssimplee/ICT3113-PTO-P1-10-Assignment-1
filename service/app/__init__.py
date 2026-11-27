@@ -1,4 +1,9 @@
-"""Sequential Assignment 1 baseline: Flask, SQLite, and synchronous Ollama."""
+"""Sequential ticket triage: Flask, SQLite, and synchronous Ollama.
+
+One model classifies every ticket. With CASCADE_LARGE_MODEL set, that model is
+the small first stage of the Assignment 2 cascade and a second, larger model
+classifies the tickets the escalation rule passes on (docs/a2-escalation-rule.md).
+"""
 
 import json
 import math
@@ -18,6 +23,9 @@ CATEGORIES = (
     "Credit reporting", "Debt collection", "Mortgage", "Credit card",
     "Bank account or service", "Consumer loan", "Money transfer or service",
 )
+# Cascade rule: the small model's answer is final unless it is this category on a
+# ticket of CASCADE_MIN_WORDS words or fewer; those tickets go to the large model.
+ESCALATION_CATEGORY = "Credit reporting"
 
 
 def utc_now():
@@ -35,6 +43,8 @@ def create_app(config=None):
         OLLAMA_BASE_URL=os.getenv("OLLAMA_BASE_URL", "http://localhost:11434"),
         OLLAMA_MODEL=os.getenv("OLLAMA_MODEL", ""),
         OLLAMA_TIMEOUT_SECONDS=os.getenv("OLLAMA_TIMEOUT_SECONDS", "120"),
+        CASCADE_LARGE_MODEL=os.getenv("CASCADE_LARGE_MODEL", ""),
+        CASCADE_MIN_WORDS=os.getenv("CASCADE_MIN_WORDS", ""),
         DATABASE_PATH=os.getenv("DATABASE_PATH", "data/tickets.sqlite3"),
         LOG_PATH=os.getenv("LOG_PATH", "logs/requests.jsonl"),
         PORT=os.getenv("PORT", "8000"),
@@ -47,6 +57,26 @@ def create_app(config=None):
     if not math.isfinite(timeout) or timeout <= 0:
         raise ValueError("OLLAMA_TIMEOUT_SECONDS must be a positive finite number.")
     app.config["OLLAMA_TIMEOUT_SECONDS"] = timeout
+    first_model = app.config["OLLAMA_MODEL"]
+    large_model = app.config["CASCADE_LARGE_MODEL"]
+    if not isinstance(large_model, str):
+        raise ValueError("CASCADE_LARGE_MODEL must be a model tag or empty.")
+    large_model = large_model.strip()
+    min_words = None
+    if large_model:
+        try:
+            min_words = int(app.config["CASCADE_MIN_WORDS"])
+        except (TypeError, ValueError):
+            min_words = -1
+        if min_words < 0:
+            raise ValueError("CASCADE_MIN_WORDS must be a non-negative integer when "
+                             "CASCADE_LARGE_MODEL is set.")
+        # Responses and stored tickets carry this fixed label, so a caller cannot tell
+        # which model answered a given ticket. The request log records that.
+        configuration = f"cascade[small={first_model};large={large_model};min_words={min_words}]"
+    else:
+        configuration = first_model
+    app.config["CONFIGURATION"] = configuration
     app.config["PORT"] = int(app.config["PORT"])
     if not 1 <= app.config["PORT"] <= 65535:
         raise ValueError("PORT must be between 1 and 65535.")
@@ -91,10 +121,17 @@ def create_app(config=None):
             "method": request.method, "path": request.path,
             "status": response.status_code,
             "duration_ms": round((time.perf_counter() - g.started) * 1000, 3),
-            "model": app.config["OLLAMA_MODEL"],
+            "model": configuration,
             "category": getattr(g, "category", None),
             "ticket_id": getattr(g, "ticket_id", None),
             "error": getattr(g, "error_code", None),
+            # Null unless a ticket reached classification.
+            "narrative_words": getattr(g, "narrative_words", None),
+            "first_category": getattr(g, "first_category", None),
+            "escalated": getattr(g, "escalated", None),
+            "final_model": getattr(g, "final_model", None),
+            "first_model_ms": getattr(g, "first_model_ms", None),
+            "second_model_ms": getattr(g, "second_model_ms", None),
         }
         try:
             with log_path.open("a", encoding="utf-8") as output:
@@ -120,9 +157,9 @@ def create_app(config=None):
         app.logger.error("Internal error %s for request %s", type(error).__name__, g.request_id)
         return service_error(ServiceError(500, "internal_error", "The request could not be completed."))
 
-    def classify(narrative):
+    def classify(narrative, model):
         payload = {
-            "model": app.config["OLLAMA_MODEL"], "stream": False,
+            "model": model, "stream": False,
             "options": {"temperature": 0, "num_gpu": 0},
             "format": {
                 "type": "object", "properties": {
@@ -170,17 +207,28 @@ def create_app(config=None):
         if not isinstance(body, dict) or not isinstance(body.get("narrative"), str) or not body["narrative"].strip():
             raise ServiceError(400, "invalid_narrative", "narrative must be a non-empty string.")
         narrative = body["narrative"]
-        category = classify(narrative)
+        g.narrative_words = len(narrative.split())
+        stage_started = time.perf_counter()
+        category = classify(narrative, first_model)
+        g.first_model_ms = round((time.perf_counter() - stage_started) * 1000, 3)
+        g.first_category, g.escalated, g.final_model = category, False, first_model
+        if large_model and category == ESCALATION_CATEGORY and g.narrative_words <= min_words:
+            # The large model's answer is final; if it fails, so does the request.
+            g.escalated, g.final_model = True, None
+            stage_started = time.perf_counter()
+            category = classify(narrative, large_model)
+            g.second_model_ms = round((time.perf_counter() - stage_started) * 1000, 3)
+            g.final_model = large_model
         created_at = utc_now()
         db = database()
         with db:
             cursor = db.execute(
                 "INSERT INTO tickets (narrative, category, created_at, model) VALUES (?, ?, ?, ?)",
-                (narrative, category, created_at, app.config["OLLAMA_MODEL"]),
+                (narrative, category, created_at, configuration),
             )
         g.category, g.ticket_id = category, cursor.lastrowid
         return jsonify(id=g.ticket_id, narrative=narrative, category=category,
-                       created_at=created_at, model=app.config["OLLAMA_MODEL"]), 201
+                       created_at=created_at, model=configuration), 201
 
     @app.get("/search")
     def search():

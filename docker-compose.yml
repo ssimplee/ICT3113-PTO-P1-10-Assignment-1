@@ -9,6 +9,8 @@ services:
       OLLAMA_BASE_URL: http://ollama:11434
       OLLAMA_MODEL: ${OLLAMA_MODEL:-qwen3:0.6b}
       OLLAMA_TIMEOUT_SECONDS: ${OLLAMA_TIMEOUT_SECONDS:-120}
+      CASCADE_LARGE_MODEL: ${CASCADE_LARGE_MODEL:-}
+      CASCADE_MIN_WORDS: ${CASCADE_MIN_WORDS:-}
       PORT: "8000"
       DATABASE_PATH: /data/tickets.sqlite3
       LOG_PATH: /logs/requests.jsonl

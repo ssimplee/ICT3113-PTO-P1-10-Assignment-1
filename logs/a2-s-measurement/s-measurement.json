@@ -1,0 +1,78 @@
+{
+  "measurement": "Assignment 2 S: middle of three warm top-model timings",
+  "started_utc": "2026-11-19T11:46:39.164Z",
+  "top_model": "llama3.2:3b-instruct-q4_K_M",
+  "service_url": "http://127.0.0.1:18000",
+  "service_ollama_timeout_seconds": "120",
+  "git_revision": "f4e540c46515d68e86602228765c9f36e12a5acb",
+  "stats_total_before": 2,
+  "ollama_restarted_utc": "2026-11-19T11:46:39.740Z",
+  "ollama_ps_after_restart": [
+    "NAME    ID    SIZE    PROCESSOR    CONTEXT    UNTIL"
+  ],
+  "warmup": [
+    {
+      "row": 10968,
+      "http_status": 201
+    },
+    {
+      "row": 10445,
+      "http_status": 201
+    },
+    {
+      "row": 10549,
+      "http_status": 201
+    }
+  ],
+  "warmup_note": "Warm-up timings discarded.",
+  "ollama_ps_after_warmup": [
+    "NAME                           ID              SIZE      PROCESSOR    CONTEXT    UNTIL",
+    "llama3.2:3b-instruct-q4_K_M    a80c4f17acd5    2.6 GB    100% CPU     4096       4 minutes from now"
+  ],
+  "timings": [
+    {
+      "row": 10288,
+      "words": 166,
+      "sent_utc": "2026-11-19T11:47:13.593Z",
+      "seconds": 5.391,
+      "http_status": 201,
+      "ticket_id": 6,
+      "model": "llama3.2:3b-instruct-q4_K_M"
+    },
+    {
+      "row": 10906,
+      "words": 179,
+      "sent_utc": "2026-11-19T11:47:18.985Z",
+      "seconds": 5.449,
+      "http_status": 201,
+      "ticket_id": 7,
+      "model": "llama3.2:3b-instruct-q4_K_M"
+    },
+    {
+      "row": 10371,
+      "words": 190,
+      "sent_utc": "2026-11-19T11:47:24.433Z",
+      "seconds": 6.087,
+      "http_status": 201,
+      "ticket_id": 8,
+      "model": "llama3.2:3b-instruct-q4_K_M"
+    }
+  ],
+  "rows": [
+    10288,
+    10906,
+    10371
+  ],
+  "timings_seconds": [
+    5.391,
+    5.449,
+    6.087
+  ],
+  "S_seconds": 5.449,
+  "ollama_ps_after_timing": [
+    "NAME                           ID              SIZE      PROCESSOR    CONTEXT    UNTIL",
+    "llama3.2:3b-instruct-q4_K_M    a80c4f17acd5    2.6 GB    100% CPU     4096       4 minutes from now"
+  ],
+  "stats_total_after": 8,
+  "finished_utc": "2026-11-19T11:47:30.773Z"
+}

@@ -1,0 +1,16 @@
+{
+  "services": {
+    "service": {
+      "environment": {
+        "OLLAMA_MODEL": "llama3.2:1b-instruct-q4_K_M",
+        "OLLAMA_TIMEOUT_SECONDS": "120",
+        "CASCADE_LARGE_MODEL": "llama3.2:3b-instruct-q4_K_M",
+        "CASCADE_MIN_WORDS": "142"
+      },
+      "volumes": [
+        "./jmeter/runs/a2-cascade-b-r1-retry/service-data:/data",
+        "./jmeter/runs/a2-cascade-b-r1-retry/service-logs:/logs"
+      ]
+    }
+  }
+}

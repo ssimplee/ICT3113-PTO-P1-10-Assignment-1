@@ -148,6 +148,45 @@ Use `docker compose logs --no-color service ollama` to retain runtime diagnostic
 well. Keep full evidence even for unsuccessful or interrupted runs. Commit before
 moving on to final report tables; do not replace failures with reruns silently.
 
+## Assignment 2 speed test
+
+The `a2-speed` profile sends POST `/tickets` only. Everything is derived from S, the
+middle of three warm Llama 3B timings in seconds: one ticket every 2×S seconds on
+average, a run of S minutes (minimum 5), a response timeout of 10×S seconds (minimum
+5 minutes) and an end pause one minute longer than the timeout.
+
+Workload files, committed before the first run, both with `row,narrative` columns and
+rows from outside the golden set:
+
+- `jmeter/a2-workload/workload.csv`: tickets in the order they are sent. Each is sent
+  once and never recycled, so the file needs about 1.7 times the expected arrivals
+  (51 tickets when a run expects 30).
+- `jmeter/a2-workload/warmup.csv`: exactly three warm-up tickets.
+
+Configurations are `llama3`, `llama1`, `qwen17`, `qwen06`, `cascade-a` (T = 223) and
+`cascade-b` (T = 142). Use the same S for all of them:
+
+```powershell
+python jmeter/prepare_run.py --profile a2-speed --model cascade-a --s-seconds 5.0 --repeat 1 --run-id a2-cascade-a-r1
+```
+
+Each run, in order:
+
+1. On A: `.\jmeter\Prepare-Server.ps1 -RunId a2-cascade-a-r1 -Apply`. This restarts
+   Ollama, recreates the service with a fresh database, sends the three warm-up
+   tickets, loads the large model directly for a cascade, saves `ollama ps` to
+   `ollama-ps-before-run.txt`, refuses to continue unless every expected model is
+   loaded, and records the `/stats` total.
+2. Copy `server-ready.json` to B and start within 4 minutes, before Ollama unloads an
+   idle model: `.\jmeter\Start-Run.ps1 -RunId a2-cascade-a-r1 -Start`.
+3. On A, after JMeter ends: `.\jmeter\Prepare-Server.ps1 -RunId a2-cascade-a-r1 -Finish`
+   writes `server-finish.json` with the rise in the `/stats` total and a final `ollama ps`.
+
+The same repeat number gives every configuration the same arrival schedule.
+`analyze_run.py` reports the Assignment 1 profiles only. After the runs,
+`python jmeter/analyze_a2.py` writes `runs/a2-speed-summary.md` and `.json`: p50 per run
+with mean and spread, pooled p95, throughput, error rate and escalation fraction.
+
 ## Stress and interpretation
 
 The prepared stress profile explores 6 through 36 POST/min. It is an upper search

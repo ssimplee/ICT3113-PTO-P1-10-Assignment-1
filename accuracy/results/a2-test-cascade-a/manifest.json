@@ -1,0 +1,15 @@
+{
+  "run_started_at": "2026-11-19T12:17:24.908547Z",
+  "git_head": "560eb5508351383cd27e6af2f2b3c6774f8067e9",
+  "prediction_commit": "67297532b0de647745d83f398e0b262b646603da",
+  "golden_path": "golden-set/split/golden_test_even_rows.csv",
+  "golden_sha256": "d1632a30c54637d11119226f6795133d416c98773a9cff296308c748a47fd6c7",
+  "prediction_record_path": "predictions/a2_prediction_record.md",
+  "model_tag": "cascade[small=llama3.2:1b-instruct-q4_K_M;large=llama3.2:3b-instruct-q4_K_M;min_words=223]",
+  "model_digest": "sha256:22bc6b92eb0160c4629782fca05a9032c59d306ab2058b7dacc8a4644fbafa02",
+  "service_url": "http://127.0.0.1:18000",
+  "timeout_seconds": 300.0,
+  "database_total_at_start": 0,
+  "run_finished_at": "2026-11-19T12:23:00.094105Z",
+  "records_written": 79
+}

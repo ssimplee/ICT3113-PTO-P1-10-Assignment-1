@@ -1,0 +1,159 @@
+2026-11-19 23:09:28,643 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2026-11-19 23:09:28,643 INFO o.a.j.JMeter: Loading user properties from: C:\Users\tayka\Tools\apache-jmeter-5.6.3\bin\user.properties
+2026-11-19 23:09:28,643 INFO o.a.j.JMeter: Loading system properties from: C:\Users\tayka\Tools\apache-jmeter-5.6.3\bin\system.properties
+2026-11-19 23:09:28,643 INFO o.a.j.JMeter: Loading additional properties from: results.properties
+2026-11-19 23:09:28,658 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2026-11-19 23:09:28,658 INFO o.a.j.JMeter: Version 5.6.3
+2026-11-19 23:09:28,658 INFO o.a.j.JMeter: java.version=21.0.5
+2026-11-19 23:09:28,658 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2026-11-19 23:09:28,667 INFO o.a.j.JMeter: os.name=Windows 11
+2026-11-19 23:09:28,667 INFO o.a.j.JMeter: os.arch=amd64
+2026-11-19 23:09:28,667 INFO o.a.j.JMeter: os.version=10.0
+2026-11-19 23:09:28,667 INFO o.a.j.JMeter: file.encoding=UTF-8
+2026-11-19 23:09:28,667 INFO o.a.j.JMeter: java.awt.headless=true
+2026-11-19 23:09:28,667 INFO o.a.j.JMeter: Max memory     =1073741824
+2026-11-19 23:09:28,667 INFO o.a.j.JMeter: Available Processors =20
+2026-11-19 23:09:28,677 INFO o.a.j.JMeter: Default Locale=English (EN)
+2026-11-19 23:09:28,677 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2026-11-19 23:09:28,677 INFO o.a.j.JMeter: JMeterHome=C:\Users\tayka\Tools\apache-jmeter-5.6.3
+2026-11-19 23:09:28,677 INFO o.a.j.JMeter: user.dir  =C:\Users\tayka\ICT3113-PTO-P1-10-Assignment-1\jmeter\runs\a2-cascade-b-r3
+2026-11-19 23:09:28,677 INFO o.a.j.JMeter: PWD       =C:\Users\tayka\ICT3113-PTO-P1-10-Assignment-1\jmeter\runs\a2-cascade-b-r3
+2026-11-19 23:09:28,677 INFO o.a.j.JMeter: IP: 192.168.1.13 Name: KaiWen FullName: KaiWen
+2026-11-19 23:09:28,677 INFO o.a.j.s.FileServer: Default base='C:\Users\tayka\ICT3113-PTO-P1-10-Assignment-1\jmeter\runs\a2-cascade-b-r3'
+2026-11-19 23:09:28,687 INFO o.a.j.s.FileServer: Set new base='C:\Users\tayka\ICT3113-PTO-P1-10-Assignment-1\jmeter\runs\a2-cascade-b-r3'
+2026-11-19 23:09:28,802 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2026-11-19 23:09:28,809 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2026-11-19 23:09:28,825 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2026-11-19 23:09:28,825 INFO o.a.j.s.SaveService: Loading file: plan.jmx
+2026-11-19 23:09:28,864 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-11-19 23:09:28,864 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-11-19 23:09:28,864 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-11-19 23:09:28,864 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-11-19 23:09:28,866 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2026-11-19 23:09:28,866 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2026-11-19 23:09:28,887 INFO o.a.j.JMeter: Creating summariser <summary>
+2026-11-19 23:09:28,909 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2026-11-19 23:09:28,910 INFO o.a.j.s.SampleEvent: List of sample_variables: [request_id, row]
+2026-11-19 23:09:28,910 INFO o.a.j.s.SampleEvent: List of sample_variables: [request_id, row]
+2026-11-19 23:09:28,913 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2026-11-19 23:09:28,914 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2026-11-19 23:09:29,091 INFO o.a.j.JMeter: Running test (1795100969091)
+2026-11-19 23:09:29,101 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : POST arrivals
+2026-11-19 23:09:29,101 INFO o.a.j.e.StandardJMeterEngine: Starting 0 threads for group POST arrivals.
+2026-11-19 23:09:29,101 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-11-19 23:09:29,101 INFO o.a.j.t.o.OpenModelThreadGroup: Starting OpenModelThreadGroup#1 with schedule rate(5.5056/min) random_arrivals(327 sec) rate(5.5056/min) pause(360 sec)
+2026-11-19 23:09:29,124 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2026-11-19 23:09:29,124 INFO o.a.j.t.o.OpenModelThreadGroup: Thread starting init
+2026-11-19 23:09:29,127 INFO o.a.j.t.o.PoissonArrivalsRamp: Generating 30 events, beginRate = 0.09176000000000001 / sec, endRate = 0.09176000000000001 / sec, duration = 327.0 sec
+2026-11-19 23:09:44,216 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-1
+2026-11-19 23:09:44,219 INFO o.a.j.s.FileServer: Stored: data/tickets.csv
+2026-11-19 23:09:44,235 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = KaiWen
+2026-11-19 23:09:44,237 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2026-11-19 23:09:44,238 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2026-11-19 23:09:44,238 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2026-11-19 23:09:44,238 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2026-11-19 23:09:44,238 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2026-11-19 23:09:47,356 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-1
+2026-11-19 23:09:47,356 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-1
+2026-11-19 23:09:58,087 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-2
+2026-11-19 23:10:00,470 INFO o.a.j.r.Summariser: summary +      2 in 00:00:31 =    0.1/s Avg:  2380 Min:  2377 Max:  2383 Err:     0 (0.00%) Active: 1 Started: 2 Finished: 1
+2026-11-19 23:10:00,470 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-2
+2026-11-19 23:10:00,470 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-2
+2026-11-19 23:10:15,871 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-3
+2026-11-19 23:10:17,284 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-3
+2026-11-19 23:10:17,285 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-3
+2026-11-19 23:10:37,476 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-4
+2026-11-19 23:10:41,007 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-4
+2026-11-19 23:10:41,007 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-4
+2026-11-19 23:11:10,312 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-5
+2026-11-19 23:11:13,445 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-6
+2026-11-19 23:11:14,050 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-7
+2026-11-19 23:11:14,990 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-8
+2026-11-19 23:11:17,066 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-9
+2026-11-19 23:11:17,606 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-5
+2026-11-19 23:11:17,606 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-5
+2026-11-19 23:11:19,974 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-6
+2026-11-19 23:11:19,975 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-6
+2026-11-19 23:11:22,617 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-7
+2026-11-19 23:11:22,617 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-7
+2026-11-19 23:11:24,201 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-10
+2026-11-19 23:11:26,214 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-8
+2026-11-19 23:11:26,214 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-8
+2026-11-19 23:11:28,127 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-11
+2026-11-19 23:11:28,300 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-9
+2026-11-19 23:11:28,300 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-9
+2026-11-19 23:11:30,262 INFO o.a.j.r.Summariser: summary +      8 in 00:01:30 =    0.1/s Avg:  6970 Min:  1408 Max: 11229 Err:     0 (0.00%) Active: 2 Started: 11 Finished: 9
+2026-11-19 23:11:30,263 INFO o.a.j.r.Summariser: summary =     10 in 00:02:01 =    0.1/s Avg:  6052 Min:  1408 Max: 11229 Err:     0 (0.00%)
+2026-11-19 23:11:30,263 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-10
+2026-11-19 23:11:30,263 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-10
+2026-11-19 23:11:31,656 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-11
+2026-11-19 23:11:31,656 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-11
+2026-11-19 23:11:56,663 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-12
+2026-11-19 23:11:59,547 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-12
+2026-11-19 23:11:59,547 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-12
+2026-11-19 23:12:07,039 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-13
+2026-11-19 23:12:08,948 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-13
+2026-11-19 23:12:08,948 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-13
+2026-11-19 23:12:26,747 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-14
+2026-11-19 23:12:29,121 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-14
+2026-11-19 23:12:29,121 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-14
+2026-11-19 23:12:40,420 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-15
+2026-11-19 23:12:41,695 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-15
+2026-11-19 23:12:41,695 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-15
+2026-11-19 23:12:47,200 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-16
+2026-11-19 23:12:50,670 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-16
+2026-11-19 23:12:50,670 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-16
+2026-11-19 23:12:53,262 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-17
+2026-11-19 23:12:55,237 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-17
+2026-11-19 23:12:55,238 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-17
+2026-11-19 23:13:00,011 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-18
+2026-11-19 23:13:04,633 INFO o.a.j.r.Summariser: summary +      8 in 00:01:34 =    0.1/s Avg:  2749 Min:  1270 Max:  4618 Err:     0 (0.00%) Active: 1 Started: 18 Finished: 17
+2026-11-19 23:13:04,634 INFO o.a.j.r.Summariser: summary =     18 in 00:03:36 =    0.1/s Avg:  4584 Min:  1270 Max: 11229 Err:     0 (0.00%)
+2026-11-19 23:13:04,634 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-18
+2026-11-19 23:13:04,634 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-18
+2026-11-19 23:13:05,767 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-19
+2026-11-19 23:13:07,838 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-19
+2026-11-19 23:13:07,838 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-19
+2026-11-19 23:13:23,569 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-20
+2026-11-19 23:13:26,804 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-20
+2026-11-19 23:13:26,804 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-20
+2026-11-19 23:13:29,726 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-21
+2026-11-19 23:13:29,931 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-22
+2026-11-19 23:13:33,772 INFO o.a.j.r.Summariser: summary +      3 in 00:00:29 =    0.1/s Avg:  3112 Min:  2067 Max:  4041 Err:     0 (0.00%) Active: 2 Started: 22 Finished: 20
+2026-11-19 23:13:33,773 INFO o.a.j.r.Summariser: summary =     21 in 00:04:05 =    0.1/s Avg:  4374 Min:  1270 Max: 11229 Err:     0 (0.00%)
+2026-11-19 23:13:33,773 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-21
+2026-11-19 23:13:33,774 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-21
+2026-11-19 23:13:34,280 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-23
+2026-11-19 23:13:36,253 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-22
+2026-11-19 23:13:36,254 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-22
+2026-11-19 23:13:38,219 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-23
+2026-11-19 23:13:38,219 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-23
+2026-11-19 23:13:40,810 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-24
+2026-11-19 23:13:44,545 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-24
+2026-11-19 23:13:44,545 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-24
+2026-11-19 23:13:46,198 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-25
+2026-11-19 23:13:47,599 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-25
+2026-11-19 23:13:47,600 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-25
+2026-11-19 23:13:49,131 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-26
+2026-11-19 23:13:51,290 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-26
+2026-11-19 23:13:51,290 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-26
+2026-11-19 23:14:03,619 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-27
+2026-11-19 23:14:05,880 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-28
+2026-11-19 23:14:07,629 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-27
+2026-11-19 23:14:07,629 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-27
+2026-11-19 23:14:11,007 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-28
+2026-11-19 23:14:11,008 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-28
+2026-11-19 23:14:25,916 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-29
+2026-11-19 23:14:27,698 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-29
+2026-11-19 23:14:27,699 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-29
+2026-11-19 23:14:35,608 INFO o.a.j.t.JMeterThread: Thread started: POST arrivals 1-30
+2026-11-19 23:14:35,610 INFO o.a.j.t.o.EvenArrivalsRamp: Generating 0 events, beginRate = 0.0 / sec, endRate = 0.0 / sec, duration = 360.0 sec
+2026-11-19 23:14:35,612 INFO o.a.j.t.o.OpenModelThreadGroup: There will be no more events, so will wait for 380 sec till the end of the schedule
+2026-11-19 23:14:40,362 INFO o.a.j.t.JMeterThread: Thread is done: POST arrivals 1-30
+2026-11-19 23:14:40,363 INFO o.a.j.t.JMeterThread: Thread finished: POST arrivals 1-30
+2026-11-19 23:20:55,914 INFO o.a.j.t.o.OpenModelThreadGroup: There will be no more events, will shutdown the thread pool
+2026-11-19 23:20:55,916 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2026-11-19 23:20:55,916 INFO o.a.j.t.o.OpenModelThreadGroup: Thread starting done
+2026-11-19 23:20:55,916 INFO o.a.j.s.FileServer: Close: data/tickets.csv
+2026-11-19 23:20:55,924 INFO o.a.j.r.Summariser: summary +      9 in 00:07:22 =    0.0/s Avg:  3687 Min:  1398 Max:  6318 Err:     0 (0.00%) Active: 0 Started: 30 Finished: 30
+2026-11-19 23:20:55,924 INFO o.a.j.r.Summariser: summary =     30 in 00:11:27 =    0.0/s Avg:  4168 Min:  1270 Max: 11229 Err:     0 (0.00%)
